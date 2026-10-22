@@ -77,7 +77,7 @@
       4.736332153808364
     ],
     "p_value": 0.16112756938866835,
-    "holm_p_value": 0.9667654163320101
+    "holm_p_value": 1.0
   },
   {
     "dataset": "MIT",
@@ -97,6 +97,38 @@
   },
   {
     "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "claude-haiku-4.5",
+    "higher_price_model": "claude-sonnet-4.6",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": 3.600408850408851,
+    "standard_error": 5.861642514167741,
+    "ci95": [
+      -8.387996171152281,
+      15.588813871969982
+    ],
+    "p_value": 0.5438510857397065,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "claude-haiku-4.5",
+    "higher_price_model": "claude-sonnet-4.6",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": 2.949855699855698,
+    "standard_error": 7.774874676005739,
+    "ci95": [
+      -12.951548451378141,
+      18.851259851089537
+    ],
+    "p_value": 0.7071484641848423,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
     "outcome": "reasoning",
     "lower_price_model": "gpt-4.1-nano",
     "higher_price_model": "gpt-4.1",
@@ -109,7 +141,7 @@
       27.29278517960659
     ],
     "p_value": 0.03316328806525049,
-    "holm_p_value": 0.19897972839150296
+    "holm_p_value": 0.26530630452200393
   },
   {
     "dataset": "MIT",
@@ -189,6 +221,38 @@
       12.058688409282027
     ],
     "p_value": 0.6145464647994103,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "claude-haiku-4.5",
+    "higher_price_model": "claude-sonnet-4.6",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": 0.8294853294853297,
+    "standard_error": 5.417685248865759,
+    "ci95": [
+      -10.250925133240015,
+      11.909895792210675
+    ],
+    "p_value": 0.8793743119787253,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "claude-haiku-4.5",
+    "higher_price_model": "claude-sonnet-4.6",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": 6.256854256854257,
+    "standard_error": 7.303722815078355,
+    "ci95": [
+      -8.680936142464912,
+      21.194644656173423
+    ],
+    "p_value": 0.3986530918969377,
     "holm_p_value": 1.0
   },
   {
