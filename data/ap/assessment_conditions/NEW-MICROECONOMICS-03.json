@@ -1,0 +1,1097 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MICROECONOMICS-03",
+  "year": 2026,
+  "subject": "microeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "A competitive market has inverse demand P = 50 - Q and inverse supply P = 10 + Q. Supply equals marginal private cost, and demand equals marginal social benefit. Production creates a constant marginal external cost of $10 per unit. There are no other externalities. P is dollars per unit and Q is units per day.\n(a) Calculate the unregulated market equilibrium price and quantity. Show your work.\n(b) Calculate the socially efficient quantity and explain the efficiency condition you use.\n(c) State the per-unit corrective tax that would implement the efficient quantity.\n(d) Draw a correctly labeled graph showing demand, marginal private cost, marginal social cost, the unregulated quantity, and the socially efficient quantity.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_c383b8b29f030670159d",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Unregulated equilibrium\nSet demand equal to private supply:\n\\[\n50-Q=10+Q \\quad\\Rightarrow\\quad 40=2Q \\quad\\Rightarrow\\quad Q_m=20.\n\\]\nSubstitute into either curve: \\(P_m=50-20=\\$30\\) per unit.\n\n### (b) Socially efficient quantity\nMarginal social cost includes the $10 external cost:\n\\[\nMSC=MPC+MEC=(10+Q)+10=20+Q.\n\\]\nEfficiency requires **marginal social benefit to equal marginal social cost** (\\(MSB=MSC\\)):\n\\[\n50-Q=20+Q \\quad\\Rightarrow\\quad Q^*=15.\n\\]\n\n### (c) Corrective tax\nA tax of **$10 per unit** makes producers face the full marginal social cost and implements \\(Q^*=15\\).\n\n### (d) Graph\n",
+        "diagrams": [
+          {
+            "title": "Negative production externality",
+            "x_label": "Quantity per day (Q)",
+            "y_label": "Price / marginal cost ($)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand = MSB",
+                "points": [
+                  [
+                    10,
+                    90
+                  ],
+                  [
+                    90,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MPC = supply",
+                "points": [
+                  [
+                    10,
+                    10
+                  ],
+                  [
+                    90,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MSC",
+                "points": [
+                  [
+                    10,
+                    20
+                  ],
+                  [
+                    90,
+                    100
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D = MSB",
+                "points": [
+                  [
+                    78,
+                    22
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MPC",
+                "points": [
+                  [
+                    78,
+                    78
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MSC",
+                "points": [
+                  [
+                    78,
+                    88
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Qm",
+                "points": [
+                  [
+                    50,
+                    0
+                  ],
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "Q*",
+                "points": [
+                  [
+                    40,
+                    0
+                  ],
+                  [
+                    40,
+                    60
+                  ]
+                ],
+                "color": "green",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "Qm = 20",
+                "points": [
+                  [
+                    47,
+                    3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 15",
+                "points": [
+                  [
+                    34,
+                    3
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 80,
+        "answer_words": 80,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_c383b8b29f030670159d",
+        "question_id": "NEW-MICROECONOMICS-03",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MICROECONOMICS-03",
+        "grade_status": "complete",
+        "answer_words": "80.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_c383b8b29f030670159d",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "80",
+          "word_share": "0.2",
+          "evidence": "Sets 50−Q=10+Q, obtains Qm=20, and substitutes to find Pm=$30.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_c383b8b29f030670159d",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "80",
+          "word_share": "0.3",
+          "evidence": "Defines MSC=20+Q, states the efficiency condition MSB=MSC, and solves for Q*=15.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_c383b8b29f030670159d",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "80",
+          "word_share": "0.15",
+          "evidence": "States a $10 per-unit tax, equal to the external cost, implements Q*=15.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_c383b8b29f030670159d",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "80",
+          "word_share": "0.35",
+          "evidence": "Rendered graph has labeled price/cost and quantity axes, downward demand, upward MPC and parallel MSC above MPC, with Qm=20 and Q*=15 marked at the respective intersections.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_a529b85820b8704801a7",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a) Unregulated equilibrium**\n\nSet demand equal to private supply:\n\\[\n50-Q=10+Q \\quad\\Rightarrow\\quad 40=2Q \\quad\\Rightarrow\\quad Q_m=20.\n\\]\nSubstitute into either curve:\n\\[\nP_m=50-20=\\boxed{\\$30\\text{ per unit}}.\n\\]\nThus the unregulated equilibrium is \\((Q_m,P_m)=(20,30)\\).\n\n**(b) Socially efficient quantity**\n\nMarginal social cost includes the $10 external cost:\n\\[\nMSC=MPC+10=(10+Q)+10=20+Q.\n\\]\nEfficiency requires marginal social benefit to equal marginal social cost (\\(MSB=MSC\\)):\n\\[\n50-Q=20+Q \\quad\\Rightarrow\\quad Q^*=\\boxed{15\\text{ units per day}}.\n\\]\n\n**(c) Corrective tax**\n\nA per-unit tax equal to marginal external cost implements the efficient quantity: \\(\\boxed{\\$10\\text{ per unit}}\\).\n\n**(d) Graph**\n\nThe graph labels demand as MSB, supply as MPC, and the curve $10 above MPC as MSC. The marked quantities are \\(Q^*=15\\) and \\(Q_m=20\\).",
+        "diagrams": [
+          {
+            "title": "Negative production externality",
+            "x_label": "Quantity (units per day)",
+            "y_label": "Price, cost, benefit ($ per unit)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand = MSB",
+                "points": [
+                  [
+                    10,
+                    90
+                  ],
+                  [
+                    90,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MPC = supply",
+                "points": [
+                  [
+                    10,
+                    10
+                  ],
+                  [
+                    90,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MSC",
+                "points": [
+                  [
+                    10,
+                    20
+                  ],
+                  [
+                    90,
+                    100
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Demand = MSB",
+                "points": [
+                  [
+                    72,
+                    28
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MPC",
+                "points": [
+                  [
+                    72,
+                    72
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MSC",
+                "points": [
+                  [
+                    72,
+                    82
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Efficient quantity Q* = 15",
+                "points": [
+                  [
+                    50,
+                    0
+                  ],
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "green",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "Market quantity Qm = 20",
+                "points": [
+                  [
+                    60,
+                    0
+                  ],
+                  [
+                    60,
+                    40
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 15",
+                "points": [
+                  [
+                    46,
+                    3
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Qm = 20",
+                "points": [
+                  [
+                    57,
+                    3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 109,
+        "answer_words": 109,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_a529b85820b8704801a7",
+        "question_id": "NEW-MICROECONOMICS-03",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MICROECONOMICS-03",
+        "grade_status": "complete",
+        "answer_words": "109.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_a529b85820b8704801a7",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "109",
+          "word_share": "0.25",
+          "evidence": "Sets demand equal to private supply, solves Q=20, and substitutes to obtain P=$30.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_a529b85820b8704801a7",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "109",
+          "word_share": "0.25",
+          "evidence": "Identifies MSC=20+Q and states the efficiency condition MSB=MSC, yielding Q*=15.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_a529b85820b8704801a7",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "109",
+          "word_share": "0.1",
+          "evidence": "States a $10 per-unit tax equal to marginal external cost.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_a529b85820b8704801a7",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "109",
+          "word_share": "0.4",
+          "evidence": "Rendered graph has labeled price/cost/benefit and quantity axes, downward demand, upward MPC, parallel MSC above MPC, and marks Q*=15 and Qm=20 at the respective intersections.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_f95db1e95959ae38353a",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Unregulated market equilibrium\nSet demand equal to private supply:\n\n\\[\n50-Q=10+Q \\quad\\Rightarrow\\quad 40=2Q \\quad\\Rightarrow\\quad Q_m=20.\n\\]\n\nSubstitute into either curve:\n\n\\[\nP_m=50-20=\\boxed{\\$30\\text{ per unit}}.\n\\]\n\nThus, the unregulated equilibrium is \\(\\boxed{(Q_m,P_m)=(20,\\$30)}\\).\n\n### (b) Socially efficient quantity\nMarginal social cost includes the $10 external cost:\n\n\\[\nMSC=MPC+10=(10+Q)+10=20+Q.\n\\]\n\nEfficiency requires \\(MSB=MSC\\). Since \\(MSB=50-Q\\):\n\n\\[\n50-Q=20+Q \\quad\\Rightarrow\\quad Q^*=\\boxed{15\\text{ units per day}}.\n\\]\n\n### (c) Corrective tax\nA per-unit tax equal to marginal external cost implements the efficient quantity: \\(\\boxed{\\$10\\text{ per unit}}\\).\n\n### (d) Diagram\nThe demand curve is MSB; MPC is private supply, and MSC lies $10 above MPC. The diagram marks the unregulated quantity \\(Q_m=20\\) and efficient quantity \\(Q^*=15\\).",
+        "diagrams": [
+          {
+            "title": "Negative production externality",
+            "x_label": "Quantity per day",
+            "y_label": "Dollars per unit",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand = MSB",
+                "points": [
+                  [
+                    10,
+                    90
+                  ],
+                  [
+                    90,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MPC",
+                "points": [
+                  [
+                    10,
+                    10
+                  ],
+                  [
+                    90,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MSC",
+                "points": [
+                  [
+                    10,
+                    20
+                  ],
+                  [
+                    90,
+                    100
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Q*",
+                "points": [
+                  [
+                    50,
+                    0
+                  ],
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "green",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "Qm",
+                "points": [
+                  [
+                    60,
+                    0
+                  ],
+                  [
+                    60,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 15",
+                "points": [
+                  [
+                    46,
+                    2
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Qm = 20",
+                "points": [
+                  [
+                    57,
+                    2
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D = MSB",
+                "points": [
+                  [
+                    78,
+                    22
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MPC",
+                "points": [
+                  [
+                    78,
+                    78
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MSC",
+                "points": [
+                  [
+                    78,
+                    91
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 110,
+        "answer_words": 110,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_f95db1e95959ae38353a",
+        "question_id": "NEW-MICROECONOMICS-03",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MICROECONOMICS-03",
+        "grade_status": "complete",
+        "answer_words": "110.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_f95db1e95959ae38353a",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "110",
+          "word_share": "0.25",
+          "evidence": "Sets 50−Q=10+Q, solves Qm=20, and substitutes to obtain Pm=$30.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_f95db1e95959ae38353a",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "110",
+          "word_share": "0.25",
+          "evidence": "Defines MSC=20+Q and states efficiency requires MSB=MSC; solves for Q*=15.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_f95db1e95959ae38353a",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "110",
+          "word_share": "0.1",
+          "evidence": "States a $10 per-unit tax, equal to marginal external cost.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_f95db1e95959ae38353a",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "110",
+          "word_share": "0.4",
+          "evidence": "Rendered graph has labeled price and quantity axes, downward demand, upward MPC and parallel MSC above MPC, with Q*=15 at demand/MSC and Qm=20 at demand/MPC.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_0d59d6768f233c462085",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Unregulated market equilibrium\nSet demand equal to private supply:\n\\[\n50-Q=10+Q \\quad\\Rightarrow\\quad 40=2Q \\quad\\Rightarrow\\quad Q_m=20.\n\\]\nSubstitute into either curve:\n\\[\nP_m=50-20=\\boxed{\\$30\\text{ per unit}}.\n\\]\nThus the unregulated equilibrium is \\(\\boxed{(Q_m,P_m)=(20,\\$30)}\\).\n\n### (b) Socially efficient quantity\nMarginal social cost includes the $10 external cost:\n\\[\nMSC=MPC+10=(10+Q)+10=20+Q.\n\\]\nEfficiency requires marginal social benefit to equal marginal social cost (\\(MSB=MSC\\)):\n\\[\n50-Q=20+Q \\quad\\Rightarrow\\quad Q^*=\\boxed{15\\text{ units per day}}.\n\\]\n\n### (c) Corrective tax\nA per-unit tax equal to marginal external cost implements the efficient quantity: \\(\\boxed{\\$10\\text{ per unit}}\\).",
+        "diagrams": [
+          {
+            "title": "Negative production externality",
+            "x_label": "Quantity (units per day)",
+            "y_label": "Price, cost ($ per unit)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand = MSB",
+                "points": [
+                  [
+                    0,
+                    100
+                  ],
+                  [
+                    100,
+                    0
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MPC = Supply",
+                "points": [
+                  [
+                    0,
+                    20
+                  ],
+                  [
+                    100,
+                    100
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MSC",
+                "points": [
+                  [
+                    0,
+                    40
+                  ],
+                  [
+                    100,
+                    100
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Unregulated quantity Qm",
+                "points": [
+                  [
+                    50,
+                    0
+                  ],
+                  [
+                    50,
+                    60
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "Efficient quantity Q*",
+                "points": [
+                  [
+                    37.5,
+                    0
+                  ],
+                  [
+                    37.5,
+                    70
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "D = MSB",
+                "points": [
+                  [
+                    82,
+                    18
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MPC",
+                "points": [
+                  [
+                    82,
+                    86
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MSC",
+                "points": [
+                  [
+                    82,
+                    98
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 15",
+                "points": [
+                  [
+                    34,
+                    4
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Qm = 20",
+                "points": [
+                  [
+                    47,
+                    4
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 87,
+        "answer_words": 87,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_0d59d6768f233c462085",
+        "question_id": "NEW-MICROECONOMICS-03",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MICROECONOMICS-03",
+        "grade_status": "complete",
+        "answer_words": "87.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "80.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_0d59d6768f233c462085",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "87",
+          "word_share": "0.25",
+          "evidence": "Sets 50−Q=10+Q, obtains Qm=20, and substitutes to find Pm=$30.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph is materially incorrect: its plotted demand and cost curves do not match the specified equations, and the intersections/quantity markers are inconsistent with the required equilibrium and efficient points."
+        },
+        {
+          "response_id": "response_0d59d6768f233c462085",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "87",
+          "word_share": "0.25",
+          "evidence": "Identifies MSC=20+Q, states the efficiency condition MSB=MSC, and solves for Q*=15.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph is materially incorrect: its plotted demand and cost curves do not match the specified equations, and the intersections/quantity markers are inconsistent with the required equilibrium and efficient points."
+        },
+        {
+          "response_id": "response_0d59d6768f233c462085",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "87",
+          "word_share": "0.15",
+          "evidence": "States a $10 per-unit tax equal to marginal external cost.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph is materially incorrect: its plotted demand and cost curves do not match the specified equations, and the intersections/quantity markers are inconsistent with the required equilibrium and efficient points."
+        },
+        {
+          "response_id": "response_0d59d6768f233c462085",
+          "question_id": "NEW-MICROECONOMICS-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "0",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "87",
+          "word_share": "0.35",
+          "evidence": "The graph labels price/cost and quantity axes, demand, MPC, MSC, and marks Q*=15 and Qm=20.",
+          "error": "The plotted curves are not correctly positioned: demand and supply are drawn with slopes/intercepts inconsistent with the stated functions, and the marked quantities do not correspond to the demand–M​",
+          "material_error": "True",
+          "grading_uncertainty": "The graph is materially incorrect: its plotted demand and cost curves do not match the specified equations, and the intersections/quantity markers are inconsistent with the required equilibrium and efficient points."
+        }
+      ]
+    }
+  ]
+}

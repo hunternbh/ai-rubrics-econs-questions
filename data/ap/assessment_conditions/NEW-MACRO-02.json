@@ -1,0 +1,809 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MACRO-02",
+  "year": 2026,
+  "subject": "macroeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Tavora has a civilian noninstitutional adult population of 500,000. Of these adults, 320,000 are employed, 20,000 are not working but actively looking for work, and 160,000 are neither working nor actively looking for work. The natural unemployment rate is 4%.\n\n(a) Calculate the size of the labor force and the labor-force participation rate. Show your work.\n\n(b) Calculate the actual unemployment rate. Show your work.\n\n(c) Now suppose 5,000 previously unemployed adults stop actively looking for work and no other labor-market status changes. Calculate the new unemployment rate and explain why the measured rate changes.\n\n(d) Before the change in part (c), draw a production possibilities curve for consumer goods and capital goods and mark a point consistent with recessionary unemployment.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_e403114c9454b341cbe0",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Labor force and participation rate\n\nLabor force = employed + unemployed actively seeking work:\n\n\\[\n320{,}000+20{,}000=340{,}000\n\\]\n\nLabor-force participation rate = labor force ÷ civilian noninstitutional adult population × 100:\n\n\\[\n\\frac{340{,}000}{500{,}000}\\times100=68\\%\n\\]\n\n### (b) Actual unemployment rate\n\n\\[\n\\frac{20{,}000\\text{ unemployed}}{340{,}000\\text{ labor force}}\\times100\\approx5.88\\%\\quad(\\text{about }5.9\\%)\n\\]\n\n### (c) After 5,000 unemployed adults stop looking\n\nThey are no longer counted as unemployed or as part of the labor force. The new unemployed total is 15,000, and the new labor force is 335,000:\n\n\\[\n\\text{New unemployment rate}=\\frac{15{,}000}{335{,}000}\\times100\\approx4.48\\%\\quad(\\text{about }4.5\\%)\n\\]\n\nThe measured rate falls because people who stop actively searching are classified as outside the labor force, not unemployed. This decline does not mean that more people found jobs; employment remains 320,000.\n\n### (d) Production possibilities curve before part (c)\n\nA point inside the PPC is consistent with recessionary unemployment because resources are underused. The natural unemployment rate does not imply that output must be at the PPC.",
+        "diagrams": [
+          {
+            "title": "Recessionary unemployment",
+            "x_label": "Consumer goods",
+            "y_label": "Capital goods",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "PPC",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    22,
+                    38
+                  ],
+                  [
+                    32,
+                    57
+                  ],
+                  [
+                    45,
+                    72
+                  ],
+                  [
+                    62,
+                    84
+                  ],
+                  [
+                    82,
+                    92
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC",
+                "points": [
+                  [
+                    72,
+                    88
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Recessionary point",
+                "points": [
+                  [
+                    42,
+                    43
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "A",
+                "points": [
+                  [
+                    42,
+                    39
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 156,
+        "answer_words": 156,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_e403114c9454b341cbe0",
+        "question_id": "NEW-MACRO-02",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "2",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-02",
+        "grade_status": "complete",
+        "answer_words": "156.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_e403114c9454b341cbe0",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "156",
+          "word_share": "0.22",
+          "evidence": "Shows labor force = 320,000 + 20,000 = 340,000 and participation rate = 340,000/500,000 × 100 = 68%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_e403114c9454b341cbe0",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "156",
+          "word_share": "0.14",
+          "evidence": "Calculates 20,000/340,000 × 100 ≈ 5.88% (about 5.9%).",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_e403114c9454b341cbe0",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "156",
+          "word_share": "0.38",
+          "evidence": "Correctly gives 15,000 unemployed, a 335,000 labor force, and a 4.48% rate; explains that those stopping their search leave the labor force and unemployment count, so the rate falls without employment",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_e403114c9454b341cbe0",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "156",
+          "word_share": "0.26",
+          "evidence": "The rendered diagram labels consumer goods and capital goods, shows a PPC, and marks point A strictly inside the curve as recessionary.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_6dfb0a1643e89cfe8308",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The labor force includes employed people and unemployed people actively seeking work:\n\n\\[\n\\text{Labor force}=320{,}000+20{,}000=340{,}000\n\\]\n\n\\[\n\\text{Labor-force participation rate}=\\frac{340{,}000}{500{,}000}\\times100=68\\%\n\\]\n\n**(b)**\n\n\\[\n\\text{Actual unemployment rate}=\\frac{20{,}000}{340{,}000}\\times100\\approx5.9\\%\n\\]\n\n**(c)** After 5,000 unemployed adults stop actively looking, 15,000 are unemployed and 335,000 are in the labor force (320,000 employed + 15,000 unemployed).\n\n\\[\n\\text{New unemployment rate}=\\frac{15{,}000}{335{,}000}\\times100\\approx4.5\\%\n\\]\n\nThe measured rate falls because those who stop actively searching are no longer counted as unemployed or as part of the labor force. This statistical decline does not mean that anyone gained a job.\n\n**(d)** A point inside the PPC represents production below potential output, consistent with recessionary unemployment.",
+        "diagrams": [
+          {
+            "title": "PPC with recessionary unemployment",
+            "x_label": "Consumer goods",
+            "y_label": "Capital goods",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "PPC",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    25,
+                    42
+                  ],
+                  [
+                    40,
+                    62
+                  ],
+                  [
+                    58,
+                    78
+                  ],
+                  [
+                    78,
+                    89
+                  ],
+                  [
+                    92,
+                    94
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC",
+                "points": [
+                  [
+                    78,
+                    89
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Recessionary point",
+                "points": [
+                  [
+                    42,
+                    42
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "A",
+                "points": [
+                  [
+                    40,
+                    36
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 105,
+        "answer_words": 105,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_6dfb0a1643e89cfe8308",
+        "question_id": "NEW-MACRO-02",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "2",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-02",
+        "grade_status": "complete",
+        "answer_words": "105.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_6dfb0a1643e89cfe8308",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "105",
+          "word_share": "0.22",
+          "evidence": "Shows labor force = 320,000 + 20,000 = 340,000 and participation rate = 340,000/500,000 = 68%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_6dfb0a1643e89cfe8308",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "105",
+          "word_share": "0.12",
+          "evidence": "Calculates 20,000/340,000 × 100 ≈ 5.9%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_6dfb0a1643e89cfe8308",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "105",
+          "word_share": "0.42",
+          "evidence": "Correctly gives 15,000 unemployed, labor force 335,000, and a new rate of about 4.5%; explains that job seekers leave both unemployment and the labor force, lowering the measured rate without anyone’s",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_6dfb0a1643e89cfe8308",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "105",
+          "word_share": "0.24",
+          "evidence": "Rendered diagram labels consumer goods and capital goods, shows a PPC, and marks point A strictly inside the curve as recessionary.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_b4935fb8de46e5dabc22",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The labor force includes employed people and unemployed people actively seeking work:\n\n\\[\n\\text{Labor force}=320{,}000+20{,}000=340{,}000\n\\]\n\n\\[\n\\text{Labor-force participation rate}=\\frac{340{,}000}{500{,}000}\\times100=\\boxed{68\\%}\n\\]\n\n**(b)**\n\n\\[\n\\text{Unemployment rate}=\\frac{20{,}000}{340{,}000}\\times100\\approx\\boxed{5.9\\%}\n\\]\n\n**(c)** After 5,000 unemployed people stop actively looking, 15,000 remain unemployed and in the labor force. The labor force falls to 335,000:\n\n\\[\n\\text{New unemployment rate}=\\frac{15{,}000}{335{,}000}\\times100\\approx\\boxed{4.5\\%}\n\\]\n\nThe measured rate falls because people who stop actively seeking work are no longer counted as unemployed or as part of the labor force. This change in the statistic does not mean that they found jobs.\n\n**(d)** A point inside the production possibilities curve represents production below capacity, consistent with recessionary unemployment. The curve shows the economy’s potential combinations of consumer and capital goods.",
+        "diagrams": [
+          {
+            "title": "Production possibilities and recessionary unemployment",
+            "x_label": "Consumer goods",
+            "y_label": "Capital goods",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "PPF",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    25,
+                    38
+                  ],
+                  [
+                    40,
+                    58
+                  ],
+                  [
+                    58,
+                    74
+                  ],
+                  [
+                    78,
+                    86
+                  ],
+                  [
+                    92,
+                    92
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPF",
+                "points": [
+                  [
+                    78,
+                    86
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Recessionary point",
+                "points": [
+                  [
+                    42,
+                    38
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "A",
+                "points": [
+                  [
+                    42,
+                    38
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 118,
+        "answer_words": 118,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_b4935fb8de46e5dabc22",
+        "question_id": "NEW-MACRO-02",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "2",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-02",
+        "grade_status": "complete",
+        "answer_words": "118.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_b4935fb8de46e5dabc22",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "118",
+          "word_share": "0.25",
+          "evidence": "Calculates labor force as 320,000 + 20,000 = 340,000 and participation rate as 340,000/500,000 = 68%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_b4935fb8de46e5dabc22",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "118",
+          "word_share": "0.15",
+          "evidence": "Shows 20,000/340,000 × 100 ≈ 5.9%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_b4935fb8de46e5dabc22",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "118",
+          "word_share": "0.35",
+          "evidence": "Gives 15,000 unemployed, a 335,000 labor force, and a new rate of about 4.5%; explains that those stopping their search leave both counts and that the rate decline does not mean they found jobs.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_b4935fb8de46e5dabc22",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "118",
+          "word_share": "0.25",
+          "evidence": "The rendered diagram labels consumer goods and capital goods, shows a PPC, and marks a point strictly inside it as recessionary.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_bff1058d42038e75192a",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Labor force and participation rate\n\nLabor force = employed + unemployed actively seeking work:\n\n\\[\n320{,}000+20{,}000=340{,}000\n\\]\n\n\\[\n\\text{Labor-force participation rate}=\\frac{340{,}000}{500{,}000}\\times100=68\\%\n\\]\n\n### (b) Actual unemployment rate\n\n\\[\n\\text{Unemployment rate}=\\frac{20{,}000}{340{,}000}\\times100\\approx5.88\\%\n\\]\n\n### (c) After 5,000 unemployed adults stop looking\n\nThey are no longer counted as unemployed or in the labor force. The new number unemployed is 15,000, and the new labor force is 335,000:\n\n\\[\n\\text{New unemployment rate}=\\frac{15{,}000}{335{,}000}\\times100\\approx4.48\\%\n\\]\n\nThe measured rate falls because those adults leave the labor force denominator and are no longer counted in the unemployed numerator. This does not mean that they found jobs; they stopped actively searching.\n\n### (d) Production possibilities curve before the change\n\nA point inside the PPC is consistent with recessionary unemployment: resources, including labor, are underused.",
+        "diagrams": [
+          {
+            "title": "Recessionary unemployment",
+            "x_label": "Consumer goods",
+            "y_label": "Capital goods",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "PPC",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    25,
+                    38
+                  ],
+                  [
+                    40,
+                    57
+                  ],
+                  [
+                    58,
+                    72
+                  ],
+                  [
+                    78,
+                    84
+                  ],
+                  [
+                    92,
+                    90
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC",
+                "points": [
+                  [
+                    79,
+                    82
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "R",
+                "points": [
+                  [
+                    48,
+                    42
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Inside PPC",
+                "points": [
+                  [
+                    51,
+                    36
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 127,
+        "answer_words": 127,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_bff1058d42038e75192a",
+        "question_id": "NEW-MACRO-02",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "2",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-02",
+        "grade_status": "complete",
+        "answer_words": "127.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_bff1058d42038e75192a",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "127",
+          "word_share": "0.2",
+          "evidence": "Shows 320,000 + 20,000 = 340,000 and calculates 340,000/500,000 × 100 = 68%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_bff1058d42038e75192a",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "127",
+          "word_share": "0.12",
+          "evidence": "Calculates 20,000/340,000 × 100 ≈ 5.88%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_bff1058d42038e75192a",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "127",
+          "word_share": "0.3",
+          "evidence": "Gives 15,000 unemployed, a 335,000 labor force, and a new rate of about 4.48%; explains that people leave both counts and did not find jobs.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_bff1058d42038e75192a",
+          "question_id": "NEW-MACRO-02",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "127",
+          "word_share": "0.38",
+          "evidence": "The rendered diagram labels consumer goods and capital goods, shows a PPC, and marks R strictly inside it.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}

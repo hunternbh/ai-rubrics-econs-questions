@@ -1,0 +1,922 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MACRO-05",
+  "year": 2026,
+  "subject": "macroeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Fenora produces only wheat and books. The base year is 2025. In 2025 it produces 30 units of wheat at 4 currency units per unit and 10 books at 12 currency units each. In 2026 it produces 40 units of wheat at 5 currency units per unit and 12 books at 15 currency units each.\n\n(a) Calculate nominal GDP in 2026. Show your work.\n\n(b) Calculate real GDP in 2026 in base-year prices. Show your work.\n\n(c) Calculate the 2026 GDP deflator and the inflation rate from 2025 to 2026 using that deflator. Show your work.\n\n(d) A worker’s nominal wage is unchanged between 2025 and 2026. Based on the change in the price level, what happens to the purchasing power of that wage? Explain.\n\n(e) Draw a production possibilities curve with wheat and books on its axes. Show the effect of a technology improvement that raises productive capacity in both industries.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_442abcabb54571354f14",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a) Nominal GDP in 2026** uses 2026 quantities and prices:\n\n\\[(40\\times 5)+(12\\times 15)=200+180=\\boxed{380\\text{ currency units}}.\\]\n\n**(b) Real GDP in 2026** uses 2025 base-year prices with 2026 quantities:\n\n\\[(40\\times 4)+(12\\times 12)=160+144=\\boxed{304\\text{ currency units}}.\\]\n\n**(c) GDP deflator and inflation**\n\n2025 nominal GDP (also real GDP in the base year) is \\((30\\times4)+(10\\times12)=240\\).\n\n\\[\\text{2026 GDP deflator}=\\frac{380}{304}\\times100=\\boxed{125}.\\]\n\nThe 2025 deflator is 100, so inflation from 2025 to 2026 is \\(\\frac{125-100}{100}\\times100=\\boxed{25\\%}\\).\n\n**(d)** With the nominal wage unchanged while the price level rises by 25%, the wage’s purchasing power **falls**. The same amount of money buys fewer goods and services than in 2025.\n\n**(e)** The technology improvement shifts the production possibilities curve outward, indicating greater productive capacity for both wheat and books.",
+        "diagrams": [
+          {
+            "title": "Technology expands productive capacity",
+            "x_label": "Wheat",
+            "y_label": "Books",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    25,
+                    48
+                  ],
+                  [
+                    45,
+                    68
+                  ],
+                  [
+                    70,
+                    80
+                  ],
+                  [
+                    90,
+                    85
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Improved PPC",
+                "points": [
+                  [
+                    15,
+                    28
+                  ],
+                  [
+                    28,
+                    62
+                  ],
+                  [
+                    50,
+                    82
+                  ],
+                  [
+                    76,
+                    92
+                  ],
+                  [
+                    96,
+                    96
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC 2025",
+                "points": [
+                  [
+                    57,
+                    65
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC after technology",
+                "points": [
+                  [
+                    62,
+                    87
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 115,
+        "answer_words": 115,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_442abcabb54571354f14",
+        "question_id": "NEW-MACRO-05",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "d",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"d\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "5",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-05",
+        "grade_status": "complete",
+        "answer_words": "115.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_442abcabb54571354f14",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "115",
+          "word_share": "0.13",
+          "evidence": "Uses 2026 quantities and prices: (40×5)+(12×15)=380.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_442abcabb54571354f14",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "115",
+          "word_share": "0.13",
+          "evidence": "Uses base-year prices with 2026 quantities: (40×4)+(12×12)=304.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_442abcabb54571354f14",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "115",
+          "word_share": "0.22",
+          "evidence": "Calculates deflator as (380/304)×100=125 and inflation from the 2025 base-year deflator of 100 as 25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_442abcabb54571354f14",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "115",
+          "word_share": "0.15",
+          "evidence": "States that unchanged nominal wages lose purchasing power as prices rise.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_442abcabb54571354f14",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "115",
+          "word_share": "0.37",
+          "evidence": "The diagram labels wheat and books axes and shows the improved PPC outward of the original, with both endpoints/intercepts increased.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_2005d5b5bc31b64f3750",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a) Nominal GDP in 2026** (using 2026 prices):\n\\[\n(40\\times 5)+(12\\times 15)=200+180=\\boxed{380\\text{ currency units}}\n\\]\n\n**(b) Real GDP in 2026** (using 2025 prices):\n\\[\n(40\\times 4)+(12\\times 12)=160+144=\\boxed{304\\text{ currency units}}\n\\]\n\n**(c) GDP deflator and inflation**\n\n2026 GDP deflator:\n\\[\n\\frac{\\text{Nominal GDP}}{\\text{Real GDP}}\\times100\n=\\frac{380}{304}\\times100=\\boxed{125}\n\\]\nIn the base year, the deflator is 100. Thus inflation from 2025 to 2026 is:\n\\[\n\\frac{125-100}{100}\\times100=\\boxed{25\\%}\n\\]\n\n**(d)** The worker’s purchasing power **falls**. With the nominal wage unchanged while the price level rises by 25%, that wage buys fewer goods and services.\n\n**(e)** The technology improvement shifts the PPC outward, indicating greater productive capacity in both wheat and books.",
+        "diagrams": [
+          {
+            "title": "Technology improvement expands productive capacity",
+            "x_label": "Wheat",
+            "y_label": "Books",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    28,
+                    42
+                  ],
+                  [
+                    45,
+                    60
+                  ],
+                  [
+                    65,
+                    72
+                  ],
+                  [
+                    85,
+                    78
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Improved PPC",
+                "points": [
+                  [
+                    15,
+                    25
+                  ],
+                  [
+                    32,
+                    55
+                  ],
+                  [
+                    50,
+                    75
+                  ],
+                  [
+                    72,
+                    88
+                  ],
+                  [
+                    95,
+                    94
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC 2025",
+                "points": [
+                  [
+                    68,
+                    67
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PPC after technology",
+                "points": [
+                  [
+                    72,
+                    84
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 104,
+        "answer_words": 104,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_2005d5b5bc31b64f3750",
+        "question_id": "NEW-MACRO-05",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "d",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"d\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "5",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-05",
+        "grade_status": "complete",
+        "answer_words": "104.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_2005d5b5bc31b64f3750",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "104",
+          "word_share": "0.14",
+          "evidence": "Shows (40×5)+(12×15)=380 currency units.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2005d5b5bc31b64f3750",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "104",
+          "word_share": "0.14",
+          "evidence": "Uses 2025 prices: (40×4)+(12×12)=304.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2005d5b5bc31b64f3750",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "104",
+          "word_share": "0.24",
+          "evidence": "Calculates deflator as (380/304)×100=125 and inflation as (125−100)/100×100=25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2005d5b5bc31b64f3750",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "104",
+          "word_share": "0.16",
+          "evidence": "States purchasing power falls because the unchanged nominal wage buys fewer goods as prices rise 25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2005d5b5bc31b64f3750",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "104",
+          "word_share": "0.32",
+          "evidence": "The rendered graph labels wheat and books axes and shows the improved PPC outward of the original, with both intercepts increased.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_8426cfb1bab38a47d354",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a) Nominal GDP in 2026** (using 2026 prices):\n\n\\[\n(40\\text{ wheat}\\times 5)+(12\\text{ books}\\times 15)=200+180=\\boxed{380}\n\\]\n\n**(b) Real GDP in 2026** (using 2025 base-year prices):\n\n\\[\n(40\\times 4)+(12\\times 12)=160+144=\\boxed{304}\n\\]\n\n**(c) GDP deflator and inflation rate**\n\n\\[\n\\text{2026 GDP deflator}=\\frac{380}{304}\\times100=\\boxed{125}\n\\]\n\nIn 2025, the deflator is 100 (the base year). Thus:\n\n\\[\n\\text{Inflation rate}=\\frac{125-100}{100}\\times100=\\boxed{25\\%}\n\\]\n\n**(d)** With the nominal wage unchanged while the price level rises by 25%, the wage’s purchasing power **falls**: it buys fewer goods and services than in 2025.\n\n**(e)** The technology improvement shifts the PPC outward, indicating greater productive capacity in both industries.",
+        "diagrams": [
+          {
+            "title": "Technology improvement expands productive capacity",
+            "x_label": "Wheat",
+            "y_label": "Books",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    10,
+                    85
+                  ],
+                  [
+                    25,
+                    75
+                  ],
+                  [
+                    40,
+                    60
+                  ],
+                  [
+                    55,
+                    42
+                  ],
+                  [
+                    70,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Improved PPC",
+                "points": [
+                  [
+                    10,
+                    98
+                  ],
+                  [
+                    30,
+                    90
+                  ],
+                  [
+                    50,
+                    75
+                  ],
+                  [
+                    70,
+                    55
+                  ],
+                  [
+                    90,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    57,
+                    48
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Improved PPC",
+                "points": [
+                  [
+                    72,
+                    68
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 96,
+        "answer_words": 96,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_8426cfb1bab38a47d354",
+        "question_id": "NEW-MACRO-05",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "d",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"d\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "5",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-05",
+        "grade_status": "complete",
+        "answer_words": "96.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_8426cfb1bab38a47d354",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "96",
+          "word_share": "0.14",
+          "evidence": "Calculates 40×5 + 12×15 = 380 using 2026 prices.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_8426cfb1bab38a47d354",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "96",
+          "word_share": "0.14",
+          "evidence": "Calculates 40×4 + 12×12 = 304 using 2025 base-year prices.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_8426cfb1bab38a47d354",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "96",
+          "word_share": "0.22",
+          "evidence": "Shows deflator 380/304×100 = 125 and inflation (125−100)/100×100 = 25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_8426cfb1bab38a47d354",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "96",
+          "word_share": "0.16",
+          "evidence": "States that purchasing power falls because the unchanged nominal wage buys fewer goods and services as prices rise.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_8426cfb1bab38a47d354",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "96",
+          "word_share": "0.34",
+          "evidence": "The diagram labels wheat and books axes and shows an improved PPC outside the original, with both intercepts farther from the origin.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_7071b750fa5c1a87e1a7",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a) Nominal GDP in 2026** uses 2026 quantities and 2026 prices:\n\n\\[(40\\times 5)+(12\\times 15)=200+180=\\boxed{380\\text{ currency units}}.\\]\n\n**(b) Real GDP in 2026** uses 2026 quantities and 2025 base-year prices:\n\n\\[(40\\times 4)+(12\\times 12)=160+144=\\boxed{304\\text{ currency units (2025 prices)}}.\\]\n\n**(c) GDP deflator and inflation**\n\n\\[\\text{2026 GDP deflator}=\\frac{\\text{Nominal GDP}}{\\text{Real GDP}}\\times100=\\frac{380}{304}\\times100=\\boxed{125}.\\]\n\nIn 2025, the deflator is 100 (the base year). Thus:\n\n\\[\\text{Inflation rate}=\\frac{125-100}{100}\\times100=\\boxed{25\\%}.\\]\n\n**(d)** With the nominal wage unchanged while the price level rises by 25%, the wage’s purchasing power **falls**. The same number of currency units buys fewer goods and services than before.\n\n**(e)** The outward shift shows that improved technology raises the maximum feasible production of both wheat and books.",
+        "diagrams": [
+          {
+            "title": "Technology improvement shifts the PPC outward",
+            "x_label": "Wheat",
+            "y_label": "Books",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    30,
+                    72
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    60,
+                    35
+                  ],
+                  [
+                    75,
+                    12
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Improved technology",
+                "points": [
+                  [
+                    15,
+                    95
+                  ],
+                  [
+                    35,
+                    84
+                  ],
+                  [
+                    55,
+                    70
+                  ],
+                  [
+                    75,
+                    50
+                  ],
+                  [
+                    92,
+                    25
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Original PPC",
+                "points": [
+                  [
+                    62,
+                    29
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Improved PPC",
+                "points": [
+                  [
+                    72,
+                    62
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 106,
+        "answer_words": 106,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_7071b750fa5c1a87e1a7",
+        "question_id": "NEW-MACRO-05",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "d",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"d\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "5",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-05",
+        "grade_status": "complete",
+        "answer_words": "106.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_7071b750fa5c1a87e1a7",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "106",
+          "word_share": "0.13",
+          "evidence": "Uses 2026 quantities and prices: (40×5)+(12×15)=380.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7071b750fa5c1a87e1a7",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "106",
+          "word_share": "0.13",
+          "evidence": "Uses 2026 quantities at 2025 prices: (40×4)+(12×12)=304.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7071b750fa5c1a87e1a7",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "calculation",
+          "answer_words": "106",
+          "word_share": "0.22",
+          "evidence": "Calculates deflator 380/304×100=125 and inflation from base-year 100 as 25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7071b750fa5c1a87e1a7",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "106",
+          "word_share": "0.16",
+          "evidence": "States unchanged nominal wage loses purchasing power as prices rise 25%.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7071b750fa5c1a87e1a7",
+          "question_id": "NEW-MACRO-05",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "graph",
+          "answer_words": "106",
+          "word_share": "0.36",
+          "evidence": "Diagram labels wheat and books axes and shows an outward-shifted PPC with both intercepts increased.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}

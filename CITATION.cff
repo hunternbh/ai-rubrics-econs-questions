@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the dataset and its accompanying manuscript."
+type: dataset
+title: "AI Rubrics and Economics Examination Questions"
+authors:
+  - family-names: Ng
+    given-names: Hunter
+  - family-names: Chang
+    given-names: Shou-Ming
+version: 1.0.0
+date-released: 2026-10-22
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/hunternbh/ai-rubrics-econs-questions"

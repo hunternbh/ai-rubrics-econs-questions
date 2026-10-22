@@ -1,0 +1,2206 @@
+{
+  "rates_per_million_tokens": {
+    "gpt-4.1-nano": {
+      "snapshot": "gpt-4.1-nano-2025-04-14",
+      "input": 0.1,
+      "cached": 0.025,
+      "output": 0.4
+    },
+    "gpt-4o-mini": {
+      "snapshot": "gpt-4o-mini-2024-07-18",
+      "input": 0.15,
+      "cached": 0.075,
+      "output": 0.6
+    },
+    "gpt-4.1-mini": {
+      "snapshot": "gpt-4.1-mini-2025-04-14",
+      "input": 0.4,
+      "cached": 0.1,
+      "output": 1.6
+    },
+    "gpt-5.4-nano": {
+      "snapshot": "gpt-5.4-nano-2026-03-17",
+      "input": 0.2,
+      "cached": 0.02,
+      "output": 1.25
+    },
+    "gpt-4.1": {
+      "snapshot": "gpt-4.1-2025-04-14",
+      "input": 2.0,
+      "cached": 0.5,
+      "output": 8.0
+    },
+    "claude-haiku-4.5": {
+      "snapshot": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "input": 1.0,
+      "cached": 0.1,
+      "output": 5.0
+    },
+    "claude-sonnet-4.6": {
+      "snapshot": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "input": 3.0,
+      "cached": 0.3,
+      "output": 15.0
+    },
+    "gpt-5.4": {
+      "snapshot": "gpt-5.4-2026-03-05",
+      "input": 2.5,
+      "cached": 0.25,
+      "output": 15.0
+    },
+    "gpt-4o": {
+      "snapshot": "gpt-4o-2024-08-06",
+      "input": 2.5,
+      "cached": 1.25,
+      "output": 10.0
+    },
+    "gpt-6-luna": {
+      "snapshot": "gpt-6-luna",
+      "input": 0.1,
+      "output": 0.5,
+      "rate_source": "Recorded study rates; paper.tex and saved run configurations"
+    }
+  },
+  "cost_definition": "Saved token consumption re-priced at recorded standard uncached study rates. All received generation attempts for a cell are charged; grader/annotation costs and human time excluded. These are not reconciled invoices or current-price quotes.",
+  "sample_definition": "MIT: 30 primary blocks, all 10 models and three conditions. AP: 22 long questions, all seven models and three conditions, retaining four Nano partial cells. The extra MIT source-ambiguity block is retained in question-level JSON but excluded from primary summaries.",
+  "uncertainty": "5000 paired question bootstrap draws, same question resample for every model and condition within each dataset. These describe question-level uncertainty conditional on the saved deterministic outputs. Frontier inclusion frequencies are not significance tests or probabilities of population optimality.",
+  "model_condition_summaries": [
+    {
+      "dataset": "MIT",
+      "model": "claude-haiku-4.5",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 53.27296777296777,
+      "reasoning": 66.73989898989899,
+      "selected_input_tokens": 1683.3333333333333,
+      "selected_output_tokens": 2634.4666666666667,
+      "all_attempt_input_tokens": 1852.4666666666667,
+      "all_attempt_output_tokens": 2947.8333333333335,
+      "standard_uncached_usd_per_1000_answers": 16.591633333333334,
+      "standard_uncached_selected_usd_per_1000_answers": 14.855666666666666,
+      "received_generation_attempts": 33,
+      "total_questions_with_retries": 3,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        43.59168470418471,
+        62.97356902356901
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        14.354614166666668,
+        19.211069166666665
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-haiku-4.5",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 49.51887926887927,
+      "reasoning": 61.17231842231841,
+      "selected_input_tokens": 1238.5666666666666,
+      "selected_output_tokens": 2502.5666666666666,
+      "all_attempt_input_tokens": 1366.9,
+      "all_attempt_output_tokens": 2788.9333333333334,
+      "standard_uncached_usd_per_1000_answers": 15.311566666666664,
+      "standard_uncached_selected_usd_per_1000_answers": 13.751399999999999,
+      "received_generation_attempts": 33,
+      "total_questions_with_retries": 3,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        40.1152837902838,
+        58.90914802789803
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        13.238746666666666,
+        17.71173916666666
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-haiku-4.5",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 52.2070707070707,
+      "reasoning": 60.811568061568046,
+      "selected_input_tokens": 1306.9666666666667,
+      "selected_output_tokens": 2465.266666666667,
+      "all_attempt_input_tokens": 1405.4,
+      "all_attempt_output_tokens": 2618.3,
+      "standard_uncached_usd_per_1000_answers": 14.496900000000002,
+      "standard_uncached_selected_usd_per_1000_answers": 13.633300000000002,
+      "received_generation_attempts": 32,
+      "total_questions_with_retries": 2,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        44.463906926406914,
+        60.062469937469935
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        12.7885325,
+        16.440101666666667
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-sonnet-4.6",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 78.98701298701299,
+      "reasoning": 82.71741221741222,
+      "selected_input_tokens": 1684.3333333333333,
+      "selected_output_tokens": 1940.3666666666666,
+      "all_attempt_input_tokens": 1733.5,
+      "all_attempt_output_tokens": 1993.2,
+      "standard_uncached_usd_per_1000_answers": 35.0985,
+      "standard_uncached_selected_usd_per_1000_answers": 34.1585,
+      "received_generation_attempts": 31,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0426,
+      "correctness_bootstrap_95ci": [
+        69.92861351611351,
+        87.35464165464165
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        31.018752500000005,
+        39.32934499999999
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-sonnet-4.6",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 78.18278018278018,
+      "reasoning": 83.40668590668591,
+      "selected_input_tokens": 1239.5666666666666,
+      "selected_output_tokens": 1950.7666666666667,
+      "all_attempt_input_tokens": 1239.5666666666666,
+      "all_attempt_output_tokens": 1950.7666666666667,
+      "standard_uncached_usd_per_1000_answers": 32.9802,
+      "standard_uncached_selected_usd_per_1000_answers": 32.9802,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0188,
+      "correctness_bootstrap_95ci": [
+        69.3913900913901,
+        86.82017797017795
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        30.175790000000003,
+        35.9954075
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-sonnet-4.6",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 77.27056277056276,
+      "reasoning": 82.21645021645021,
+      "selected_input_tokens": 1307.9666666666667,
+      "selected_output_tokens": 2044.2333333333333,
+      "all_attempt_input_tokens": 1307.9666666666667,
+      "all_attempt_output_tokens": 2044.2333333333333,
+      "standard_uncached_usd_per_1000_answers": 34.5874,
+      "standard_uncached_selected_usd_per_1000_answers": 34.5874,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0036,
+      "correctness_bootstrap_95ci": [
+        69.65203823953826,
+        84.40588023088021
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        30.669742499999995,
+        38.70004
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 58.495189995189996,
+      "reasoning": 66.75324675324676,
+      "selected_input_tokens": 1165.2666666666667,
+      "selected_output_tokens": 1878.7333333333333,
+      "all_attempt_input_tokens": 1165.2666666666667,
+      "all_attempt_output_tokens": 1878.7333333333333,
+      "standard_uncached_usd_per_1000_answers": 17.360400000000002,
+      "standard_uncached_selected_usd_per_1000_answers": 17.360400000000002,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        49.43121693121693,
+        67.01931818181818
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        15.431621666666667,
+        19.396768333333327
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 56.09054834054834,
+      "reasoning": 69.8023088023088,
+      "selected_input_tokens": 750.2666666666667,
+      "selected_output_tokens": 1767.8666666666666,
+      "all_attempt_input_tokens": 750.2666666666667,
+      "all_attempt_output_tokens": 1767.8666666666666,
+      "standard_uncached_usd_per_1000_answers": 15.643466666666669,
+      "standard_uncached_selected_usd_per_1000_answers": 15.643466666666669,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        46.95382696007696,
+        65.05629810004811
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        14.076364999999997,
+        17.271425
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 52.92652717652718,
+      "reasoning": 64.88564213564214,
+      "selected_input_tokens": 809.5,
+      "selected_output_tokens": 1703.7,
+      "all_attempt_input_tokens": 809.5,
+      "all_attempt_output_tokens": 1703.7,
+      "standard_uncached_usd_per_1000_answers": 15.248600000000001,
+      "standard_uncached_selected_usd_per_1000_answers": 15.248600000000001,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        44.1303872053872,
+        61.407852332852336
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        13.70512,
+        16.783699999999996
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-mini",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 50.32864357864357,
+      "reasoning": 63.34860509860509,
+      "selected_input_tokens": 1165.2666666666667,
+      "selected_output_tokens": 1967.7,
+      "all_attempt_input_tokens": 1165.2666666666667,
+      "all_attempt_output_tokens": 1967.7,
+      "standard_uncached_usd_per_1000_answers": 3.614426666666667,
+      "standard_uncached_selected_usd_per_1000_answers": 3.614426666666667,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        41.2989898989899,
+        59.77326839826839
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        3.1537476666666673,
+        4.097209333333333
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-mini",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 51.04954304954303,
+      "reasoning": 61.327320827320825,
+      "selected_input_tokens": 750.2666666666667,
+      "selected_output_tokens": 1887.8333333333333,
+      "all_attempt_input_tokens": 750.2666666666667,
+      "all_attempt_output_tokens": 1887.8333333333333,
+      "standard_uncached_usd_per_1000_answers": 3.3206399999999996,
+      "standard_uncached_selected_usd_per_1000_answers": 3.3206399999999996,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        42.915827922077916,
+        58.78510101010099
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.8640396666666663,
+        3.7867716666666666
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-mini",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 47.31938431938431,
+      "reasoning": 62.21224146224146,
+      "selected_input_tokens": 809.5,
+      "selected_output_tokens": 1748.0,
+      "all_attempt_input_tokens": 809.5,
+      "all_attempt_output_tokens": 1748.0,
+      "standard_uncached_usd_per_1000_answers": 3.120600000000001,
+      "standard_uncached_selected_usd_per_1000_answers": 3.120600000000001,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        38.4979316979317,
+        55.82686688311687
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.6906400000000006,
+        3.5452333333333326
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-nano",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 26.828162578162576,
+      "reasoning": 34.61928811928812,
+      "selected_input_tokens": 1165.2666666666667,
+      "selected_output_tokens": 1478.6333333333334,
+      "all_attempt_input_tokens": 1206.8,
+      "all_attempt_output_tokens": 2024.7666666666667,
+      "standard_uncached_usd_per_1000_answers": 0.9305866666666668,
+      "standard_uncached_selected_usd_per_1000_answers": 0.70798,
+      "received_generation_attempts": 31,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.005,
+      "correctness_bootstrap_95ci": [
+        18.20886844636844,
+        36.19722222222222
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.5554640833333333,
+        1.6090414999999993
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-nano",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 20.448532948532947,
+      "reasoning": 29.73569023569024,
+      "selected_input_tokens": 750.2666666666667,
+      "selected_output_tokens": 1753.2,
+      "all_attempt_input_tokens": 796.6,
+      "all_attempt_output_tokens": 1847.5333333333333,
+      "standard_uncached_usd_per_1000_answers": 0.8186733333333333,
+      "standard_uncached_selected_usd_per_1000_answers": 0.7763066666666666,
+      "received_generation_attempts": 32,
+      "total_questions_with_retries": 2,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0026,
+      "correctness_bootstrap_95ci": [
+        12.27118807118807,
+        29.48315295815295
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.5622003333333333,
+        1.1756360833333332
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-nano",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 23.85064935064935,
+      "reasoning": 39.07551707551708,
+      "selected_input_tokens": 809.5,
+      "selected_output_tokens": 1524.1,
+      "all_attempt_input_tokens": 841.6,
+      "all_attempt_output_tokens": 1569.7666666666667,
+      "standard_uncached_usd_per_1000_answers": 0.712066666666667,
+      "standard_uncached_selected_usd_per_1000_answers": 0.6905900000000003,
+      "received_generation_attempts": 31,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.005,
+      "correctness_bootstrap_95ci": [
+        15.884938672438668,
+        32.2554773929774
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.5382445833333334,
+        0.9775941666666669
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 36.72402597402597,
+      "reasoning": 47.470057720057724,
+      "selected_input_tokens": 1165.2666666666667,
+      "selected_output_tokens": 1160.1666666666667,
+      "all_attempt_input_tokens": 1165.2666666666667,
+      "all_attempt_output_tokens": 1160.1666666666667,
+      "standard_uncached_usd_per_1000_answers": 14.514833333333334,
+      "standard_uncached_selected_usd_per_1000_answers": 14.514833333333334,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        28.278015271765266,
+        45.50412457912458
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        13.264410416666667,
+        15.680333333333332
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 38.41450216450217,
+      "reasoning": 49.18037518037519,
+      "selected_input_tokens": 750.2666666666667,
+      "selected_output_tokens": 1129.4666666666667,
+      "all_attempt_input_tokens": 750.2666666666667,
+      "all_attempt_output_tokens": 1129.4666666666667,
+      "standard_uncached_usd_per_1000_answers": 13.170333333333334,
+      "standard_uncached_selected_usd_per_1000_answers": 13.170333333333334,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        29.88784271284271,
+        47.1777898027898
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        12.085327083333327,
+        14.185760416666668
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 40.18434343434343,
+      "reasoning": 51.53751803751803,
+      "selected_input_tokens": 809.5,
+      "selected_output_tokens": 1152.4666666666667,
+      "all_attempt_input_tokens": 809.5,
+      "all_attempt_output_tokens": 1152.4666666666667,
+      "standard_uncached_usd_per_1000_answers": 13.548416666666666,
+      "standard_uncached_selected_usd_per_1000_answers": 13.548416666666666,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        31.692162698412698,
+        49.034568903318906
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        12.320793749999998,
+        14.707950000000002
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o-mini",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 24.677489177489175,
+      "reasoning": 30.177609427609422,
+      "selected_input_tokens": 1165.2666666666667,
+      "selected_output_tokens": 1447.5666666666666,
+      "all_attempt_input_tokens": 1165.2666666666667,
+      "all_attempt_output_tokens": 1447.5666666666666,
+      "standard_uncached_usd_per_1000_answers": 1.0433299999999999,
+      "standard_uncached_selected_usd_per_1000_answers": 1.0433299999999999,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        16.333513708513706,
+        33.565551346801335
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.947119375,
+        1.1329749999999998
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o-mini",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 27.52429052429052,
+      "reasoning": 33.67376142376142,
+      "selected_input_tokens": 750.2666666666667,
+      "selected_output_tokens": 1486.8,
+      "all_attempt_input_tokens": 750.2666666666667,
+      "all_attempt_output_tokens": 1486.8,
+      "standard_uncached_usd_per_1000_answers": 1.0046199999999998,
+      "standard_uncached_selected_usd_per_1000_answers": 1.0046199999999998,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        19.147207190957193,
+        36.80378787878787
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.9336852500000002,
+        1.073657125
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o-mini",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 24.863997113997115,
+      "reasoning": 33.0465367965368,
+      "selected_input_tokens": 809.5,
+      "selected_output_tokens": 1644.9,
+      "all_attempt_input_tokens": 833.1666666666666,
+      "all_attempt_output_tokens": 1691.3,
+      "standard_uncached_usd_per_1000_answers": 1.1397549999999999,
+      "standard_uncached_selected_usd_per_1000_answers": 1.108365,
+      "received_generation_attempts": 31,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        16.154710798460798,
+        34.33640873015873
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.9101524999999998,
+        1.519692875
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 84.36952861952862,
+      "reasoning": 87.85497835497836,
+      "selected_input_tokens": 1163.2666666666667,
+      "selected_output_tokens": 1891.9333333333334,
+      "all_attempt_input_tokens": 1163.2666666666667,
+      "all_attempt_output_tokens": 1891.9333333333334,
+      "standard_uncached_usd_per_1000_answers": 31.28716666666667,
+      "standard_uncached_selected_usd_per_1000_answers": 31.28716666666667,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.2294,
+      "correctness_bootstrap_95ci": [
+        76.88663419913419,
+        91.06749338624338
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        28.43080416666666,
+        34.02055833333333
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 78.77032227032228,
+      "reasoning": 83.84307359307358,
+      "selected_input_tokens": 748.2666666666667,
+      "selected_output_tokens": 1865.3,
+      "all_attempt_input_tokens": 748.2666666666667,
+      "all_attempt_output_tokens": 1865.3,
+      "standard_uncached_usd_per_1000_answers": 29.850166666666667,
+      "standard_uncached_selected_usd_per_1000_answers": 29.850166666666667,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.1518,
+      "correctness_bootstrap_95ci": [
+        71.7756734006734,
+        85.47814754689755
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        26.671589583333333,
+        32.94069791666667
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 86.76671476671478,
+      "reasoning": 90.23232323232324,
+      "selected_input_tokens": 807.5,
+      "selected_output_tokens": 1881.9,
+      "all_attempt_input_tokens": 807.5,
+      "all_attempt_output_tokens": 1881.9,
+      "standard_uncached_usd_per_1000_answers": 30.24725,
+      "standard_uncached_selected_usd_per_1000_answers": 30.24725,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": true,
+      "bootstrap_frontier_frequency": 0.874,
+      "correctness_bootstrap_95ci": [
+        79.79819624819623,
+        92.94185906685907
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        27.39450833333333,
+        32.943160416666665
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4-nano",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 62.19733044733044,
+      "reasoning": 67.87854737854738,
+      "selected_input_tokens": 1163.2666666666667,
+      "selected_output_tokens": 1982.3333333333333,
+      "all_attempt_input_tokens": 1163.2666666666667,
+      "all_attempt_output_tokens": 1982.3333333333333,
+      "standard_uncached_usd_per_1000_answers": 2.7105699999999997,
+      "standard_uncached_selected_usd_per_1000_answers": 2.7105699999999997,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        51.56512445887446,
+        72.7376352813853
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.3610059583333336,
+        3.0688272499999996
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4-nano",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 63.45803270803271,
+      "reasoning": 67.86291486291486,
+      "selected_input_tokens": 748.2666666666667,
+      "selected_output_tokens": 1820.0666666666666,
+      "all_attempt_input_tokens": 748.2666666666667,
+      "all_attempt_output_tokens": 1820.0666666666666,
+      "standard_uncached_usd_per_1000_answers": 2.4247366666666674,
+      "standard_uncached_selected_usd_per_1000_answers": 2.4247366666666674,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0006,
+      "correctness_bootstrap_95ci": [
+        53.100502044252046,
+        73.01764670514672
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.0650232083333333,
+        2.76693925
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4-nano",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 60.23713323713323,
+      "reasoning": 72.40247715247716,
+      "selected_input_tokens": 807.5,
+      "selected_output_tokens": 1990.4666666666667,
+      "all_attempt_input_tokens": 807.5,
+      "all_attempt_output_tokens": 1990.4666666666667,
+      "standard_uncached_usd_per_1000_answers": 2.6495833333333327,
+      "standard_uncached_selected_usd_per_1000_answers": 2.6495833333333327,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        50.601364838864846,
+        69.56330266955267
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.321589666666667,
+        2.978719458333333
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-6-luna",
+      "arm": "detailed",
+      "questions": 30,
+      "correctness": 78.08008658008659,
+      "reasoning": 83.38179413179412,
+      "selected_input_tokens": 1163.2666666666667,
+      "selected_output_tokens": 963.7,
+      "all_attempt_input_tokens": 1163.2666666666667,
+      "all_attempt_output_tokens": 963.7,
+      "standard_uncached_usd_per_1000_answers": 0.5981766666666666,
+      "standard_uncached_selected_usd_per_1000_answers": 0.5981766666666666,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.2042,
+      "correctness_bootstrap_95ci": [
+        68.41470959595958,
+        86.49265873015871
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.5068708333333333,
+        0.693557333333333
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-6-luna",
+      "arm": "none",
+      "questions": 30,
+      "correctness": 80.36952861952864,
+      "reasoning": 83.2507215007215,
+      "selected_input_tokens": 748.2666666666667,
+      "selected_output_tokens": 906.0,
+      "all_attempt_input_tokens": 748.2666666666667,
+      "all_attempt_output_tokens": 906.0,
+      "standard_uncached_usd_per_1000_answers": 0.5278266666666667,
+      "standard_uncached_selected_usd_per_1000_answers": 0.5278266666666667,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": true,
+      "bootstrap_frontier_frequency": 0.6994,
+      "correctness_bootstrap_95ci": [
+        72.6881764069264,
+        87.52678571428571
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.4447059166666666,
+        0.6159511666666666
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-6-luna",
+      "arm": "rough",
+      "questions": 30,
+      "correctness": 80.22823472823471,
+      "reasoning": 83.91750841750842,
+      "selected_input_tokens": 807.5,
+      "selected_output_tokens": 882.8333333333334,
+      "all_attempt_input_tokens": 807.5,
+      "all_attempt_output_tokens": 882.8333333333334,
+      "standard_uncached_usd_per_1000_answers": 0.5221666666666668,
+      "standard_uncached_selected_usd_per_1000_answers": 0.5221666666666668,
+      "received_generation_attempts": 30,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": true,
+      "bootstrap_frontier_frequency": 0.7976,
+      "correctness_bootstrap_95ci": [
+        73.6460107022607,
+        86.4590458152958
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.44017316666666656,
+        0.6062012499999999
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 58.72835497835497,
+      "reasoning": 60.01623376623376,
+      "selected_input_tokens": 2134.590909090909,
+      "selected_output_tokens": 1369.6363636363637,
+      "all_attempt_input_tokens": 2134.590909090909,
+      "all_attempt_output_tokens": 1369.6363636363637,
+      "standard_uncached_usd_per_1000_answers": 15.226272727272725,
+      "standard_uncached_selected_usd_per_1000_answers": 15.226272727272725,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0012,
+      "correctness_bootstrap_95ci": [
+        46.28760822510822,
+        70.24458874458874
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        14.101438636363634,
+        16.432638636363638
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 57.824675324675326,
+      "reasoning": 59.64285714285714,
+      "selected_input_tokens": 1529.8636363636363,
+      "selected_output_tokens": 1328.5454545454545,
+      "all_attempt_input_tokens": 1529.8636363636363,
+      "all_attempt_output_tokens": 1328.5454545454545,
+      "standard_uncached_usd_per_1000_answers": 13.688090909090906,
+      "standard_uncached_selected_usd_per_1000_answers": 13.688090909090906,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0026,
+      "correctness_bootstrap_95ci": [
+        44.761093073593074,
+        70.51975108225106
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        12.742031818181816,
+        14.706511363636361
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 57.256493506493506,
+      "reasoning": 58.92316017316016,
+      "selected_input_tokens": 1586.1818181818182,
+      "selected_output_tokens": 1399.7272727272727,
+      "all_attempt_input_tokens": 1586.1818181818182,
+      "all_attempt_output_tokens": 1399.7272727272727,
+      "standard_uncached_usd_per_1000_answers": 14.370181818181816,
+      "standard_uncached_selected_usd_per_1000_answers": 14.370181818181816,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0004,
+      "correctness_bootstrap_95ci": [
+        44.5021645021645,
+        69.17221320346322
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        13.434345454545454,
+        15.38382045454545
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1-nano",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 32.16991341991342,
+      "reasoning": 35.882034632034625,
+      "selected_input_tokens": 3849.909090909091,
+      "selected_output_tokens": 1436.5454545454545,
+      "all_attempt_input_tokens": 4018.409090909091,
+      "all_attempt_output_tokens": 1487.1363636363637,
+      "standard_uncached_usd_per_1000_answers": 0.9966954545454548,
+      "standard_uncached_selected_usd_per_1000_answers": 0.9596090909090911,
+      "received_generation_attempts": 23,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0004,
+      "correctness_bootstrap_95ci": [
+        24.08522727272727,
+        40.05411255411255
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.8086226136363637,
+        1.3450323863636362
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1-nano",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 30.546536796536795,
+      "reasoning": 35.205627705627705,
+      "selected_input_tokens": 3245.181818181818,
+      "selected_output_tokens": 3104.681818181818,
+      "all_attempt_input_tokens": 3685.318181818182,
+      "all_attempt_output_tokens": 4221.772727272727,
+      "standard_uncached_usd_per_1000_answers": 2.057240909090909,
+      "standard_uncached_selected_usd_per_1000_answers": 1.5663909090909096,
+      "received_generation_attempts": 25,
+      "total_questions_with_retries": 3,
+      "partial_output_cells": 3,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0274,
+      "correctness_bootstrap_95ci": [
+        21.61255411255411,
+        40.173160173160156
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.7406272727272727,
+        3.797186704545455
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1-nano",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 31.74242424242424,
+      "reasoning": 35.84415584415584,
+      "selected_input_tokens": 3301.5,
+      "selected_output_tokens": 2375.8636363636365,
+      "all_attempt_input_tokens": 3752.3636363636365,
+      "all_attempt_output_tokens": 2860.590909090909,
+      "standard_uncached_usd_per_1000_answers": 1.5194727272727275,
+      "standard_uncached_selected_usd_per_1000_answers": 1.2804954545454545,
+      "received_generation_attempts": 25,
+      "total_questions_with_retries": 3,
+      "partial_output_cells": 1,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0248,
+      "correctness_bootstrap_95ci": [
+        24.177218614718612,
+        39.22132034632033
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.7443879545454546,
+        2.570649090909091
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 47.375541125541126,
+      "reasoning": 55.67640692640693,
+      "selected_input_tokens": 2134.590909090909,
+      "selected_output_tokens": 959.1818181818181,
+      "all_attempt_input_tokens": 2134.590909090909,
+      "all_attempt_output_tokens": 959.1818181818181,
+      "standard_uncached_usd_per_1000_answers": 14.928295454545458,
+      "standard_uncached_selected_usd_per_1000_answers": 14.928295454545458,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        37.175324675324674,
+        57.14840367965366
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        14.03867897727273,
+        15.825676136363633
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 48.88528138528138,
+      "reasoning": 55.064935064935064,
+      "selected_input_tokens": 1529.8636363636363,
+      "selected_output_tokens": 965.5909090909091,
+      "all_attempt_input_tokens": 1529.8636363636363,
+      "all_attempt_output_tokens": 965.5909090909091,
+      "standard_uncached_usd_per_1000_answers": 13.48056818181818,
+      "standard_uncached_selected_usd_per_1000_answers": 13.48056818181818,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        39.41558441558441,
+        58.05248917748917
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        12.597085227272727,
+        14.407693181818185
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 48.96645021645022,
+      "reasoning": 56.50974025974026,
+      "selected_input_tokens": 1586.1818181818182,
+      "selected_output_tokens": 1005.7272727272727,
+      "all_attempt_input_tokens": 1586.1818181818182,
+      "all_attempt_output_tokens": 1005.7272727272727,
+      "standard_uncached_usd_per_1000_answers": 14.022727272727272,
+      "standard_uncached_selected_usd_per_1000_answers": 14.022727272727272,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        40.74120670995671,
+        56.82900432900433
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        13.138056818181818,
+        14.9844375
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o-mini",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 32.51082251082251,
+      "reasoning": 37.32142857142857,
+      "selected_input_tokens": 26870.590909090908,
+      "selected_output_tokens": 1561.409090909091,
+      "all_attempt_input_tokens": 28101.5,
+      "all_attempt_output_tokens": 1618.6818181818182,
+      "standard_uncached_usd_per_1000_answers": 5.186434090909091,
+      "standard_uncached_selected_usd_per_1000_answers": 4.967434090909092,
+      "received_generation_attempts": 23,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        24.155573593073587,
+        40.81195887445887
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        4.731763125,
+        6.036990170454546
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o-mini",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 32.51082251082251,
+      "reasoning": 35.654761904761905,
+      "selected_input_tokens": 26265.863636363636,
+      "selected_output_tokens": 1516.3181818181818,
+      "all_attempt_input_tokens": 27460.31818181818,
+      "all_attempt_output_tokens": 1574.0,
+      "standard_uncached_usd_per_1000_answers": 5.0634477272727265,
+      "standard_uncached_selected_usd_per_1000_answers": 4.849670454545454,
+      "received_generation_attempts": 23,
+      "total_questions_with_retries": 1,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        24.350108225108222,
+        40.33603896103895
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        4.611156818181819,
+        5.907966477272726
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o-mini",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 33.041125541125545,
+      "reasoning": 37.48376623376624,
+      "selected_input_tokens": 26322.18181818182,
+      "selected_output_tokens": 1271.0,
+      "all_attempt_input_tokens": 26322.18181818182,
+      "all_attempt_output_tokens": 1271.0,
+      "standard_uncached_usd_per_1000_answers": 4.710927272727274,
+      "standard_uncached_selected_usd_per_1000_answers": 4.710927272727274,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        23.89556277056277,
+        42.2077922077922
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        4.652199204545455,
+        4.772380397727273
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 71.60714285714285,
+      "reasoning": 70.8116883116883,
+      "selected_input_tokens": 2578.6363636363635,
+      "selected_output_tokens": 1266.4545454545455,
+      "all_attempt_input_tokens": 2578.6363636363635,
+      "all_attempt_output_tokens": 1266.4545454545455,
+      "standard_uncached_usd_per_1000_answers": 25.443409090909086,
+      "standard_uncached_selected_usd_per_1000_answers": 25.443409090909086,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": true,
+      "bootstrap_frontier_frequency": 0.4862,
+      "correctness_bootstrap_95ci": [
+        61.74228896103896,
+        80.49255952380952
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        24.15327272727273,
+        26.76636363636363
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 66.33658008658007,
+      "reasoning": 65.0487012987013,
+      "selected_input_tokens": 1973.909090909091,
+      "selected_output_tokens": 1326.8636363636363,
+      "all_attempt_input_tokens": 1973.909090909091,
+      "all_attempt_output_tokens": 1326.8636363636363,
+      "standard_uncached_usd_per_1000_answers": 24.83772727272727,
+      "standard_uncached_selected_usd_per_1000_answers": 24.83772727272727,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.1152,
+      "correctness_bootstrap_95ci": [
+        55.1889880952381,
+        76.70008116883116
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        23.525326704545456,
+        26.134571022727272
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 63.21428571428571,
+      "reasoning": 61.73701298701298,
+      "selected_input_tokens": 2030.2272727272727,
+      "selected_output_tokens": 1249.3181818181818,
+      "all_attempt_input_tokens": 2030.2272727272727,
+      "all_attempt_output_tokens": 1249.3181818181818,
+      "standard_uncached_usd_per_1000_answers": 23.81534090909091,
+      "standard_uncached_selected_usd_per_1000_answers": 23.81534090909091,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0338,
+      "correctness_bootstrap_95ci": [
+        52.900432900432904,
+        73.08468614718613
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        22.847099431818183,
+        24.72471022727273
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4-nano",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 49.26406926406926,
+      "reasoning": 50.71428571428571,
+      "selected_input_tokens": 2578.6363636363635,
+      "selected_output_tokens": 1494.2272727272727,
+      "all_attempt_input_tokens": 2578.6363636363635,
+      "all_attempt_output_tokens": 1494.2272727272727,
+      "standard_uncached_usd_per_1000_answers": 2.3835113636363636,
+      "standard_uncached_selected_usd_per_1000_answers": 2.3835113636363636,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        40.68154761904762,
+        57.54410173160172
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.2138746022727274,
+        2.571948863636364
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4-nano",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 47.521645021645014,
+      "reasoning": 54.92424242424242,
+      "selected_input_tokens": 1973.909090909091,
+      "selected_output_tokens": 1413.9545454545455,
+      "all_attempt_input_tokens": 1973.909090909091,
+      "all_attempt_output_tokens": 1413.9545454545455,
+      "standard_uncached_usd_per_1000_answers": 2.162225,
+      "standard_uncached_selected_usd_per_1000_answers": 2.162225,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        38.90692640692641,
+        56.126082251082245
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.0503921590909093,
+        2.28871125
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4-nano",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 46.87229437229437,
+      "reasoning": 48.92857142857142,
+      "selected_input_tokens": 2030.2272727272727,
+      "selected_output_tokens": 1397.090909090909,
+      "all_attempt_input_tokens": 2030.2272727272727,
+      "all_attempt_output_tokens": 1397.090909090909,
+      "standard_uncached_usd_per_1000_answers": 2.1524090909090905,
+      "standard_uncached_selected_usd_per_1000_answers": 2.1524090909090905,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.0,
+      "correctness_bootstrap_95ci": [
+        37.78138528138528,
+        55.75838744588743
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        2.0440119886363637,
+        2.2839214772727274
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-6-luna",
+      "arm": "detailed",
+      "questions": 22,
+      "correctness": 63.858225108225106,
+      "reasoning": 63.858225108225106,
+      "selected_input_tokens": 2578.6363636363635,
+      "selected_output_tokens": 1190.909090909091,
+      "all_attempt_input_tokens": 2578.6363636363635,
+      "all_attempt_output_tokens": 1190.909090909091,
+      "standard_uncached_usd_per_1000_answers": 0.8533181818181821,
+      "standard_uncached_selected_usd_per_1000_answers": 0.8533181818181821,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.059,
+      "correctness_bootstrap_95ci": [
+        53.414366883116884,
+        73.33969155844153
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.7996673863636364,
+        0.9103747727272729
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-6-luna",
+      "arm": "none",
+      "questions": 22,
+      "correctness": 70.10281385281384,
+      "reasoning": 71.54220779220779,
+      "selected_input_tokens": 1973.909090909091,
+      "selected_output_tokens": 1121.590909090909,
+      "all_attempt_input_tokens": 1973.909090909091,
+      "all_attempt_output_tokens": 1121.590909090909,
+      "standard_uncached_usd_per_1000_answers": 0.7581863636363636,
+      "standard_uncached_selected_usd_per_1000_answers": 0.7581863636363636,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": true,
+      "bootstrap_frontier_frequency": 0.9612,
+      "correctness_bootstrap_95ci": [
+        59.875405844155836,
+        79.11796536796537
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.7122794318181819,
+        0.8086864772727271
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-6-luna",
+      "arm": "rough",
+      "questions": 22,
+      "correctness": 69.98376623376623,
+      "reasoning": 72.63528138528137,
+      "selected_input_tokens": 2030.2272727272727,
+      "selected_output_tokens": 1176.6363636363637,
+      "all_attempt_input_tokens": 2030.2272727272727,
+      "all_attempt_output_tokens": 1176.6363636363637,
+      "standard_uncached_usd_per_1000_answers": 0.7913409090909093,
+      "standard_uncached_selected_usd_per_1000_answers": 0.7913409090909093,
+      "received_generation_attempts": 22,
+      "total_questions_with_retries": 0,
+      "partial_output_cells": 0,
+      "empirical_mean_frontier": false,
+      "bootstrap_frontier_frequency": 0.5246,
+      "correctness_bootstrap_95ci": [
+        61.168695887445885,
+        78.25757575757576
+      ],
+      "cost_per_1000_bootstrap_95ci": [
+        0.7383614772727273,
+        0.8499828409090908
+      ]
+    }
+  ],
+  "within_model_changes": [
+    {
+      "dataset": "MIT",
+      "model": "claude-haiku-4.5",
+      "arm": "detailed",
+      "correctness_gain_pp": 3.7540885040885,
+      "cost_increase_usd_per_1000_answers": 1.2800666666666696,
+      "extra_selected_input_tokens": 444.76666666666665,
+      "extra_selected_output_tokens": 131.9000000000001,
+      "cost_change_percent": 8.360128617363372,
+      "quality_gain_bootstrap_95ci": [
+        -6.60383297258297,
+        14.549185305435312
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.351248333333334,
+        3.986410000000001
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-haiku-4.5",
+      "arm": "rough",
+      "correctness_gain_pp": 2.6881914381914314,
+      "cost_increase_usd_per_1000_answers": -0.8146666666666632,
+      "extra_selected_input_tokens": 68.40000000000009,
+      "extra_selected_output_tokens": -37.29999999999973,
+      "cost_change_percent": -5.32059641186291,
+      "quality_gain_bootstrap_95ci": [
+        -5.593226911976914,
+        10.970156926406911
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -3.166504166666661,
+        1.4507516666666622
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-sonnet-4.6",
+      "arm": "detailed",
+      "correctness_gain_pp": 0.8042328042328108,
+      "cost_increase_usd_per_1000_answers": 2.1183000000000036,
+      "extra_selected_input_tokens": 444.76666666666665,
+      "extra_selected_output_tokens": -10.400000000000091,
+      "cost_change_percent": 6.422944675896458,
+      "quality_gain_bootstrap_95ci": [
+        -7.419775132275145,
+        9.540145502645501
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.127229999999993,
+        5.287419999999999
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "claude-sonnet-4.6",
+      "arm": "rough",
+      "correctness_gain_pp": -0.9122174122174158,
+      "cost_increase_usd_per_1000_answers": 1.607200000000003,
+      "extra_selected_input_tokens": 68.40000000000009,
+      "extra_selected_output_tokens": 93.4666666666667,
+      "cost_change_percent": 4.873226966482935,
+      "quality_gain_bootstrap_95ci": [
+        -7.719642857142859,
+        5.722300384800376
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.7049200000000052,
+        3.9730750000000032
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1",
+      "arm": "detailed",
+      "correctness_gain_pp": 2.404641654641658,
+      "cost_increase_usd_per_1000_answers": 1.7169333333333334,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 110.86666666666679,
+      "cost_change_percent": 10.975401871707891,
+      "quality_gain_bootstrap_95ci": [
+        -4.3136002886002816,
+        9.294973544973544
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.9015266666666659,
+        2.532470000000007
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1",
+      "arm": "rough",
+      "correctness_gain_pp": -3.1640211640211575,
+      "cost_increase_usd_per_1000_answers": -0.394866666666667,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": -64.16666666666652,
+      "cost_change_percent": -2.5241634420333114,
+      "quality_gain_bootstrap_95ci": [
+        -10.26210317460318,
+        2.9127645502645545
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.278783333333332,
+        0.509149999999999
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-mini",
+      "arm": "detailed",
+      "correctness_gain_pp": -0.7208994708994609,
+      "cost_increase_usd_per_1000_answers": 0.2937866666666675,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 79.86666666666679,
+      "cost_change_percent": 8.847290482156067,
+      "quality_gain_bootstrap_95ci": [
+        -11.597321428571428,
+        9.005654761904758
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.050399333333332394,
+        0.549108333333334
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-mini",
+      "arm": "rough",
+      "correctness_gain_pp": -3.7301587301587205,
+      "cost_increase_usd_per_1000_answers": -0.200039999999999,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": -139.83333333333326,
+      "cost_change_percent": -6.024139924833738,
+      "quality_gain_bootstrap_95ci": [
+        -14.32671957671958,
+        6.023875661375655
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.42624166666666674,
+        0.04369599999999981
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-nano",
+      "arm": "detailed",
+      "correctness_gain_pp": 6.37962962962963,
+      "cost_increase_usd_per_1000_answers": 0.11191333333333353,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": -274.5666666666666,
+      "cost_change_percent": 13.67008411983619,
+      "quality_gain_bootstrap_95ci": [
+        -0.8664021164021174,
+        13.803075396825395
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.4857845833333333,
+        0.9214503333333306
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4.1-nano",
+      "arm": "rough",
+      "correctness_gain_pp": 3.402116402116402,
+      "cost_increase_usd_per_1000_answers": -0.1066066666666663,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": -229.10000000000014,
+      "cost_change_percent": -13.021880929308349,
+      "quality_gain_bootstrap_95ci": [
+        -2.351917989417989,
+        9.51607142857143
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.4907832500000003,
+        0.2404814166666666
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o",
+      "arm": "detailed",
+      "correctness_gain_pp": -1.690476190476197,
+      "cost_increase_usd_per_1000_answers": 1.3445000000000003,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 30.700000000000045,
+      "cost_change_percent": 10.208549517855792,
+      "quality_gain_bootstrap_95ci": [
+        -7.431481481481473,
+        2.9815476190476176
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.7847395833333358,
+        1.8952104166666677
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o",
+      "arm": "rough",
+      "correctness_gain_pp": 1.7698412698412653,
+      "cost_increase_usd_per_1000_answers": 0.3780833333333327,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": 23.0,
+      "cost_change_percent": 2.8707195464554136,
+      "quality_gain_bootstrap_95ci": [
+        -3.399470899470892,
+        7.389087301587288
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.13608333333333364,
+        0.8984479166666683
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o-mini",
+      "arm": "detailed",
+      "correctness_gain_pp": -2.846801346801346,
+      "cost_increase_usd_per_1000_answers": 0.03870999999999996,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": -39.23333333333335,
+      "cost_change_percent": 3.8531982242041796,
+      "quality_gain_bootstrap_95ci": [
+        -7.669943482443492,
+        2.4310485810485747
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.0327567499999999,
+        0.11182312499999976
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-4o-mini",
+      "arm": "rough",
+      "correctness_gain_pp": -2.6602934102934057,
+      "cost_increase_usd_per_1000_answers": 0.13513499999999998,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": 158.10000000000014,
+      "cost_change_percent": 13.451354741096132,
+      "quality_gain_bootstrap_95ci": [
+        -8.186252405002406,
+        2.9876893939393803
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.09207749999999995,
+        0.5194602499999998
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4",
+      "arm": "detailed",
+      "correctness_gain_pp": 5.599206349206341,
+      "cost_increase_usd_per_1000_answers": 1.4370000000000043,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 26.63333333333344,
+      "cost_change_percent": 4.814043472677443,
+      "quality_gain_bootstrap_95ci": [
+        0.7931547619047665,
+        10.647123015873007
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.11789583333333646,
+        2.962037499999985
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4",
+      "arm": "rough",
+      "correctness_gain_pp": 7.996392496392502,
+      "cost_increase_usd_per_1000_answers": 0.3970833333333326,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": 16.600000000000136,
+      "cost_change_percent": 1.3302549957844967,
+      "quality_gain_bootstrap_95ci": [
+        2.1159361471861504,
+        14.166693722943714
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.3860458333333459,
+        2.1489895833333326
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4-nano",
+      "arm": "detailed",
+      "correctness_gain_pp": -1.2607022607022742,
+      "cost_increase_usd_per_1000_answers": 0.2858333333333324,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 162.26666666666665,
+      "cost_change_percent": 11.78822167630571,
+      "quality_gain_bootstrap_95ci": [
+        -15.147673160173152,
+        12.107720057720048
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.04431662499999954,
+        0.5610538750000011
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-5.4-nano",
+      "arm": "rough",
+      "correctness_gain_pp": -3.2208994708994823,
+      "cost_increase_usd_per_1000_answers": 0.22484666666666536,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": 170.4000000000001,
+      "cost_change_percent": 9.273034460099394,
+      "quality_gain_bootstrap_95ci": [
+        -16.792559523809526,
+        10.510582010581992
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.01002416666666517,
+        0.48005891666666606
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-6-luna",
+      "arm": "detailed",
+      "correctness_gain_pp": -2.2894420394420507,
+      "cost_increase_usd_per_1000_answers": 0.07034999999999995,
+      "extra_selected_input_tokens": 415.0,
+      "extra_selected_output_tokens": 57.700000000000045,
+      "cost_change_percent": 13.32823906838103,
+      "quality_gain_bootstrap_95ci": [
+        -12.019672919672935,
+        5.973151154401131
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.04457608333333326,
+        0.09820524999999994
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "model": "gpt-6-luna",
+      "arm": "rough",
+      "correctness_gain_pp": -0.14129389129392678,
+      "cost_increase_usd_per_1000_answers": -0.005659999999999888,
+      "extra_selected_input_tokens": 59.23333333333335,
+      "extra_selected_output_tokens": -23.16666666666663,
+      "cost_change_percent": -1.072321721777325,
+      "quality_gain_bootstrap_95ci": [
+        -6.3817460317460295,
+        5.832278138528104
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.04034058333333337,
+        0.02405366666666668
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1",
+      "arm": "detailed",
+      "correctness_gain_pp": 0.9036796536796459,
+      "cost_increase_usd_per_1000_answers": 1.5381818181818188,
+      "extra_selected_input_tokens": 604.7272727272727,
+      "extra_selected_output_tokens": 41.090909090909236,
+      "cost_change_percent": 11.237372898803866,
+      "quality_gain_bootstrap_95ci": [
+        -6.558441558441544,
+        8.712121212121197
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.7456522727272679,
+        2.3249613636363646
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1",
+      "arm": "rough",
+      "correctness_gain_pp": -0.5681818181818201,
+      "cost_increase_usd_per_1000_answers": 0.68209090909091,
+      "extra_selected_input_tokens": 56.31818181818198,
+      "extra_selected_output_tokens": 71.18181818181824,
+      "cost_change_percent": 4.983097450338381,
+      "quality_gain_bootstrap_95ci": [
+        -6.250000000000014,
+        5.3030303030303045
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.058009090909093196,
+        1.3673886363636367
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1-nano",
+      "arm": "detailed",
+      "correctness_gain_pp": 1.6233766233766254,
+      "cost_increase_usd_per_1000_answers": -1.0605454545454542,
+      "extra_selected_input_tokens": 604.727272727273,
+      "extra_selected_output_tokens": -1668.1363636363635,
+      "cost_change_percent": -51.55183575530331,
+      "quality_gain_bootstrap_95ci": [
+        -4.7624458874458915,
+        7.467532467532465
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -2.4884606818181823,
+        0.0806344318181817
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4.1-nano",
+      "arm": "rough",
+      "correctness_gain_pp": 1.1958874458874433,
+      "cost_increase_usd_per_1000_answers": -0.5377681818181815,
+      "extra_selected_input_tokens": 56.31818181818198,
+      "extra_selected_output_tokens": -728.8181818181815,
+      "cost_change_percent": -26.140262885197064,
+      "quality_gain_bootstrap_95ci": [
+        -7.705627705627698,
+        10.265151515151512
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -2.197724545454545,
+        1.0694542045454543
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o",
+      "arm": "detailed",
+      "correctness_gain_pp": -1.509740259740255,
+      "cost_increase_usd_per_1000_answers": 1.4477272727272776,
+      "extra_selected_input_tokens": 604.7272727272727,
+      "extra_selected_output_tokens": -6.409090909090992,
+      "cost_change_percent": 10.739363899215238,
+      "quality_gain_bootstrap_95ci": [
+        -9.048566017316027,
+        6.217667748917758
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.9725795454545451,
+        1.9258380681818223
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o",
+      "arm": "rough",
+      "correctness_gain_pp": 0.08116883116883855,
+      "cost_increase_usd_per_1000_answers": 0.5421590909090914,
+      "extra_selected_input_tokens": 56.31818181818198,
+      "extra_selected_output_tokens": 40.136363636363626,
+      "cost_change_percent": 4.021782194910184,
+      "quality_gain_bootstrap_95ci": [
+        -5.22186147186148,
+        5.384199134199129
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.1282698863636373,
+        0.9386534090909071
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o-mini",
+      "arm": "detailed",
+      "correctness_gain_pp": 0.0,
+      "cost_increase_usd_per_1000_answers": 0.12298636363636435,
+      "extra_selected_input_tokens": 604.7272727272721,
+      "extra_selected_output_tokens": 45.090909090909236,
+      "cost_change_percent": 2.428905565153472,
+      "quality_gain_bootstrap_95ci": [
+        -5.303030303030308,
+        5.312499999999874
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.073348352272728,
+        1.3369293749999982
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-4o-mini",
+      "arm": "rough",
+      "correctness_gain_pp": 0.5303030303030383,
+      "cost_increase_usd_per_1000_answers": -0.3525204545454528,
+      "extra_selected_input_tokens": 56.3181818181838,
+      "extra_selected_output_tokens": -245.31818181818176,
+      "cost_change_percent": -6.96206366754234,
+      "quality_gain_bootstrap_95ci": [
+        -4.166666666666668,
+        5.606060606060609
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.1927290909090904,
+        0.09522340909090814
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4",
+      "arm": "detailed",
+      "correctness_gain_pp": 5.270562770562776,
+      "cost_increase_usd_per_1000_answers": 0.6056818181818142,
+      "extra_selected_input_tokens": 604.7272727272725,
+      "extra_selected_output_tokens": -60.409090909090764,
+      "cost_change_percent": 2.4385557161941795,
+      "quality_gain_bootstrap_95ci": [
+        -2.988095238095267,
+        13.636363636363626
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.32287784090909327,
+        1.6642215909090798
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4",
+      "arm": "rough",
+      "correctness_gain_pp": -3.1222943722943626,
+      "cost_increase_usd_per_1000_answers": -1.0223863636363608,
+      "extra_selected_input_tokens": 56.318181818181756,
+      "extra_selected_output_tokens": -77.5454545454545,
+      "cost_change_percent": -4.116263748330063,
+      "quality_gain_bootstrap_95ci": [
+        -9.096590909090896,
+        3.658008658008669
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -1.6537982954545378,
+        -0.4299971590909058
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4-nano",
+      "arm": "detailed",
+      "correctness_gain_pp": 1.7424242424242493,
+      "cost_increase_usd_per_1000_answers": 0.22128636363636386,
+      "extra_selected_input_tokens": 604.7272727272725,
+      "extra_selected_output_tokens": 80.27272727272725,
+      "cost_change_percent": 10.234196886834802,
+      "quality_gain_bootstrap_95ci": [
+        -2.077922077922082,
+        5.844155844155829
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.08079931818181826,
+        0.3749548863636365
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-5.4-nano",
+      "arm": "rough",
+      "correctness_gain_pp": -0.6493506493506445,
+      "cost_increase_usd_per_1000_answers": -0.009815909090909146,
+      "extra_selected_input_tokens": 56.318181818181756,
+      "extra_selected_output_tokens": -16.863636363636488,
+      "cost_change_percent": -0.45397260187580724,
+      "quality_gain_bootstrap_95ci": [
+        -8.116883116883109,
+        6.439393939393931
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.12775153409090936,
+        0.1011114204545458
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-6-luna",
+      "arm": "detailed",
+      "correctness_gain_pp": -6.244588744588732,
+      "cost_increase_usd_per_1000_answers": 0.09513181818181844,
+      "extra_selected_input_tokens": 604.7272727272725,
+      "extra_selected_output_tokens": 69.31818181818198,
+      "cost_change_percent": 12.547286886769292,
+      "quality_gain_bootstrap_95ci": [
+        -15.7145562770563,
+        3.268398268398251
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        0.0502181818181818,
+        0.13662761363636358
+      ]
+    },
+    {
+      "dataset": "AP",
+      "model": "gpt-6-luna",
+      "arm": "rough",
+      "correctness_gain_pp": -0.11904761904760619,
+      "cost_increase_usd_per_1000_answers": 0.03315454545454565,
+      "extra_selected_input_tokens": 56.318181818181756,
+      "extra_selected_output_tokens": 55.04545454545473,
+      "cost_change_percent": 4.372875462377346,
+      "quality_gain_bootstrap_95ci": [
+        -7.348484848484844,
+        7.1539502164502045
+      ],
+      "cost_change_per_1000_bootstrap_95ci": [
+        -0.011207613636363656,
+        0.08005522727272682
+      ]
+    }
+  ],
+  "empirical_mean_frontiers": {
+    "MIT": [
+      {
+        "dataset": "MIT",
+        "model": "gpt-6-luna",
+        "arm": "rough",
+        "questions": 30,
+        "correctness": 80.22823472823471,
+        "reasoning": 83.91750841750842,
+        "selected_input_tokens": 807.5,
+        "selected_output_tokens": 882.8333333333334,
+        "all_attempt_input_tokens": 807.5,
+        "all_attempt_output_tokens": 882.8333333333334,
+        "standard_uncached_usd_per_1000_answers": 0.5221666666666668,
+        "standard_uncached_selected_usd_per_1000_answers": 0.5221666666666668,
+        "received_generation_attempts": 30,
+        "total_questions_with_retries": 0,
+        "partial_output_cells": 0,
+        "empirical_mean_frontier": true,
+        "bootstrap_frontier_frequency": 0.7976,
+        "correctness_bootstrap_95ci": [
+          73.6460107022607,
+          86.4590458152958
+        ],
+        "cost_per_1000_bootstrap_95ci": [
+          0.44017316666666656,
+          0.6062012499999999
+        ]
+      },
+      {
+        "dataset": "MIT",
+        "model": "gpt-6-luna",
+        "arm": "none",
+        "questions": 30,
+        "correctness": 80.36952861952864,
+        "reasoning": 83.2507215007215,
+        "selected_input_tokens": 748.2666666666667,
+        "selected_output_tokens": 906.0,
+        "all_attempt_input_tokens": 748.2666666666667,
+        "all_attempt_output_tokens": 906.0,
+        "standard_uncached_usd_per_1000_answers": 0.5278266666666667,
+        "standard_uncached_selected_usd_per_1000_answers": 0.5278266666666667,
+        "received_generation_attempts": 30,
+        "total_questions_with_retries": 0,
+        "partial_output_cells": 0,
+        "empirical_mean_frontier": true,
+        "bootstrap_frontier_frequency": 0.6994,
+        "correctness_bootstrap_95ci": [
+          72.6881764069264,
+          87.52678571428571
+        ],
+        "cost_per_1000_bootstrap_95ci": [
+          0.4447059166666666,
+          0.6159511666666666
+        ]
+      },
+      {
+        "dataset": "MIT",
+        "model": "gpt-5.4",
+        "arm": "rough",
+        "questions": 30,
+        "correctness": 86.76671476671478,
+        "reasoning": 90.23232323232324,
+        "selected_input_tokens": 807.5,
+        "selected_output_tokens": 1881.9,
+        "all_attempt_input_tokens": 807.5,
+        "all_attempt_output_tokens": 1881.9,
+        "standard_uncached_usd_per_1000_answers": 30.24725,
+        "standard_uncached_selected_usd_per_1000_answers": 30.24725,
+        "received_generation_attempts": 30,
+        "total_questions_with_retries": 0,
+        "partial_output_cells": 0,
+        "empirical_mean_frontier": true,
+        "bootstrap_frontier_frequency": 0.874,
+        "correctness_bootstrap_95ci": [
+          79.79819624819623,
+          92.94185906685907
+        ],
+        "cost_per_1000_bootstrap_95ci": [
+          27.39450833333333,
+          32.943160416666665
+        ]
+      }
+    ],
+    "AP": [
+      {
+        "dataset": "AP",
+        "model": "gpt-6-luna",
+        "arm": "none",
+        "questions": 22,
+        "correctness": 70.10281385281384,
+        "reasoning": 71.54220779220779,
+        "selected_input_tokens": 1973.909090909091,
+        "selected_output_tokens": 1121.590909090909,
+        "all_attempt_input_tokens": 1973.909090909091,
+        "all_attempt_output_tokens": 1121.590909090909,
+        "standard_uncached_usd_per_1000_answers": 0.7581863636363636,
+        "standard_uncached_selected_usd_per_1000_answers": 0.7581863636363636,
+        "received_generation_attempts": 22,
+        "total_questions_with_retries": 0,
+        "partial_output_cells": 0,
+        "empirical_mean_frontier": true,
+        "bootstrap_frontier_frequency": 0.9612,
+        "correctness_bootstrap_95ci": [
+          59.875405844155836,
+          79.11796536796537
+        ],
+        "cost_per_1000_bootstrap_95ci": [
+          0.7122794318181819,
+          0.8086864772727271
+        ]
+      },
+      {
+        "dataset": "AP",
+        "model": "gpt-5.4",
+        "arm": "detailed",
+        "questions": 22,
+        "correctness": 71.60714285714285,
+        "reasoning": 70.8116883116883,
+        "selected_input_tokens": 2578.6363636363635,
+        "selected_output_tokens": 1266.4545454545455,
+        "all_attempt_input_tokens": 2578.6363636363635,
+        "all_attempt_output_tokens": 1266.4545454545455,
+        "standard_uncached_usd_per_1000_answers": 25.443409090909086,
+        "standard_uncached_selected_usd_per_1000_answers": 25.443409090909086,
+        "received_generation_attempts": 22,
+        "total_questions_with_retries": 0,
+        "partial_output_cells": 0,
+        "empirical_mean_frontier": true,
+        "bootstrap_frontier_frequency": 0.4862,
+        "correctness_bootstrap_95ci": [
+          61.74228896103896,
+          80.49255952380952
+        ],
+        "cost_per_1000_bootstrap_95ci": [
+          24.15327272727273,
+          26.76636363636363
+        ]
+      }
+    ]
+  },
+  "joined_rows": 1392,
+  "primary_rows": 1362,
+  "missing_usage_rows": []
+}

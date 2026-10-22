@@ -1,0 +1,222 @@
+{
+  "status": "Post-hoc diagnostic of saved outcomes; original primary inference unchanged.",
+  "margin_rationale": "Five percentage points corresponds to five extra fully satisfied criteria per 100 at the study weights. This is an illustrative assistance-quality tolerance, not a measured student-learning threshold; 2 and 10 points retained as margin sensitivity. TOST is two one-sided paired Student-t tests, with Holm across four setting-by-rubric contrasts separately at each margin.",
+  "results": [
+    {
+      "dataset": "MIT",
+      "arm": "rough",
+      "n": 30,
+      "baseline_correctness": 80.36952861952864,
+      "remaining_headroom_pp": 19.630471380471363,
+      "gain_pp": -0.14129389129389078,
+      "se_pp": 3.136749563219814,
+      "ci95": [
+        -6.556667077937865,
+        6.274079295350084
+      ],
+      "ci90": [
+        -5.471029849627819,
+        5.188442067040039
+      ],
+      "four_contrast_simultaneous95ci": [
+        -8.49507191090563,
+        8.212484128317847
+      ],
+      "percent_remaining_shortfall_closed": -0.7197682040098726,
+      "perfect_baseline_questions": 13,
+      "positive_gain_5pp_excluded_by_ci95": false,
+      "positive_gain_5pp_excluded_simultaneously": false,
+      "tost": [
+        {
+          "margin_pp": 2.0,
+          "p_lower": 0.2790348062367364,
+          "p_upper": 0.2501234447742802,
+          "tost_p": 0.2790348062367364,
+          "equivalent_unadjusted": false,
+          "holm4_p": 1.0,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 5.0,
+          "p_lower": 0.0661180691470136,
+          "p_upper": 0.056003946515401914,
+          "tost_p": 0.0661180691470136,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.2644722765880544,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 10.0,
+          "p_lower": 0.001918563971133391,
+          "p_upper": 0.00152463235498706,
+          "tost_p": 0.001918563971133391,
+          "equivalent_unadjusted": true,
+          "holm4_p": 0.007674255884533564,
+          "equivalent_holm4": true
+        }
+      ]
+    },
+    {
+      "dataset": "MIT",
+      "arm": "detailed",
+      "n": 30,
+      "baseline_correctness": 80.36952861952864,
+      "remaining_headroom_pp": 19.630471380471363,
+      "gain_pp": -2.289442039442039,
+      "se_pp": 4.704989234116925,
+      "ci95": [
+        -11.912225486973224,
+        7.333341408089145
+      ],
+      "ci90": [
+        -10.283816406679247,
+        5.704932327795168
+      ],
+      "four_contrast_simultaneous95ci": [
+        -14.819749242587253,
+        10.240865163703173
+      ],
+      "percent_remaining_shortfall_closed": -11.662695179697032,
+      "perfect_baseline_questions": 13,
+      "positive_gain_5pp_excluded_by_ci95": false,
+      "positive_gain_5pp_excluded_simultaneously": false,
+      "tost": [
+        {
+          "margin_pp": 2.0,
+          "p_lower": 0.524315688655662,
+          "p_upper": 0.18472705610500564,
+          "tost_p": 0.524315688655662,
+          "equivalent_unadjusted": false,
+          "holm4_p": 1.0,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 5.0,
+          "p_lower": 0.2844950599797685,
+          "p_upper": 0.06607745666831032,
+          "tost_p": 0.2844950599797685,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.568990119959537,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 10.0,
+          "p_lower": 0.056029801238179903,
+          "p_upper": 0.007055042577313898,
+          "tost_p": 0.056029801238179903,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.11205960247635981,
+          "equivalent_holm4": false
+        }
+      ]
+    },
+    {
+      "dataset": "AP",
+      "arm": "rough",
+      "n": 22,
+      "baseline_correctness": 70.10281385281384,
+      "remaining_headroom_pp": 29.89718614718616,
+      "gain_pp": -0.11904761904761911,
+      "se_pp": 3.8569872923422697,
+      "ci95": [
+        -8.140091791141328,
+        7.90199655304609
+      ],
+      "ci90": [
+        -6.7559311285811825,
+        6.5178358904859435
+      ],
+      "four_contrast_simultaneous95ci": [
+        -10.6549193909661,
+        10.416824152870863
+      ],
+      "percent_remaining_shortfall_closed": -0.39819004524886875,
+      "perfect_baseline_questions": 3,
+      "positive_gain_5pp_excluded_by_ci95": false,
+      "positive_gain_5pp_excluded_simultaneously": false,
+      "tost": [
+        {
+          "margin_pp": 2.0,
+          "p_lower": 0.31541664043211526,
+          "p_upper": 0.29426152666989763,
+          "tost_p": 0.31541664043211526,
+          "equivalent_unadjusted": false,
+          "holm4_p": 1.0,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 5.0,
+          "p_lower": 0.10977971829591962,
+          "p_upper": 0.09934392138900941,
+          "tost_p": 0.10977971829591962,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.3293391548877589,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 10.0,
+          "p_lower": 0.009084763773325477,
+          "p_upper": 0.007937042115700434,
+          "tost_p": 0.009084763773325477,
+          "equivalent_unadjusted": true,
+          "holm4_p": 0.027254291319976434,
+          "equivalent_holm4": true
+        }
+      ]
+    },
+    {
+      "dataset": "AP",
+      "arm": "detailed",
+      "n": 22,
+      "baseline_correctness": 70.10281385281384,
+      "remaining_headroom_pp": 29.89718614718616,
+      "gain_pp": -6.244588744588743,
+      "se_pp": 5.011249916656496,
+      "ci95": [
+        -16.666053450658023,
+        4.176875961480537
+      ],
+      "ci90": [
+        -14.867661472892024,
+        2.3784839837145384
+      ],
+      "four_contrast_simultaneous95ci": [
+        -19.93348179428996,
+        7.444304305112476
+      ],
+      "percent_remaining_shortfall_closed": -20.886877828054285,
+      "perfect_baseline_questions": 3,
+      "positive_gain_5pp_excluded_by_ci95": true,
+      "positive_gain_5pp_excluded_simultaneously": false,
+      "tost": [
+        {
+          "margin_pp": 2.0,
+          "p_lower": 0.7967309074935577,
+          "p_upper": 0.05740597763119598,
+          "tost_p": 0.7967309074935577,
+          "equivalent_unadjusted": false,
+          "holm4_p": 1.0,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 5.0,
+          "p_lower": 0.5968653637713768,
+          "p_upper": 0.017874524539296215,
+          "tost_p": 0.5968653637713768,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.5968653637713768,
+          "equivalent_holm4": false
+        },
+        {
+          "margin_pp": 10.0,
+          "p_lower": 0.2309657209378675,
+          "p_upper": 0.001953405184021307,
+          "tost_p": 0.2309657209378675,
+          "equivalent_unadjusted": false,
+          "holm4_p": 0.2309657209378675,
+          "equivalent_holm4": false
+        }
+      ]
+    }
+  ]
+}

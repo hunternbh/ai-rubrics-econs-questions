@@ -1,0 +1,3241 @@
+{
+  "primary": [
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.4021164021164014,
+      "full_gain": -3.164021164021165,
+      "gap_reduction": 6.5661375661375665
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.37962962962963,
+      "full_gain": 2.4046416546416554,
+      "gap_reduction": 3.9749879749879744
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.339826839826838,
+      "full_gain": -4.916666666666667,
+      "gap_reduction": 14.256493506493506
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.883597883597884,
+      "full_gain": -3.0490620490620493,
+      "gap_reduction": 7.9326599326599325
+    }
+  ],
+  "summary": [
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "nano_gain",
+      "primary": 3.4021164021164014,
+      "minimum": 1.7952928297755884,
+      "maximum": 4.668856048166392,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 1.7952928297755884,
+          "change": -1.606823572340813,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm1-Q1",
+          "estimate": 4.668856048166392,
+          "change": 1.2667396460499902,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm1-Q5",
+          "estimate": 4.504652435686918,
+          "change": 1.1025360335705163,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "full_gain",
+      "primary": -3.164021164021165,
+      "minimum": -4.805692391899289,
+      "maximum": -0.6869184455391363,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": -0.6869184455391363,
+          "change": 2.477102718482029,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+          "estimate": -4.805692391899289,
+          "change": -1.6416712278781236,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2018-final-Q3",
+          "estimate": -2.123700054734538,
+          "change": 1.040321109286627,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "gap_reduction",
+      "primary": 6.5661375661375665,
+      "minimum": 3.3442802408319654,
+      "maximum": 8.32512315270936,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": 3.3442802408319654,
+          "change": -3.221857325305601,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 4.2063492063492065,
+          "change": -2.35978835978836,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2018-final-Q3",
+          "estimate": 4.493705528188287,
+          "change": -2.0724320379492793,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "nano_gain",
+      "primary": 3.4021164021164014,
+      "minimum": 2.3104056437389766,
+      "maximum": 5.8920634920634924,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 5.8920634920634924,
+          "change": 2.489947089947091,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2018:MIT-2018-midterm1",
+          "estimate": 2.3104056437389766,
+          "change": -1.0917107583774248,
+          "remaining_questions": 27
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm2",
+          "estimate": 2.4573780129335683,
+          "change": -0.9447383891828331,
+          "remaining_questions": 27
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "full_gain",
+      "primary": -3.164021164021165,
+      "minimum": -5.403174603174604,
+      "maximum": 0.0920634920634916,
+      "sign_reversals": 1,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 0.0920634920634916,
+          "change": 3.256084656084657,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:final",
+          "estimate": -5.403174603174604,
+          "change": -2.2391534391534393,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:midterm",
+          "estimate": -4.200244200244201,
+          "change": -1.0362230362230362,
+          "remaining_questions": 26
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "gap_reduction",
+      "primary": 6.5661375661375665,
+      "minimum": 2.657142857142857,
+      "maximum": 8.888888888888891,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 2.657142857142857,
+          "change": -3.9089947089947095,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 8.888888888888891,
+          "change": 2.3227513227513246,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:final",
+          "estimate": 8.514285714285716,
+          "change": 1.9481481481481495,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "nano_gain",
+      "primary": 6.37962962962963,
+      "minimum": 4.875478927203065,
+      "maximum": 8.077449370552818,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-midterm1-Q5",
+          "estimate": 8.077449370552818,
+          "change": 1.6978197409231885,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 4.875478927203065,
+          "change": -1.504150702426565,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+          "estimate": 7.749042145593869,
+          "change": 1.369412515964239,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "full_gain",
+      "primary": 2.4046416546416554,
+      "minimum": 0.7634224013534359,
+      "maximum": 3.7806637806637817,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-final-Q4",
+          "estimate": 0.7634224013534359,
+          "change": -1.6412192532882195,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": 3.7806637806637817,
+          "change": 1.3760221260221264,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q3",
+          "estimate": 1.1082499875603324,
+          "change": -1.296391667081323,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "gap_reduction",
+      "primary": 3.9749879749879744,
+      "minimum": 1.956884112056525,
+      "maximum": 6.575110713041747,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-midterm1-Q5",
+          "estimate": 6.575110713041747,
+          "change": 2.6001227380537726,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+          "estimate": 6.410907100562272,
+          "change": 2.435919125574298,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": 1.956884112056525,
+          "change": -2.0181038629314494,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "nano_gain",
+      "primary": 6.37962962962963,
+      "minimum": 4.707524985302762,
+      "maximum": 9.369841269841269,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 9.369841269841269,
+          "change": 2.9902116402116388,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm2",
+          "estimate": 4.707524985302762,
+          "change": -1.6721046443268675,
+          "remaining_questions": 27
+        },
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 5.488888888888888,
+          "change": -0.8907407407407417,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "full_gain",
+      "primary": 2.4046416546416554,
+      "minimum": 0.677777777777778,
+      "maximum": 5.274458874458876,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 5.274458874458876,
+          "change": 2.8698172198172207,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 0.677777777777778,
+          "change": -1.7268638768638773,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:final",
+          "estimate": 1.1903318903318894,
+          "change": -1.214309764309766,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "gap_reduction",
+      "primary": 3.9749879749879744,
+      "minimum": 0.21443001443001197,
+      "maximum": 7.627128427128426,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 0.21443001443001197,
+          "change": -3.7605579605579624,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 7.627128427128426,
+          "change": 3.6521404521404515,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 6.406349206349207,
+          "change": 2.4313612313612323,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "nano_gain",
+      "primary": 9.339826839826838,
+      "minimum": 6.213613972234661,
+      "maximum": 10.811315121659948,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+          "estimate": 6.213613972234661,
+          "change": -3.1262128675921765,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm1-Q1",
+          "estimate": 10.811315121659948,
+          "change": 1.4714882818331105,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 7.937751903269144,
+          "change": -1.4020749365576934,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "full_gain",
+      "primary": -4.916666666666667,
+      "minimum": -6.235632183908046,
+      "maximum": -2.9310344827586206,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": -2.9310344827586206,
+          "change": 1.9856321839080464,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-final-Q2",
+          "estimate": -3.3620689655172415,
+          "change": 1.5545977011494254,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-final-Q5",
+          "estimate": -6.235632183908046,
+          "change": -1.318965517241379,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "question",
+      "measure": "gap_reduction",
+      "primary": 14.256493506493506,
+      "minimum": 10.868786386027764,
+      "maximum": 15.89752201821167,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2018-final-Q2",
+          "estimate": 10.868786386027764,
+          "change": -3.387707120465741,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+          "estimate": 11.299820868786385,
+          "change": -2.95667263770712,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 12.161889834303627,
+          "change": -2.094603672189878,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "nano_gain",
+      "primary": 9.339826839826838,
+      "minimum": 7.48001998001998,
+      "maximum": 11.645887445887444,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 11.645887445887444,
+          "change": 2.3060606060606066,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:midterm",
+          "estimate": 7.48001998001998,
+          "change": -1.8598068598068576,
+          "remaining_questions": 26
+        },
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 10.904761904761903,
+          "change": 1.5649350649350655,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "full_gain",
+      "primary": -4.916666666666667,
+      "minimum": -7.633333333333333,
+      "maximum": -2.0666666666666664,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": -2.0666666666666664,
+          "change": 2.8500000000000005,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2023:final",
+          "estimate": -7.633333333333333,
+          "change": -2.716666666666666,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": -3.1000000000000005,
+          "change": 1.8166666666666664,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "omission_type": "examination",
+      "measure": "gap_reduction",
+      "primary": 14.256493506493506,
+      "minimum": 11.607792207792208,
+      "maximum": 17.425252525252525,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2023:final",
+          "estimate": 17.425252525252525,
+          "change": 3.168759018759019,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 11.607792207792208,
+          "change": -2.6487012987012974,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 16.233333333333334,
+          "change": 1.9768398268398286,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "nano_gain",
+      "primary": 4.883597883597884,
+      "minimum": 3.3278598795840173,
+      "maximum": 6.201423097974822,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 3.3278598795840173,
+          "change": -1.5557380040138664,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+          "estimate": 6.201423097974822,
+          "change": 1.3178252143769384,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-final-Q4",
+          "estimate": 6.201423097974822,
+          "change": 1.3178252143769384,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "full_gain",
+      "primary": -3.0490620490620493,
+      "minimum": -4.8783400507538435,
+      "maximum": -1.4300641886848784,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-final-Q4",
+          "estimate": -4.8783400507538435,
+          "change": -1.8292780016917942,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-final-Q2",
+          "estimate": -1.4300641886848784,
+          "change": 1.6189978603771709,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q3",
+          "estimate": -4.533512464546948,
+          "change": -1.4844504154848983,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "question",
+      "measure": "gap_reduction",
+      "primary": 7.9326599326599325,
+      "minimum": 5.6199930337861375,
+      "maximum": 11.079763148728667,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "MIT-2010-final-Q4",
+          "estimate": 11.079763148728667,
+          "change": 3.147103216068734,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+          "estimate": 10.505050505050505,
+          "change": 2.5723905723905727,
+          "remaining_questions": 29
+        },
+        {
+          "omitted": "MIT-2010-midterm2-Q1",
+          "estimate": 5.6199930337861375,
+          "change": -2.312666898873795,
+          "remaining_questions": 29
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "nano_gain",
+      "primary": 4.883597883597884,
+      "minimum": 1.7754262198706643,
+      "maximum": 7.193650793650794,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2010:MIT-2010-midterm2",
+          "estimate": 1.7754262198706643,
+          "change": -3.1081716637272194,
+          "remaining_questions": 27
+        },
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 7.193650793650794,
+          "change": 2.31005291005291,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": 6.431746031746033,
+          "change": 1.5481481481481492,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "full_gain",
+      "primary": -3.0490620490620493,
+      "minimum": -5.754112554112554,
+      "maximum": -1.325541125541125,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2023:final",
+          "estimate": -5.754112554112554,
+          "change": -2.705050505050505,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": -1.325541125541125,
+          "change": 1.7235209235209243,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm1",
+          "estimate": -2.230303030303031,
+          "change": 0.8187590187590184,
+          "remaining_questions": 25
+        }
+      ]
+    },
+    {
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "omission_type": "examination",
+      "measure": "gap_reduction",
+      "primary": 7.9326599326599325,
+      "minimum": 5.189727967505746,
+      "maximum": 11.06031746031746,
+      "sign_reversals": 0,
+      "zeros": 0,
+      "most_influential": [
+        {
+          "omitted": "2010:MIT-2010-final",
+          "estimate": 11.06031746031746,
+          "change": 3.1276575276575276,
+          "remaining_questions": 25
+        },
+        {
+          "omitted": "2010:MIT-2010-midterm2",
+          "estimate": 5.189727967505746,
+          "change": -2.7429319651541864,
+          "remaining_questions": 27
+        },
+        {
+          "omitted": "2018:MIT-2018-final",
+          "estimate": 5.519191919191918,
+          "change": -2.413468013468014,
+          "remaining_questions": 25
+        }
+      ]
+    }
+  ],
+  "all_omissions": [
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -4.805692391899289,
+      "gap_reduction": 8.32512315270936,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": -1.6416712278781236,
+      "gap_change_from_primary": 1.758985586571793
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-PRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-PRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.174603174603174,
+      "full_gain": -3.6179529282977567,
+      "gap_reduction": 6.792556102900931,
+      "nano_change_from_primary": -0.22751322751322745,
+      "full_change_from_primary": -0.45393176427659165,
+      "gap_change_from_primary": 0.2264185367633642
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SAVINGS",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SAVINGS"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.026819923371647,
+      "full_gain": -2.7805145046524364,
+      "gap_reduction": 5.807334428024083,
+      "nano_change_from_primary": -0.3752964787447546,
+      "full_change_from_primary": 0.38350665936872863,
+      "gap_change_from_primary": -0.7588031381134837
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SMOKING",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SMOKING"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.7657361795292843,
+      "gap_reduction": 7.285166940339355,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.6017150155081192,
+      "gap_change_from_primary": 0.7190293742017886
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100712,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.1173143586936698,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.026819923371647,
+      "full_gain": -2.7805145046524364,
+      "gap_reduction": 5.807334428024083,
+      "nano_change_from_primary": -0.3752964787447546,
+      "full_change_from_primary": 0.38350665936872863,
+      "gap_change_from_primary": -0.7588031381134837
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100703,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.79255610290093,
+      "nano_change_from_primary": 0.11731435869366891,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.22641853676336332
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100703,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.79255610290093,
+      "nano_change_from_primary": 0.11731435869366891,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.22641853676336332
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 4.668856048166392,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 7.941981390257252,
+      "nano_change_from_primary": 1.2667396460499902,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 1.375843824119685
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.5194307608100703,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.79255610290093,
+      "nano_change_from_primary": 0.11731435869366891,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.22641853676336332
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.9447181171319095,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.217843459222769,
+      "nano_change_from_primary": -0.457398284984492,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": -0.3482941069147971
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -2.5834701696770668,
+      "gap_reduction": 6.102900930487138,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": 0.5805509943440983,
+      "gap_change_from_primary": -0.4632366356504285
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 4.504652435686918,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 7.777777777777778,
+      "nano_change_from_primary": 1.1025360335705163,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 1.2116402116402112
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 1.7952928297755884,
+      "full_gain": -2.4110563765736184,
+      "gap_reduction": 4.2063492063492065,
+      "nano_change_from_primary": -1.606823572340813,
+      "full_change_from_primary": 0.7529647874475467,
+      "gap_change_from_primary": -2.35978835978836
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 6.792556102900931,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.2264185367633642
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 4.012041598248494,
+      "full_gain": -3.27312534209086,
+      "gap_reduction": 7.285166940339354,
+      "nano_change_from_primary": 0.6099251961320928,
+      "full_change_from_primary": -0.10910417806969486,
+      "gap_change_from_primary": 0.7190293742017877
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -3.6562671045429673,
+      "gap_reduction": 7.1756978653530386,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": -0.49224594052180226,
+      "gap_change_from_primary": 0.6095602992154721
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.6573617952928292,
+      "full_gain": -0.6869184455391363,
+      "gap_reduction": 3.3442802408319654,
+      "nano_change_from_primary": -0.7447546068235722,
+      "full_change_from_primary": 2.477102718482029,
+      "gap_change_from_primary": -3.221857325305601
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.370005473453749,
+      "full_gain": -2.123700054734538,
+      "gap_reduction": 4.493705528188287,
+      "nano_change_from_primary": -1.0321109286626524,
+      "full_change_from_primary": 1.040321109286627,
+      "gap_change_from_primary": -2.0724320379492793
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 4.381499726327312,
+      "full_gain": -3.2731253420908604,
+      "gap_reduction": 7.654625068418172,
+      "nano_change_from_primary": 0.9793833242109105,
+      "full_change_from_primary": -0.1091041780696953,
+      "gap_change_from_primary": 1.0884875022806053
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -3.2731253420908604,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": -0.1091041780696953,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.519430760810071,
+      "full_gain": -3.2731253420908604,
+      "gap_reduction": 6.792556102900932,
+      "nano_change_from_primary": 0.11731435869366935,
+      "full_change_from_primary": -0.1091041780696953,
+      "gap_change_from_primary": 0.2264185367633651
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.5342090859332234,
+      "full_gain": -3.519430760810072,
+      "gap_reduction": 6.0536398467432955,
+      "nano_change_from_primary": -0.8679073161831781,
+      "full_change_from_primary": -0.35540959678890705,
+      "gap_change_from_primary": -0.512497719394271
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.1362889983579634,
+      "full_gain": -3.2731253420908604,
+      "gap_reduction": 6.409414340448824,
+      "nano_change_from_primary": -0.26582740375843805,
+      "full_change_from_primary": -0.1091041780696953,
+      "gap_change_from_primary": -0.15672322568874275
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-final",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1",
+        "MIT-2010-final-Q2",
+        "MIT-2010-final-Q3",
+        "MIT-2010-final-Q4",
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.511111111111111,
+      "full_gain": -3.2253968253968264,
+      "gap_reduction": 6.736507936507937,
+      "nano_change_from_primary": 0.10899470899470964,
+      "full_change_from_primary": -0.061375661375661306,
+      "gap_change_from_primary": 0.17037037037037095
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1",
+        "MIT-2010-midterm1-Q2",
+        "MIT-2010-midterm1-Q3",
+        "MIT-2010-midterm1-Q4",
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 5.8920634920634924,
+      "full_gain": -2.9968253968253986,
+      "gap_reduction": 8.888888888888891,
+      "nano_change_from_primary": 2.489947089947091,
+      "full_change_from_primary": 0.16719576719576645,
+      "gap_change_from_primary": 2.3227513227513246
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1",
+        "MIT-2010-midterm2-Q3",
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.4573780129335683,
+      "full_gain": -2.5896531452087026,
+      "gap_reduction": 5.047031158142271,
+      "nano_change_from_primary": -0.9447383891828331,
+      "full_change_from_primary": 0.5743680188124625,
+      "gap_change_from_primary": -1.5191064079952952
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-final",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1",
+        "MIT-2018-final-Q2",
+        "MIT-2018-final-Q3",
+        "MIT-2018-final-Q4",
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.7492063492063488,
+      "full_gain": 0.0920634920634916,
+      "gap_reduction": 2.657142857142857,
+      "nano_change_from_primary": -0.6529100529100527,
+      "full_change_from_primary": 3.256084656084657,
+      "gap_change_from_primary": -3.9089947089947095
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-midterm1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1",
+        "MIT-2018-midterm1-Q2",
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 2.3104056437389766,
+      "full_gain": -3.7801293356848924,
+      "gap_reduction": 6.090534979423869,
+      "nano_change_from_primary": -1.0917107583774248,
+      "full_change_from_primary": -0.6161081716637273,
+      "gap_change_from_primary": -0.4756025867136975
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:final",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER",
+        "MIT-1401-2023-FINAL-PRODUCER",
+        "MIT-1401-2023-FINAL-SAVINGS",
+        "MIT-1401-2023-FINAL-SMOKING",
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.1111111111111107,
+      "full_gain": -5.403174603174604,
+      "gap_reduction": 8.514285714285716,
+      "nano_change_from_primary": -0.2910052910052907,
+      "full_change_from_primary": -2.2391534391534393,
+      "gap_change_from_primary": 1.9481481481481495
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:midterm",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER",
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 26,
+      "metric": "primary_correctness",
+      "arm": "rough",
+      "nano_gain": 3.925518925518925,
+      "full_gain": -4.200244200244201,
+      "gap_reduction": 8.125763125763125,
+      "nano_change_from_primary": 0.5234025234025235,
+      "full_change_from_primary": -1.0362230362230362,
+      "gap_change_from_primary": 1.5596255596255588
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 7.749042145593869,
+      "full_gain": 1.3381350450315965,
+      "gap_reduction": 6.410907100562272,
+      "nano_change_from_primary": 1.369412515964239,
+      "full_change_from_primary": -1.0665066096100588,
+      "gap_change_from_primary": 2.435919125574298
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-PRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-PRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.944444444444445,
+      "full_gain": 2.832387918594815,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.5648148148148149,
+      "full_change_from_primary": 0.42774626395315973,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SAVINGS",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SAVINGS"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.614395183360701,
+      "full_gain": 2.9801711698263422,
+      "gap_reduction": 2.6342240135343586,
+      "nano_change_from_primary": -0.7652344462689289,
+      "full_change_from_primary": 0.5755295151846869,
+      "gap_change_from_primary": -1.3407639614536158
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SMOKING",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SMOKING"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.450191570881227,
+      "full_gain": 1.3381350450315965,
+      "gap_reduction": 4.11205652584963,
+      "nano_change_from_primary": -0.9294380587484028,
+      "full_change_from_primary": -1.0665066096100588,
+      "gap_change_from_primary": 0.13706855086165604
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.737547892720307,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 3.249987560332388,
+      "nano_change_from_primary": -0.642081736909323,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": -0.7250004146555864
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.9801711698263427,
+      "gap_reduction": 3.619445688411205,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.5755295151846873,
+      "gap_change_from_primary": -0.35554228657676923
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.450191570881227,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 2.9626312384933082,
+      "nano_change_from_primary": -0.9294380587484028,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": -1.0123567364946662
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.801039956212369,
+      "gap_reduction": 3.7985769020251787,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.39639830157071376,
+      "gap_change_from_primary": -0.17641107296279568
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.107006020799123,
+      "full_gain": 1.9949494949494953,
+      "gap_reduction": 4.112056525849628,
+      "nano_change_from_primary": -0.2726236088305072,
+      "full_change_from_primary": -0.4096921596921601,
+      "gap_change_from_primary": 0.13706855086165337
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 0.7634224013534359,
+      "gap_reduction": 5.836194456884112,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": -1.6412192532882195,
+      "gap_change_from_primary": 1.8612064818961374
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 7.749042145593869,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 5.26148181320595,
+      "nano_change_from_primary": 1.369412515964239,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 1.286493838217976
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.450191570881227,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 2.9626312384933082,
+      "nano_change_from_primary": -0.9294380587484028,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": -1.0123567364946662
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 4.1120565258496296,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": 0.13706855086165515
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 8.077449370552818,
+      "full_gain": 1.5023386575110709,
+      "gap_reduction": 6.575110713041747,
+      "nano_change_from_primary": 1.6978197409231885,
+      "full_change_from_primary": -0.9023029971305845,
+      "gap_change_from_primary": 2.6001227380537726
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 4.875478927203065,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 2.387918594815146,
+      "nano_change_from_primary": -1.504150702426565,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": -1.5870693801728284
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 1.1082499875603324,
+      "gap_reduction": 5.491366870677215,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": -1.296391667081323,
+      "gap_change_from_primary": 1.5163788956892406
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.107006020799124,
+      "full_gain": 2.4875603323879187,
+      "gap_reduction": 3.6194456884112056,
+      "nano_change_from_primary": -0.2726236088305054,
+      "full_change_from_primary": 0.08291867774626338,
+      "gap_change_from_primary": -0.3555422865767688
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.1044185699358122,
+      "gap_reduction": 4.495198288301736,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": -0.30022308470584314,
+      "gap_change_from_primary": 0.5202103133137612
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.737547892720307,
+      "full_gain": 3.7806637806637817,
+      "gap_reduction": 1.956884112056525,
+      "nano_change_from_primary": -0.642081736909323,
+      "full_change_from_primary": 1.3760221260221264,
+      "gap_change_from_primary": -2.0181038629314494
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.0249042145593865,
+      "full_gain": 3.6369856197442414,
+      "gap_reduction": 2.387918594815145,
+      "nano_change_from_primary": -0.35472541507024324,
+      "full_change_from_primary": 1.232343965102586,
+      "gap_change_from_primary": -1.5870693801728293
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.168582375478927,
+      "full_gain": 2.487560332387919,
+      "gap_reduction": 3.6810220430910077,
+      "nano_change_from_primary": -0.2110472541507029,
+      "full_change_from_primary": 0.08291867774626382,
+      "gap_change_from_primary": -0.29396593189696674
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 2.487560332387919,
+      "gap_reduction": 4.112056525849629,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.08291867774626382,
+      "gap_change_from_primary": 0.13706855086165426
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.599616858237548,
+      "full_gain": 3.1772155048017123,
+      "gap_reduction": 3.4224013534358355,
+      "nano_change_from_primary": 0.21998722860791808,
+      "full_change_from_primary": 0.772573850160057,
+      "gap_change_from_primary": -0.5525866215521389
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.368089764641488,
+      "full_gain": 2.487560332387919,
+      "gap_reduction": 2.880529432253569,
+      "nano_change_from_primary": -1.0115398649881415,
+      "full_change_from_primary": 0.08291867774626382,
+      "gap_change_from_primary": -1.0944585427344053
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.982758620689655,
+      "full_gain": 2.487560332387919,
+      "gap_reduction": 4.495198288301736,
+      "nano_change_from_primary": 0.603128991060025,
+      "full_change_from_primary": 0.08291867774626382,
+      "gap_change_from_primary": 0.5202103133137612
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-final",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1",
+        "MIT-2010-final-Q2",
+        "MIT-2010-final-Q3",
+        "MIT-2010-final-Q4",
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 7.084126984126985,
+      "full_gain": 0.677777777777778,
+      "gap_reduction": 6.406349206349207,
+      "nano_change_from_primary": 0.704497354497355,
+      "full_change_from_primary": -1.7268638768638773,
+      "gap_change_from_primary": 2.4313612313612323
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1",
+        "MIT-2010-midterm1-Q2",
+        "MIT-2010-midterm1-Q3",
+        "MIT-2010-midterm1-Q4",
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 9.369841269841269,
+      "full_gain": 1.7427128427128422,
+      "gap_reduction": 7.627128427128426,
+      "nano_change_from_primary": 2.9902116402116388,
+      "full_change_from_primary": -0.6619288119288131,
+      "gap_change_from_primary": 3.6521404521404515
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1",
+        "MIT-2010-midterm2-Q3",
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 4.707524985302762,
+      "full_gain": 1.1903425792314677,
+      "gap_reduction": 3.517182406071295,
+      "nano_change_from_primary": -1.6721046443268675,
+      "full_change_from_primary": -1.2142990754101877,
+      "gap_change_from_primary": -0.45780556891667956
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-final",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1",
+        "MIT-2018-final-Q2",
+        "MIT-2018-final-Q3",
+        "MIT-2018-final-Q4",
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.488888888888888,
+      "full_gain": 5.274458874458876,
+      "gap_reduction": 0.21443001443001197,
+      "nano_change_from_primary": -0.8907407407407417,
+      "full_change_from_primary": 2.8698172198172207,
+      "gap_change_from_primary": -3.7605579605579624
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-midterm1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1",
+        "MIT-2018-midterm1-Q2",
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.177248677248677,
+      "full_gain": 3.412564801453691,
+      "gap_reduction": 2.764683875794986,
+      "nano_change_from_primary": -0.20238095238095255,
+      "full_change_from_primary": 1.0079231468120358,
+      "gap_change_from_primary": -1.2103040991929883
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:final",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER",
+        "MIT-1401-2023-FINAL-PRODUCER",
+        "MIT-1401-2023-FINAL-SAVINGS",
+        "MIT-1401-2023-FINAL-SMOKING",
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 5.912698412698412,
+      "full_gain": 1.1903318903318894,
+      "gap_reduction": 4.7223665223665225,
+      "nano_change_from_primary": -0.46693121693121764,
+      "full_change_from_primary": -1.214309764309766,
+      "gap_change_from_primary": 0.7473785473785481
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:midterm",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER",
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 26,
+      "metric": "primary_correctness",
+      "arm": "detailed",
+      "nano_gain": 6.079059829059828,
+      "full_gain": 3.324037074037074,
+      "gap_reduction": 2.755022755022754,
+      "nano_change_from_primary": -0.30056980056980187,
+      "full_change_from_primary": 0.9193954193954186,
+      "gap_change_from_primary": -1.2199652199652204
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.278748071851522,
+      "full_gain": -6.235632183908045,
+      "gap_reduction": 15.514380255759567,
+      "nano_change_from_primary": -0.06107876797531553,
+      "full_change_from_primary": -1.3189655172413781,
+      "gap_change_from_primary": 1.2578867492660617
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-PRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-PRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.31706224809673,
+      "full_gain": -5.431034482758621,
+      "gap_reduction": 14.748096730855352,
+      "nano_change_from_primary": -0.022764591730107142,
+      "full_change_from_primary": -0.514367816091954,
+      "gap_change_from_primary": 0.491603224361846
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SAVINGS",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SAVINGS"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.169278996865202,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.255485893416926,
+      "nano_change_from_primary": -0.1705478429616356,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": -0.0010076130765792612
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SMOKING",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SMOKING"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.15450067174205,
+      "full_gain": -5.578817733990149,
+      "gap_reduction": 15.733318405732199,
+      "nano_change_from_primary": 0.8146738319152114,
+      "full_change_from_primary": -0.6621510673234816,
+      "gap_change_from_primary": 1.476824899238693
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 6.213613972234661,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 11.299820868786385,
+      "nano_change_from_primary": -3.1262128675921765,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": -2.95667263770712
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.975369458128078,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 15.061576354679802,
+      "nano_change_from_primary": 0.6355426183012405,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.8050828481862968
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -3.3620689655172415,
+      "gap_reduction": 13.023958799820868,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": 1.5545977011494254,
+      "gap_change_from_primary": -1.232534706672638
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -4.593596059113301,
+      "gap_reduction": 14.255485893416926,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": 0.32307060755336625,
+      "gap_change_from_primary": -0.0010076130765792612
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.236602477981785,
+      "full_gain": -5.6609195402298855,
+      "gap_reduction": 15.89752201821167,
+      "nano_change_from_primary": 0.8967756381549474,
+      "full_change_from_primary": -0.7442528735632186,
+      "gap_change_from_primary": 1.641028511718165
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.512464546947307,
+      "full_gain": -6.235632183908046,
+      "gap_reduction": 14.748096730855352,
+      "nano_change_from_primary": -0.8273622928795312,
+      "full_change_from_primary": -1.318965517241379,
+      "gap_change_from_primary": 0.491603224361846
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.811315121659948,
+      "full_gain": -3.936781609195402,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 1.4714882818331105,
+      "full_change_from_primary": 0.979885057471265,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.087177190625464,
+      "full_gain": -4.511494252873564,
+      "gap_reduction": 13.598671443499029,
+      "nano_change_from_primary": -0.25264964920137345,
+      "full_change_from_primary": 0.4051724137931032,
+      "gap_change_from_primary": -0.6578220629944767
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.972234661889836,
+      "full_gain": -4.396551724137931,
+      "gap_reduction": 13.368786386027766,
+      "nano_change_from_primary": -0.36759217793700216,
+      "full_change_from_primary": 0.5201149425287364,
+      "gap_change_from_primary": -0.8877071204657394
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.15450067174205,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 15.240707568293773,
+      "nano_change_from_primary": 0.8146738319152114,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.9842140618002677
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 7.937751903269144,
+      "full_gain": -4.224137931034483,
+      "gap_reduction": 12.161889834303627,
+      "nano_change_from_primary": -1.4020749365576934,
+      "full_change_from_primary": 0.6925287356321839,
+      "gap_change_from_primary": -2.094603672189878
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.972234661889836,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.05844155844156,
+      "nano_change_from_primary": -0.36759217793700216,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": -0.19805194805194581
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 7.937751903269144,
+      "full_gain": -2.9310344827586206,
+      "gap_reduction": 10.868786386027764,
+      "nano_change_from_primary": -1.4020749365576934,
+      "full_change_from_primary": 1.9856321839080464,
+      "gap_change_from_primary": -3.387707120465741
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.087177190625466,
+      "full_gain": -3.936781609195402,
+      "gap_reduction": 13.023958799820868,
+      "nano_change_from_primary": -0.2526496492013717,
+      "full_change_from_primary": 0.979885057471265,
+      "gap_change_from_primary": -1.232534706672638
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.523958799820868,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 15.610165696372592,
+      "nano_change_from_primary": 1.1841319599940299,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 1.3536721898790862
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.661889834303626,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 14.74809673085535,
+      "nano_change_from_primary": 0.3220629944767879,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": 0.4916032243618442
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.676668159426779,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 13.762875055978503,
+      "nano_change_from_primary": -0.6631586804000591,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": -0.49361845051500275
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.895606309399412,
+      "full_gain": -5.086206896551724,
+      "gap_reduction": 13.981813205951136,
+      "nano_change_from_primary": -0.44422053042742604,
+      "full_change_from_primary": -0.16954022988505724,
+      "gap_change_from_primary": -0.2746803005423697
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-final",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1",
+        "MIT-2010-final-Q2",
+        "MIT-2010-final-Q3",
+        "MIT-2010-final-Q4",
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 10.904761904761903,
+      "full_gain": -5.328571428571429,
+      "gap_reduction": 16.233333333333334,
+      "nano_change_from_primary": 1.5649350649350655,
+      "full_change_from_primary": -0.4119047619047622,
+      "gap_change_from_primary": 1.9768398268398286
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1",
+        "MIT-2010-midterm1-Q2",
+        "MIT-2010-midterm1-Q3",
+        "MIT-2010-midterm1-Q4",
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 11.645887445887444,
+      "full_gain": -3.1000000000000005,
+      "gap_reduction": 14.745887445887444,
+      "nano_change_from_primary": 2.3060606060606066,
+      "full_change_from_primary": 1.8166666666666664,
+      "gap_change_from_primary": 0.4893939393939384
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1",
+        "MIT-2010-midterm2-Q3",
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 7.7849927849927845,
+      "full_gain": -4.537037037037037,
+      "gap_reduction": 12.322029822029823,
+      "nano_change_from_primary": -1.5548340548340533,
+      "full_change_from_primary": 0.37962962962962976,
+      "gap_change_from_primary": -1.934463684463683
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-final",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1",
+        "MIT-2018-final-Q2",
+        "MIT-2018-final-Q3",
+        "MIT-2018-final-Q4",
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.541125541125542,
+      "full_gain": -2.0666666666666664,
+      "gap_reduction": 11.607792207792208,
+      "nano_change_from_primary": 0.20129870129870397,
+      "full_change_from_primary": 2.8500000000000005,
+      "gap_change_from_primary": -2.6487012987012974
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-midterm1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1",
+        "MIT-2018-midterm1-Q2",
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 8.496339051894607,
+      "full_gain": -5.462962962962963,
+      "gap_reduction": 13.95930201485757,
+      "nano_change_from_primary": -0.8434877879322311,
+      "full_change_from_primary": -0.5462962962962958,
+      "gap_change_from_primary": -0.2971914916359353
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:final",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER",
+        "MIT-1401-2023-FINAL-PRODUCER",
+        "MIT-1401-2023-FINAL-SAVINGS",
+        "MIT-1401-2023-FINAL-SMOKING",
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 9.791919191919192,
+      "full_gain": -7.633333333333333,
+      "gap_reduction": 17.425252525252525,
+      "nano_change_from_primary": 0.4520923520923539,
+      "full_change_from_primary": -2.716666666666666,
+      "gap_change_from_primary": 3.168759018759019
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:midterm",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER",
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 26,
+      "metric": "primary_economic_reasoning",
+      "arm": "rough",
+      "nano_gain": 7.48001998001998,
+      "full_gain": -6.222527472527473,
+      "gap_reduction": 13.702547452547453,
+      "nano_change_from_primary": -1.8598068598068576,
+      "full_change_from_primary": -1.3058608058608057,
+      "gap_change_from_primary": -0.5539460539460528
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 6.201423097974822,
+      "full_gain": -4.303627407075682,
+      "gap_reduction": 10.505050505050505,
+      "nano_change_from_primary": 1.3178252143769384,
+      "full_change_from_primary": -1.254565358013633,
+      "gap_change_from_primary": 2.5723905723905727
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-PRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-PRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.396825396825395,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.551027516544757,
+      "nano_change_from_primary": 0.5132275132275117,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.6183675838848242
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SAVINGS",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SAVINGS"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.0667761357416525,
+      "full_gain": -2.6615912822809378,
+      "gap_reduction": 6.72836741802259,
+      "nano_change_from_primary": -0.8168217478562312,
+      "full_change_from_primary": 0.3874707667811115,
+      "gap_change_from_primary": -1.2042925146373422
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-SMOKING",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-SMOKING"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 3.902572523262178,
+      "full_gain": -4.303627407075683,
+      "gap_reduction": 8.206199930337862,
+      "nano_change_from_primary": -0.9810253603357055,
+      "full_change_from_primary": -1.2545653580136338,
+      "gap_change_from_primary": 0.27353999767792914
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-FINAL-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.1899288451012575,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 7.344130964820619,
+      "nano_change_from_primary": -0.6936690384966262,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": -0.5885289678393137
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-CONSUMER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.544608648056925,
+      "full_gain": -2.1689804448425143,
+      "gap_reduction": 7.713589092899439,
+      "nano_change_from_primary": 0.6610107644590411,
+      "full_change_from_primary": 0.880081604219535,
+      "gap_change_from_primary": -0.21907083976049346
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.20619993033786,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.27353999767792736
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.20619993033786,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.27353999767792736
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.20619993033786,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.27353999767792736
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -2.8407224958949095,
+      "gap_reduction": 7.892720306513409,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": 0.2083395531671397,
+      "gap_change_from_primary": -0.039939626146523466
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -1.4300641886848784,
+      "gap_reduction": 6.482061999303378,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": 1.6189978603771709,
+      "gap_change_from_primary": -1.4505979333565548
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -3.6468129571577843,
+      "gap_reduction": 8.698810767776283,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": -0.5977509080957351,
+      "gap_change_from_primary": 0.7661508351163508
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 6.201423097974822,
+      "full_gain": -4.8783400507538435,
+      "gap_reduction": 11.079763148728667,
+      "nano_change_from_primary": 1.3178252143769384,
+      "full_change_from_primary": -1.8292780016917942,
+      "gap_change_from_primary": 3.147103216068734
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.051997810618501,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.206199930337863,
+      "nano_change_from_primary": 0.16839992702061757,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.2735399976779309
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 6.201423097974822,
+      "full_gain": -2.0047768323630386,
+      "gap_reduction": 8.20619993033786,
+      "nano_change_from_primary": 1.3178252143769384,
+      "full_change_from_primary": 1.0442852166990106,
+      "gap_change_from_primary": 0.27353999767792736
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.051997810618501,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.206199930337863,
+      "nano_change_from_primary": 0.16839992702061757,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.2735399976779309
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 3.902572523262179,
+      "full_gain": -2.5794894760412004,
+      "gap_reduction": 6.4820619993033795,
+      "nano_change_from_primary": -0.9810253603357046,
+      "full_change_from_primary": 0.46957257302084887,
+      "gap_change_from_primary": -1.450597933356553
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.051997810618501,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.206199930337863,
+      "nano_change_from_primary": 0.16839992702061757,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.2735399976779309
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm1-Q5",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.544608648056925,
+      "full_gain": -3.6468129571577843,
+      "gap_reduction": 9.191421605214709,
+      "nano_change_from_primary": 0.6610107644590411,
+      "full_change_from_primary": -0.5977509080957351,
+      "gap_change_from_primary": 1.2587616725547761
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 3.3278598795840173,
+      "full_gain": -2.2921331542021197,
+      "gap_reduction": 5.6199930337861375,
+      "nano_change_from_primary": -1.5557380040138664,
+      "full_change_from_primary": 0.7569288948599295,
+      "gap_change_from_primary": -2.312666898873795
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q3",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.362342638204706,
+      "full_gain": -4.533512464546948,
+      "gap_reduction": 8.895855102751653,
+      "nano_change_from_primary": -0.5212552453931778,
+      "full_change_from_primary": -1.4844504154848983,
+      "gap_change_from_primary": 0.963195170091721
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2010-midterm2-Q4",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.0667761357416525,
+      "full_gain": -2.661591282280937,
+      "gap_reduction": 6.728367418022589,
+      "nano_change_from_primary": -0.8168217478562312,
+      "full_change_from_primary": 0.38747076678111236,
+      "gap_change_from_primary": -1.204292514637343
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106184995,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.20619993033786,
+      "nano_change_from_primary": 0.1683999270206158,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.27353999767792736
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.1899288451012575,
+      "full_gain": -1.8610986714434987,
+      "gap_reduction": 6.051027516544757,
+      "nano_change_from_primary": -0.6936690384966262,
+      "full_change_from_primary": 1.1879633776185505,
+      "gap_change_from_primary": -1.8816324161151758
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.47728516694034,
+      "full_gain": -2.0047768323630386,
+      "gap_reduction": 6.482061999303379,
+      "nano_change_from_primary": -0.40631271665754376,
+      "full_change_from_primary": 1.0442852166990106,
+      "gap_change_from_primary": -1.450597933356554
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q4",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q4"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106185,
+      "full_gain": -3.585236602477982,
+      "gap_reduction": 8.637234413096483,
+      "nano_change_from_primary": 0.16839992702061668,
+      "full_change_from_primary": -0.5361745534159326,
+      "gap_change_from_primary": 0.7045744804365501
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-final-Q5",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106185,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.206199930337862,
+      "nano_change_from_primary": 0.16839992702061668,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.27353999767792914
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.0519978106185,
+      "full_gain": -2.464546947305568,
+      "gap_reduction": 7.516544757924068,
+      "nano_change_from_primary": 0.16839992702061668,
+      "full_change_from_primary": 0.5845151017564811,
+      "gap_change_from_primary": -0.41611517473586446
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q2",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q2"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 3.8204707170224417,
+      "full_gain": -2.9078967010001495,
+      "gap_reduction": 6.728367418022591,
+      "nano_change_from_primary": -1.063127166575442,
+      "full_change_from_primary": 0.14116534806189973,
+      "gap_change_from_primary": -1.2042925146373413
+    },
+    {
+      "omission_type": "question",
+      "omitted": "MIT-2018-midterm1-Q3",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 29,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 5.435139573070607,
+      "full_gain": -3.1542021197193613,
+      "gap_reduction": 8.589341692789969,
+      "nano_change_from_primary": 0.5515416894727236,
+      "full_change_from_primary": -0.10514007065731201,
+      "gap_change_from_primary": 0.6566817601300361
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-final",
+      "excluded_question_ids": [
+        "MIT-2010-final-Q1",
+        "MIT-2010-final-Q2",
+        "MIT-2010-final-Q3",
+        "MIT-2010-final-Q4",
+        "MIT-2010-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 7.193650793650794,
+      "full_gain": -3.8666666666666663,
+      "gap_reduction": 11.06031746031746,
+      "nano_change_from_primary": 2.31005291005291,
+      "full_change_from_primary": -0.817604617604617,
+      "gap_change_from_primary": 3.1276575276575276
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm1",
+      "excluded_question_ids": [
+        "MIT-2010-midterm1-Q1",
+        "MIT-2010-midterm1-Q2",
+        "MIT-2010-midterm1-Q3",
+        "MIT-2010-midterm1-Q4",
+        "MIT-2010-midterm1-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 6.431746031746033,
+      "full_gain": -2.230303030303031,
+      "gap_reduction": 8.662049062049064,
+      "nano_change_from_primary": 1.5481481481481492,
+      "full_change_from_primary": 0.8187590187590184,
+      "gap_change_from_primary": 0.7293891293891317
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2010:MIT-2010-midterm2",
+      "excluded_question_ids": [
+        "MIT-2010-midterm2-Q1",
+        "MIT-2010-midterm2-Q3",
+        "MIT-2010-midterm2-Q4"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 1.7754262198706643,
+      "full_gain": -3.4143017476350814,
+      "gap_reduction": 5.189727967505746,
+      "nano_change_from_primary": -3.1081716637272194,
+      "full_change_from_primary": -0.3652396985730322,
+      "gap_change_from_primary": -2.7429319651541864
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-final",
+      "excluded_question_ids": [
+        "MIT-2018-final-Q1",
+        "MIT-2018-final-Q2",
+        "MIT-2018-final-Q3",
+        "MIT-2018-final-Q4",
+        "MIT-2018-final-Q5"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.193650793650793,
+      "full_gain": -1.325541125541125,
+      "gap_reduction": 5.519191919191918,
+      "nano_change_from_primary": -0.6899470899470908,
+      "full_change_from_primary": 1.7235209235209243,
+      "gap_change_from_primary": -2.413468013468014
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2018:MIT-2018-midterm1",
+      "excluded_question_ids": [
+        "MIT-2018-midterm1-Q1",
+        "MIT-2018-midterm1-Q2",
+        "MIT-2018-midterm1-Q3"
+      ],
+      "remaining_questions": 27,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.514991181657849,
+      "full_gain": -2.3825557158890494,
+      "gap_reduction": 6.897546897546898,
+      "nano_change_from_primary": -0.36860670194003475,
+      "full_change_from_primary": 0.6665063331729999,
+      "gap_change_from_primary": -1.0351130351130342
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:final",
+      "excluded_question_ids": [
+        "MIT-1401-2023-FINAL-CONSUMER",
+        "MIT-1401-2023-FINAL-PRODUCER",
+        "MIT-1401-2023-FINAL-SAVINGS",
+        "MIT-1401-2023-FINAL-SMOKING",
+        "MIT-1401-2023-FINAL-TRUEFALSE"
+      ],
+      "remaining_questions": 25,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 4.117460317460317,
+      "full_gain": -5.754112554112554,
+      "gap_reduction": 9.871572871572871,
+      "nano_change_from_primary": -0.7661375661375667,
+      "full_change_from_primary": -2.705050505050505,
+      "gap_change_from_primary": 1.9389129389129387
+    },
+    {
+      "omission_type": "examination",
+      "omitted": "2023:midterm",
+      "excluded_question_ids": [
+        "MIT-1401-2023-MIDTERM-CONSUMER",
+        "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+        "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+        "MIT-1401-2023-MIDTERM-TRUEFALSE"
+      ],
+      "remaining_questions": 26,
+      "metric": "primary_economic_reasoning",
+      "arm": "detailed",
+      "nano_gain": 6.1843711843711855,
+      "full_gain": -2.4192474192474194,
+      "gap_reduction": 8.603618603618605,
+      "nano_change_from_primary": 1.3007733007733018,
+      "full_change_from_primary": 0.6298146298146299,
+      "gap_change_from_primary": 0.6709586709586723
+    }
+  ],
+  "weighting": "Original equal criteria within question, equal questions in each retained sample. Same omitted question blocks from both models and every rubric condition. Influence only: no replacement of primary inference."
+}

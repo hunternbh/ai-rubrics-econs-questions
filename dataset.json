@@ -1,0 +1,27 @@
+{
+  "title": "AI Rubrics and Economics Examination Questions",
+  "version": "1.0.0",
+  "date": "2026-10-22",
+  "counts": {
+    "mit_collected_blocks": 31,
+    "mit_primary_blocks": 30,
+    "mit_models": 10,
+    "mit_answers": 930,
+    "mit_criterion_ratings": 5940,
+    "ap_long_questions": 22,
+    "ap_models": 7,
+    "ap_answers": 462,
+    "ap_criterion_ratings": 2436,
+    "ap_assessment_questions": 78,
+    "ap_assessment_released_questions": 66,
+    "ap_assessment_constructed_questions": 12,
+    "ap_assessment_configurations": 3150,
+    "ap_assessment_criterion_ratings": 13584
+  },
+  "conditions": [
+    "none",
+    "rough",
+    "detailed"
+  ],
+  "license": "CC-BY-NC-SA-4.0"
+}

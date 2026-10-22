@@ -1,0 +1,2765 @@
+{
+  "models": [
+    "gpt-4.1-nano",
+    "gpt-4.1",
+    "gpt-4o-mini",
+    "gpt-4o",
+    "gpt-5.4-nano",
+    "gpt-5.4",
+    "gpt-6-luna"
+  ],
+  "means": {
+    "gpt-4.1-nano": {
+      "none": {
+        "correctness": 30.546536796536795,
+        "economic_reasoning": 35.205627705627705,
+        "coverage": 96.21212121212122,
+        "original_score": 29.09090909090909,
+        "explicit_economic_error": 42.040043290043286,
+        "reasoning_omission": 24.1991341991342
+      },
+      "rough": {
+        "correctness": 31.742424242424242,
+        "economic_reasoning": 35.84415584415584,
+        "coverage": 99.0909090909091,
+        "original_score": 30.0,
+        "explicit_economic_error": 45.37337662337662,
+        "reasoning_omission": 18.143939393939394
+      },
+      "detailed": {
+        "correctness": 32.16991341991342,
+        "economic_reasoning": 35.88203463203463,
+        "coverage": 100,
+        "original_score": 30.90909090909091,
+        "explicit_economic_error": 43.90151515151515,
+        "reasoning_omission": 19.09090909090909
+      }
+    },
+    "gpt-4.1": {
+      "none": {
+        "correctness": 57.824675324675326,
+        "economic_reasoning": 59.642857142857146,
+        "coverage": 100,
+        "original_score": 64.54545454545455,
+        "explicit_economic_error": 31.829004329004327,
+        "reasoning_omission": 2.8030303030303028
+      },
+      "rough": {
+        "correctness": 57.256493506493506,
+        "economic_reasoning": 58.92316017316017,
+        "coverage": 100,
+        "original_score": 62.72727272727273,
+        "explicit_economic_error": 31.899350649350648,
+        "reasoning_omission": 2.8030303030303028
+      },
+      "detailed": {
+        "correctness": 58.72835497835498,
+        "economic_reasoning": 60.01623376623377,
+        "coverage": 100,
+        "original_score": 67.27272727272727,
+        "explicit_economic_error": 31.682900432900432,
+        "reasoning_omission": 4.361471861471862
+      }
+    },
+    "gpt-4o-mini": {
+      "none": {
+        "correctness": 32.51082251082251,
+        "economic_reasoning": 35.654761904761905,
+        "coverage": 100,
+        "original_score": 37.27272727272727,
+        "explicit_economic_error": 39.89177489177489,
+        "reasoning_omission": 19.56168831168831
+      },
+      "rough": {
+        "correctness": 33.04112554112554,
+        "economic_reasoning": 37.48376623376623,
+        "coverage": 100,
+        "original_score": 38.63636363636363,
+        "explicit_economic_error": 39.009740259740255,
+        "reasoning_omission": 16.17965367965368
+      },
+      "detailed": {
+        "correctness": 32.51082251082251,
+        "economic_reasoning": 37.32142857142857,
+        "coverage": 100,
+        "original_score": 35.90909090909091,
+        "explicit_economic_error": 44.66991341991342,
+        "reasoning_omission": 14.89177489177489
+      }
+    },
+    "gpt-4o": {
+      "none": {
+        "correctness": 48.88528138528139,
+        "economic_reasoning": 55.064935064935064,
+        "coverage": 100,
+        "original_score": 57.72727272727273,
+        "explicit_economic_error": 35.730519480519476,
+        "reasoning_omission": 8.787878787878787
+      },
+      "rough": {
+        "correctness": 48.96645021645021,
+        "economic_reasoning": 56.509740259740255,
+        "coverage": 100,
+        "original_score": 60.0,
+        "explicit_economic_error": 34.015151515151516,
+        "reasoning_omission": 9.588744588744587
+      },
+      "detailed": {
+        "correctness": 47.375541125541126,
+        "economic_reasoning": 55.676406926406926,
+        "coverage": 100,
+        "original_score": 60.0,
+        "explicit_economic_error": 36.74242424242424,
+        "reasoning_omission": 8.831168831168831
+      }
+    },
+    "gpt-5.4-nano": {
+      "none": {
+        "correctness": 47.52164502164502,
+        "economic_reasoning": 54.92424242424242,
+        "coverage": 100,
+        "original_score": 51.81818181818182,
+        "explicit_economic_error": 38.67424242424242,
+        "reasoning_omission": 7.202380952380952
+      },
+      "rough": {
+        "correctness": 46.87229437229437,
+        "economic_reasoning": 48.92857142857143,
+        "coverage": 100,
+        "original_score": 51.81818181818182,
+        "explicit_economic_error": 42.54329004329004,
+        "reasoning_omission": 7.77056277056277
+      },
+      "detailed": {
+        "correctness": 49.26406926406926,
+        "economic_reasoning": 50.714285714285715,
+        "coverage": 100,
+        "original_score": 52.27272727272727,
+        "explicit_economic_error": 46.25541125541125,
+        "reasoning_omission": 3.1818181818181817
+      }
+    },
+    "gpt-5.4": {
+      "none": {
+        "correctness": 66.33658008658008,
+        "economic_reasoning": 65.0487012987013,
+        "coverage": 100,
+        "original_score": 70.45454545454545,
+        "explicit_economic_error": 33.057359307359306,
+        "reasoning_omission": 1.8939393939393938
+      },
+      "rough": {
+        "correctness": 63.214285714285715,
+        "economic_reasoning": 61.73701298701299,
+        "coverage": 100,
+        "original_score": 67.72727272727273,
+        "explicit_economic_error": 34.70238095238095,
+        "reasoning_omission": 3.9393939393939394
+      },
+      "detailed": {
+        "correctness": 71.60714285714286,
+        "economic_reasoning": 70.81168831168831,
+        "coverage": 100,
+        "original_score": 76.81818181818181,
+        "explicit_economic_error": 26.158008658008658,
+        "reasoning_omission": 1.8939393939393938
+      }
+    },
+    "gpt-6-luna": {
+      "none": {
+        "correctness": 70.10281385281385,
+        "economic_reasoning": 71.54220779220779,
+        "coverage": 100,
+        "original_score": 75.0,
+        "explicit_economic_error": 28.457792207792206,
+        "reasoning_omission": 0
+      },
+      "rough": {
+        "correctness": 69.98376623376623,
+        "economic_reasoning": 72.63528138528139,
+        "coverage": 100,
+        "original_score": 73.63636363636364,
+        "explicit_economic_error": 24.03138528138528,
+        "reasoning_omission": 2.424242424242424
+      },
+      "detailed": {
+        "correctness": 63.858225108225106,
+        "economic_reasoning": 63.858225108225106,
+        "coverage": 100,
+        "original_score": 70.9090909090909,
+        "explicit_economic_error": 33.86904761904762,
+        "reasoning_omission": 2.2727272727272725
+      }
+    }
+  },
+  "means_by_year": {
+    "2021": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 30.803571428571427,
+          "economic_reasoning": 33.92857142857143,
+          "coverage": 100,
+          "original_score": 40.0,
+          "explicit_economic_error": 48.363095238095234,
+          "reasoning_omission": 20.833333333333332
+        },
+        "rough": {
+          "correctness": 31.547619047619044,
+          "economic_reasoning": 31.547619047619044,
+          "coverage": 100,
+          "original_score": 32.5,
+          "explicit_economic_error": 54.613095238095234,
+          "reasoning_omission": 13.839285714285714
+        },
+        "detailed": {
+          "correctness": 20.089285714285715,
+          "economic_reasoning": 20.089285714285715,
+          "coverage": 100,
+          "original_score": 32.5,
+          "explicit_economic_error": 60.26785714285714,
+          "reasoning_omission": 16.964285714285715
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 62.5,
+          "economic_reasoning": 56.25,
+          "coverage": 100,
+          "original_score": 72.5,
+          "explicit_economic_error": 37.5,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 53.125,
+          "economic_reasoning": 46.875,
+          "coverage": 100,
+          "original_score": 65.0,
+          "explicit_economic_error": 46.875,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 53.125,
+          "economic_reasoning": 46.875,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 46.875,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 23.214285714285715,
+          "economic_reasoning": 26.339285714285715,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 55.95238095238095,
+          "reasoning_omission": 17.708333333333332
+        },
+        "rough": {
+          "correctness": 23.214285714285715,
+          "economic_reasoning": 33.48214285714286,
+          "coverage": 100,
+          "original_score": 40.0,
+          "explicit_economic_error": 42.113095238095234,
+          "reasoning_omission": 20.833333333333332
+        },
+        "detailed": {
+          "correctness": 23.214285714285715,
+          "economic_reasoning": 26.339285714285715,
+          "coverage": 100,
+          "original_score": 37.5,
+          "explicit_economic_error": 55.50595238095238,
+          "reasoning_omission": 14.583333333333332
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 57.44047619047619,
+          "economic_reasoning": 67.26190476190476,
+          "coverage": 100,
+          "original_score": 72.5,
+          "explicit_economic_error": 29.613095238095234,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 54.31547619047619,
+          "economic_reasoning": 64.13690476190476,
+          "coverage": 100,
+          "original_score": 67.5,
+          "explicit_economic_error": 32.738095238095234,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 39.73214285714286,
+          "economic_reasoning": 49.55357142857143,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 47.32142857142857,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 44.047619047619044,
+          "economic_reasoning": 67.85714285714286,
+          "coverage": 100,
+          "original_score": 52.5,
+          "explicit_economic_error": 29.017857142857142,
+          "reasoning_omission": 3.125
+        },
+        "rough": {
+          "correctness": 50.297619047619044,
+          "economic_reasoning": 57.44047619047619,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 42.55952380952381,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 53.86904761904762,
+          "economic_reasoning": 61.01190476190476,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 38.988095238095234,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 57.88690476190476,
+          "economic_reasoning": 57.88690476190476,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 42.113095238095234,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 47.61904761904762,
+          "economic_reasoning": 50.74404761904762,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 49.25595238095238,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 76.04166666666666,
+          "economic_reasoning": 72.91666666666666,
+          "coverage": 100,
+          "original_score": 85.0,
+          "explicit_economic_error": 20.833333333333332,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 72.47023809523809,
+          "economic_reasoning": 66.22023809523809,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 33.779761904761905,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 73.95833333333333,
+          "economic_reasoning": 73.95833333333333,
+          "coverage": 100,
+          "original_score": 82.5,
+          "explicit_economic_error": 17.708333333333332,
+          "reasoning_omission": 8.333333333333332
+        },
+        "detailed": {
+          "correctness": 54.31547619047619,
+          "economic_reasoning": 54.31547619047619,
+          "coverage": 100,
+          "original_score": 67.5,
+          "explicit_economic_error": 37.351190476190474,
+          "reasoning_omission": 8.333333333333332
+        }
+      }
+    },
+    "2022": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 20.535714285714285,
+          "economic_reasoning": 26.785714285714285,
+          "coverage": 100,
+          "original_score": 22.5,
+          "explicit_economic_error": 49.107142857142854,
+          "reasoning_omission": 33.92857142857143
+        },
+        "rough": {
+          "correctness": 20.535714285714285,
+          "economic_reasoning": 33.92857142857143,
+          "coverage": 100,
+          "original_score": 25.0,
+          "explicit_economic_error": 49.107142857142854,
+          "reasoning_omission": 20.535714285714285
+        },
+        "detailed": {
+          "correctness": 27.678571428571427,
+          "economic_reasoning": 33.92857142857143,
+          "coverage": 100,
+          "original_score": 27.5,
+          "explicit_economic_error": 49.107142857142854,
+          "reasoning_omission": 26.785714285714285
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 39.285714285714285,
+          "economic_reasoning": 39.285714285714285,
+          "coverage": 100,
+          "original_score": 55.0,
+          "explicit_economic_error": 44.64285714285714,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 39.285714285714285,
+          "economic_reasoning": 45.535714285714285,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 34.82142857142857,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 48.214285714285715,
+          "economic_reasoning": 54.464285714285715,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 35.714285714285715,
+          "reasoning_omission": 3.571428571428571
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 27.678571428571427,
+          "economic_reasoning": 27.678571428571427,
+          "coverage": 100,
+          "original_score": 37.5,
+          "explicit_economic_error": 45.535714285714285,
+          "reasoning_omission": 16.964285714285715
+        },
+        "rough": {
+          "correctness": 21.428571428571427,
+          "economic_reasoning": 21.428571428571427,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 61.607142857142854,
+          "reasoning_omission": 3.571428571428571
+        },
+        "detailed": {
+          "correctness": 29.76190476190476,
+          "economic_reasoning": 29.76190476190476,
+          "coverage": 100,
+          "original_score": 32.5,
+          "explicit_economic_error": 56.84523809523809,
+          "reasoning_omission": 11.904761904761903
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 27.678571428571427,
+          "economic_reasoning": 27.678571428571427,
+          "coverage": 100,
+          "original_score": 55.0,
+          "explicit_economic_error": 72.32142857142857,
+          "reasoning_omission": 8.333333333333332
+        },
+        "rough": {
+          "correctness": 31.25,
+          "economic_reasoning": 31.25,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 58.92857142857143,
+          "reasoning_omission": 3.571428571428571
+        },
+        "detailed": {
+          "correctness": 31.25,
+          "economic_reasoning": 31.25,
+          "coverage": 100,
+          "original_score": 55.0,
+          "explicit_economic_error": 65.17857142857143,
+          "reasoning_omission": 3.571428571428571
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 34.82142857142857,
+          "economic_reasoning": 38.39285714285714,
+          "coverage": 100,
+          "original_score": 47.5,
+          "explicit_economic_error": 49.107142857142854,
+          "reasoning_omission": 11.904761904761903
+        },
+        "rough": {
+          "correctness": 31.25,
+          "economic_reasoning": 31.25,
+          "coverage": 100,
+          "original_score": 42.5,
+          "explicit_economic_error": 52.67857142857143,
+          "reasoning_omission": 11.904761904761903
+        },
+        "detailed": {
+          "correctness": 31.25,
+          "economic_reasoning": 31.25,
+          "coverage": 100,
+          "original_score": 40.0,
+          "explicit_economic_error": 62.5,
+          "reasoning_omission": 8.333333333333332
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 60.714285714285715,
+          "economic_reasoning": 60.714285714285715,
+          "coverage": 100,
+          "original_score": 72.5,
+          "explicit_economic_error": 39.285714285714285,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 57.14285714285714,
+          "economic_reasoning": 57.14285714285714,
+          "coverage": 100,
+          "original_score": 65.0,
+          "explicit_economic_error": 42.857142857142854,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 60.714285714285715,
+          "economic_reasoning": 60.714285714285715,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 39.285714285714285,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 71.42857142857143,
+          "economic_reasoning": 71.42857142857143,
+          "coverage": 100,
+          "original_score": 82.5,
+          "explicit_economic_error": 28.57142857142857,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 66.36904761904762,
+          "economic_reasoning": 72.61904761904762,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 27.38095238095238,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 41.07142857142857,
+          "economic_reasoning": 41.07142857142857,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 58.92857142857143,
+          "reasoning_omission": 0
+        }
+      }
+    },
+    "2023": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 27.916666666666664,
+          "economic_reasoning": 32.916666666666664,
+          "coverage": 95.83333333333334,
+          "original_score": 20.0,
+          "explicit_economic_error": 37.916666666666664,
+          "reasoning_omission": 29.166666666666664
+        },
+        "rough": {
+          "correctness": 27.916666666666664,
+          "economic_reasoning": 28.75,
+          "coverage": 100,
+          "original_score": 22.5,
+          "explicit_economic_error": 48.333333333333336,
+          "reasoning_omission": 22.916666666666664
+        },
+        "detailed": {
+          "correctness": 36.25,
+          "economic_reasoning": 41.25,
+          "coverage": 100,
+          "original_score": 30.0,
+          "explicit_economic_error": 33.75,
+          "reasoning_omission": 22.916666666666664
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 65.83333333333334,
+          "economic_reasoning": 70.83333333333334,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 22.916666666666664,
+          "reasoning_omission": 6.25
+        },
+        "rough": {
+          "correctness": 57.5,
+          "economic_reasoning": 66.66666666666666,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 27.083333333333332,
+          "reasoning_omission": 6.25
+        },
+        "detailed": {
+          "correctness": 58.75,
+          "economic_reasoning": 63.75,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 25.0,
+          "reasoning_omission": 11.25
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 30.833333333333332,
+          "economic_reasoning": 35.83333333333333,
+          "coverage": 100,
+          "original_score": 42.5,
+          "explicit_economic_error": 40.416666666666664,
+          "reasoning_omission": 22.916666666666664
+        },
+        "rough": {
+          "correctness": 26.666666666666664,
+          "economic_reasoning": 31.666666666666664,
+          "coverage": 100,
+          "original_score": 32.5,
+          "explicit_economic_error": 46.666666666666664,
+          "reasoning_omission": 22.916666666666664
+        },
+        "detailed": {
+          "correctness": 24.583333333333332,
+          "economic_reasoning": 34.58333333333333,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 46.666666666666664,
+          "reasoning_omission": 18.75
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 48.75,
+          "economic_reasoning": 68.75,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 27.083333333333332,
+          "reasoning_omission": 4.166666666666666
+        },
+        "rough": {
+          "correctness": 40.416666666666664,
+          "economic_reasoning": 55.416666666666664,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 27.916666666666664,
+          "reasoning_omission": 21.666666666666664
+        },
+        "detailed": {
+          "correctness": 47.5,
+          "economic_reasoning": 62.5,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 31.25,
+          "reasoning_omission": 11.25
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 30.833333333333332,
+          "economic_reasoning": 40.0,
+          "coverage": 100,
+          "original_score": 42.5,
+          "explicit_economic_error": 49.58333333333333,
+          "reasoning_omission": 10.416666666666666
+        },
+        "rough": {
+          "correctness": 39.166666666666664,
+          "economic_reasoning": 39.166666666666664,
+          "coverage": 100,
+          "original_score": 47.5,
+          "explicit_economic_error": 45.416666666666664,
+          "reasoning_omission": 10.416666666666666
+        },
+        "detailed": {
+          "correctness": 35.0,
+          "economic_reasoning": 35.0,
+          "coverage": 100,
+          "original_score": 37.5,
+          "explicit_economic_error": 65.0,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 57.916666666666664,
+          "economic_reasoning": 51.666666666666664,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 42.08333333333333,
+          "reasoning_omission": 6.25
+        },
+        "rough": {
+          "correctness": 61.666666666666664,
+          "economic_reasoning": 55.416666666666664,
+          "coverage": 100,
+          "original_score": 67.5,
+          "explicit_economic_error": 38.33333333333333,
+          "reasoning_omission": 12.5
+        },
+        "detailed": {
+          "correctness": 72.5,
+          "economic_reasoning": 66.25,
+          "coverage": 100,
+          "original_score": 82.5,
+          "explicit_economic_error": 27.5,
+          "reasoning_omission": 6.25
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 66.66666666666666,
+          "economic_reasoning": 66.66666666666666,
+          "coverage": 100,
+          "original_score": 67.5,
+          "explicit_economic_error": 33.33333333333333,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 66.66666666666666,
+          "economic_reasoning": 66.66666666666666,
+          "coverage": 100,
+          "original_score": 67.5,
+          "explicit_economic_error": 33.33333333333333,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 70.0,
+          "economic_reasoning": 70.0,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 30.0,
+          "reasoning_omission": 0
+        }
+      }
+    },
+    "2024": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 24.583333333333332,
+          "economic_reasoning": 30.833333333333332,
+          "coverage": 83.33333333333333,
+          "original_score": 27.5,
+          "explicit_economic_error": 34.166666666666664,
+          "reasoning_omission": 35.0
+        },
+        "rough": {
+          "correctness": 36.25,
+          "economic_reasoning": 44.583333333333336,
+          "coverage": 100,
+          "original_score": 37.5,
+          "explicit_economic_error": 44.166666666666664,
+          "reasoning_omission": 10.0
+        },
+        "detailed": {
+          "correctness": 32.916666666666664,
+          "economic_reasoning": 37.08333333333333,
+          "coverage": 100,
+          "original_score": 32.5,
+          "explicit_economic_error": 42.5,
+          "reasoning_omission": 14.166666666666666
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 42.08333333333333,
+          "economic_reasoning": 48.33333333333333,
+          "coverage": 100,
+          "original_score": 52.5,
+          "explicit_economic_error": 43.33333333333333,
+          "reasoning_omission": 4.166666666666666
+        },
+        "rough": {
+          "correctness": 60.83333333333333,
+          "economic_reasoning": 60.83333333333333,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 30.833333333333332,
+          "reasoning_omission": 4.166666666666666
+        },
+        "detailed": {
+          "correctness": 54.58333333333333,
+          "economic_reasoning": 60.83333333333333,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 30.833333333333332,
+          "reasoning_omission": 4.166666666666666
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 33.75,
+          "economic_reasoning": 37.916666666666664,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 43.33333333333333,
+          "reasoning_omission": 16.666666666666664
+        },
+        "rough": {
+          "correctness": 33.75,
+          "economic_reasoning": 33.75,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 43.33333333333333,
+          "reasoning_omission": 12.499999999999998
+        },
+        "detailed": {
+          "correctness": 33.75,
+          "economic_reasoning": 42.08333333333333,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 34.166666666666664,
+          "reasoning_omission": 17.5
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 40.0,
+          "economic_reasoning": 44.166666666666664,
+          "coverage": 100,
+          "original_score": 42.5,
+          "explicit_economic_error": 30.0,
+          "reasoning_omission": 13.333333333333332
+        },
+        "rough": {
+          "correctness": 52.5,
+          "economic_reasoning": 69.16666666666666,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 21.666666666666664,
+          "reasoning_omission": 9.166666666666666
+        },
+        "detailed": {
+          "correctness": 50.416666666666664,
+          "economic_reasoning": 67.08333333333333,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 21.666666666666664,
+          "reasoning_omission": 11.25
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 56.66666666666667,
+          "economic_reasoning": 56.66666666666667,
+          "coverage": 100,
+          "original_score": 52.5,
+          "explicit_economic_error": 39.166666666666664,
+          "reasoning_omission": 4.166666666666666
+        },
+        "rough": {
+          "correctness": 37.916666666666664,
+          "economic_reasoning": 42.08333333333333,
+          "coverage": 100,
+          "original_score": 45.0,
+          "explicit_economic_error": 47.5,
+          "reasoning_omission": 10.416666666666666
+        },
+        "detailed": {
+          "correctness": 56.66666666666667,
+          "economic_reasoning": 56.66666666666667,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 32.916666666666664,
+          "reasoning_omission": 4.166666666666666
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 70.0,
+          "economic_reasoning": 70.0,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 25.83333333333333,
+          "reasoning_omission": 4.166666666666666
+        },
+        "rough": {
+          "correctness": 59.58333333333333,
+          "economic_reasoning": 59.58333333333333,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 32.08333333333333,
+          "reasoning_omission": 4.166666666666666
+        },
+        "detailed": {
+          "correctness": 72.08333333333333,
+          "economic_reasoning": 72.08333333333333,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 23.75,
+          "reasoning_omission": 4.166666666666666
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 56.666666666666664,
+          "economic_reasoning": 56.666666666666664,
+          "coverage": 100,
+          "original_score": 65.0,
+          "explicit_economic_error": 43.33333333333333,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 67.91666666666666,
+          "economic_reasoning": 72.08333333333333,
+          "coverage": 100,
+          "original_score": 77.5,
+          "explicit_economic_error": 22.916666666666664,
+          "reasoning_omission": 5.0
+        },
+        "detailed": {
+          "correctness": 73.33333333333334,
+          "economic_reasoning": 73.33333333333334,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 22.5,
+          "reasoning_omission": 4.166666666666666
+        }
+      }
+    },
+    "2025": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 42.5,
+          "economic_reasoning": 42.5,
+          "coverage": 100,
+          "original_score": 27.5,
+          "explicit_economic_error": 47.5,
+          "reasoning_omission": 9.166666666666666
+        },
+        "rough": {
+          "correctness": 35.83333333333333,
+          "economic_reasoning": 35.83333333333333,
+          "coverage": 95.0,
+          "original_score": 27.5,
+          "explicit_economic_error": 35.0,
+          "reasoning_omission": 19.166666666666664
+        },
+        "detailed": {
+          "correctness": 33.33333333333333,
+          "economic_reasoning": 33.33333333333333,
+          "coverage": 100,
+          "original_score": 22.5,
+          "explicit_economic_error": 37.5,
+          "reasoning_omission": 24.166666666666664
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 62.5,
+          "economic_reasoning": 67.5,
+          "coverage": 100,
+          "original_score": 72.5,
+          "explicit_economic_error": 22.5,
+          "reasoning_omission": 5.0
+        },
+        "rough": {
+          "correctness": 58.33333333333333,
+          "economic_reasoning": 58.33333333333333,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 31.666666666666664,
+          "reasoning_omission": 5.0
+        },
+        "detailed": {
+          "correctness": 62.5,
+          "economic_reasoning": 58.33333333333333,
+          "coverage": 100,
+          "original_score": 65.0,
+          "explicit_economic_error": 31.666666666666664,
+          "reasoning_omission": 5.0
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 45.83333333333333,
+          "economic_reasoning": 50.83333333333333,
+          "coverage": 100,
+          "original_score": 37.5,
+          "explicit_economic_error": 20.83333333333333,
+          "reasoning_omission": 14.166666666666666
+        },
+        "rough": {
+          "correctness": 45.83333333333333,
+          "economic_reasoning": 55.0,
+          "coverage": 100,
+          "original_score": 45.0,
+          "explicit_economic_error": 16.666666666666664,
+          "reasoning_omission": 14.166666666666666
+        },
+        "detailed": {
+          "correctness": 45.83333333333333,
+          "economic_reasoning": 50.83333333333333,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 39.166666666666664,
+          "reasoning_omission": 9.166666666666666
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 54.166666666666664,
+          "economic_reasoning": 54.166666666666664,
+          "coverage": 100,
+          "original_score": 50.0,
+          "explicit_economic_error": 28.333333333333332,
+          "reasoning_omission": 22.5
+        },
+        "rough": {
+          "correctness": 54.166666666666664,
+          "economic_reasoning": 54.166666666666664,
+          "coverage": 100,
+          "original_score": 55.0,
+          "explicit_economic_error": 36.666666666666664,
+          "reasoning_omission": 14.166666666666666
+        },
+        "detailed": {
+          "correctness": 50.0,
+          "economic_reasoning": 54.166666666666664,
+          "coverage": 100,
+          "original_score": 50.0,
+          "explicit_economic_error": 32.5,
+          "reasoning_omission": 18.333333333333332
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 54.166666666666664,
+          "economic_reasoning": 58.333333333333336,
+          "coverage": 100,
+          "original_score": 50.0,
+          "explicit_economic_error": 36.666666666666664,
+          "reasoning_omission": 10.0
+        },
+        "rough": {
+          "correctness": 58.333333333333336,
+          "economic_reasoning": 58.333333333333336,
+          "coverage": 100,
+          "original_score": 55.0,
+          "explicit_economic_error": 36.666666666666664,
+          "reasoning_omission": 10.0
+        },
+        "detailed": {
+          "correctness": 58.33333333333333,
+          "economic_reasoning": 59.166666666666664,
+          "coverage": 100,
+          "original_score": 57.5,
+          "explicit_economic_error": 40.83333333333333,
+          "reasoning_omission": 5.0
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 72.5,
+          "economic_reasoning": 71.66666666666666,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 28.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 80.83333333333334,
+          "economic_reasoning": 75.83333333333334,
+          "coverage": 100,
+          "original_score": 82.5,
+          "explicit_economic_error": 19.166666666666664,
+          "reasoning_omission": 5.0
+        },
+        "detailed": {
+          "correctness": 71.66666666666666,
+          "economic_reasoning": 76.66666666666666,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 23.333333333333332,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 77.5,
+          "economic_reasoning": 86.66666666666666,
+          "coverage": 100,
+          "original_score": 82.5,
+          "explicit_economic_error": 13.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 64.16666666666666,
+          "economic_reasoning": 68.33333333333334,
+          "coverage": 100,
+          "original_score": 62.5,
+          "explicit_economic_error": 26.666666666666664,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 76.66666666666666,
+          "economic_reasoning": 76.66666666666666,
+          "coverage": 100,
+          "original_score": 77.5,
+          "explicit_economic_error": 23.333333333333332,
+          "reasoning_omission": 0
+        }
+      }
+    },
+    "2026": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 43.33333333333333,
+          "economic_reasoning": 53.33333333333333,
+          "coverage": 100,
+          "original_score": 45.0,
+          "explicit_economic_error": 28.333333333333332,
+          "reasoning_omission": 10.0
+        },
+        "rough": {
+          "correctness": 45.0,
+          "economic_reasoning": 45.0,
+          "coverage": 100,
+          "original_score": 40.0,
+          "explicit_economic_error": 36.666666666666664,
+          "reasoning_omission": 26.666666666666664
+        },
+        "detailed": {
+          "correctness": 53.33333333333333,
+          "economic_reasoning": 63.33333333333333,
+          "coverage": 100,
+          "original_score": 50.0,
+          "explicit_economic_error": 36.666666666666664,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 91.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 91.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 85.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 91.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 35.0,
+          "economic_reasoning": 35.0,
+          "coverage": 100,
+          "original_score": 35.0,
+          "explicit_economic_error": 26.666666666666664,
+          "reasoning_omission": 38.33333333333333
+        },
+        "rough": {
+          "correctness": 61.66666666666667,
+          "economic_reasoning": 61.66666666666667,
+          "coverage": 100,
+          "original_score": 50.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 30.0
+        },
+        "detailed": {
+          "correctness": 43.33333333333333,
+          "economic_reasoning": 43.33333333333333,
+          "coverage": 100,
+          "original_score": 45.0,
+          "explicit_economic_error": 26.666666666666664,
+          "reasoning_omission": 20.0
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 81.66666666666667,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 73.33333333333333,
+          "economic_reasoning": 73.33333333333333,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 8.333333333333332
+        },
+        "detailed": {
+          "correctness": 83.33333333333333,
+          "economic_reasoning": 83.33333333333333,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 8.333333333333332
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 81.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 81.66666666666667,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 71.66666666666667,
+          "economic_reasoning": 71.66666666666667,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 28.333333333333332,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 91.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 81.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 81.66666666666667,
+          "coverage": 100,
+          "original_score": 70.0,
+          "explicit_economic_error": 18.333333333333332,
+          "reasoning_omission": 0
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 81.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 91.66666666666667,
+          "economic_reasoning": 91.66666666666667,
+          "coverage": 100,
+          "original_score": 80.0,
+          "explicit_economic_error": 8.333333333333332,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 71.66666666666667,
+          "economic_reasoning": 71.66666666666667,
+          "coverage": 100,
+          "original_score": 75.0,
+          "explicit_economic_error": 28.333333333333332,
+          "reasoning_omission": 0
+        }
+      }
+    }
+  },
+  "means_by_subject": {
+    "macroeconomics": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 29.123376623376622,
+          "economic_reasoning": 33.896103896103895,
+          "coverage": 92.42424242424242,
+          "original_score": 30.0,
+          "explicit_economic_error": 41.504329004329,
+          "reasoning_omission": 28.549783549783548
+        },
+        "rough": {
+          "correctness": 37.272727272727266,
+          "economic_reasoning": 43.2034632034632,
+          "coverage": 100,
+          "original_score": 39.09090909090909,
+          "explicit_economic_error": 43.01948051948052,
+          "reasoning_omission": 15.075757575757574
+        },
+        "detailed": {
+          "correctness": 34.188311688311686,
+          "economic_reasoning": 39.33982683982684,
+          "coverage": 100,
+          "original_score": 34.54545454545455,
+          "explicit_economic_error": 48.86363636363636,
+          "reasoning_omission": 15.909090909090908
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 77.61904761904762,
+          "economic_reasoning": 79.43722943722943,
+          "coverage": 100,
+          "original_score": 85.45454545454545,
+          "explicit_economic_error": 16.233766233766232,
+          "reasoning_omission": 1.515151515151515
+        },
+        "rough": {
+          "correctness": 76.48268398268398,
+          "economic_reasoning": 79.81601731601731,
+          "coverage": 100,
+          "original_score": 81.81818181818181,
+          "explicit_economic_error": 14.556277056277054,
+          "reasoning_omission": 1.515151515151515
+        },
+        "detailed": {
+          "correctness": 74.88095238095238,
+          "economic_reasoning": 75.18398268398268,
+          "coverage": 100,
+          "original_score": 80.9090909090909,
+          "explicit_economic_error": 18.66883116883117,
+          "reasoning_omission": 4.632034632034632
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 36.839826839826834,
+          "economic_reasoning": 41.3095238095238,
+          "coverage": 100,
+          "original_score": 44.54545454545455,
+          "explicit_economic_error": 37.51082251082251,
+          "reasoning_omission": 19.57792207792208
+        },
+        "rough": {
+          "correctness": 37.14285714285714,
+          "economic_reasoning": 44.20995670995671,
+          "coverage": 100,
+          "original_score": 45.45454545454545,
+          "explicit_economic_error": 30.443722943722943,
+          "reasoning_omission": 16.6017316017316
+        },
+        "detailed": {
+          "correctness": 36.839826839826834,
+          "economic_reasoning": 44.64285714285714,
+          "coverage": 100,
+          "original_score": 46.36363636363637,
+          "explicit_economic_error": 39.188311688311686,
+          "reasoning_omission": 13.268398268398267
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 49.891774891774894,
+          "economic_reasoning": 59.97835497835498,
+          "coverage": 100,
+          "original_score": 61.81818181818182,
+          "explicit_economic_error": 29.79437229437229,
+          "reasoning_omission": 9.09090909090909
+        },
+        "rough": {
+          "correctness": 56.11471861471861,
+          "economic_reasoning": 64.38311688311688,
+          "coverage": 100,
+          "original_score": 68.18181818181819,
+          "explicit_economic_error": 28.636363636363633,
+          "reasoning_omission": 7.662337662337662
+        },
+        "detailed": {
+          "correctness": 58.23593073593074,
+          "economic_reasoning": 68.01948051948051,
+          "coverage": 100,
+          "original_score": 66.36363636363636,
+          "explicit_economic_error": 26.515151515151512,
+          "reasoning_omission": 6.147186147186146
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 53.98268398268398,
+          "economic_reasoning": 62.72727272727273,
+          "coverage": 100,
+          "original_score": 59.09090909090909,
+          "explicit_economic_error": 33.1060606060606,
+          "reasoning_omission": 5.465367965367965
+        },
+        "rough": {
+          "correctness": 54.95670995670996,
+          "economic_reasoning": 59.069264069264065,
+          "coverage": 100,
+          "original_score": 62.72727272727273,
+          "explicit_economic_error": 34.78354978354978,
+          "reasoning_omission": 4.329004329004328
+        },
+        "detailed": {
+          "correctness": 57.467532467532465,
+          "economic_reasoning": 58.54978354978355,
+          "coverage": 100,
+          "original_score": 62.72727272727273,
+          "explicit_economic_error": 39.935064935064936,
+          "reasoning_omission": 1.515151515151515
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 70.24891774891775,
+          "economic_reasoning": 71.76406926406926,
+          "coverage": 100,
+          "original_score": 75.45454545454545,
+          "explicit_economic_error": 26.720779220779217,
+          "reasoning_omission": 1.515151515151515
+        },
+        "rough": {
+          "correctness": 68.54978354978356,
+          "economic_reasoning": 69.68614718614718,
+          "coverage": 100,
+          "original_score": 75.45454545454545,
+          "explicit_economic_error": 27.28354978354978,
+          "reasoning_omission": 1.515151515151515
+        },
+        "detailed": {
+          "correctness": 75.03246753246754,
+          "economic_reasoning": 76.16883116883116,
+          "coverage": 100,
+          "original_score": 81.81818181818181,
+          "explicit_economic_error": 22.316017316017316,
+          "reasoning_omission": 1.515151515151515
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 77.02380952380952,
+          "economic_reasoning": 80.35714285714285,
+          "coverage": 100,
+          "original_score": 82.72727272727273,
+          "explicit_economic_error": 19.642857142857142,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 76.78571428571428,
+          "economic_reasoning": 79.81601731601731,
+          "coverage": 100,
+          "original_score": 80.9090909090909,
+          "explicit_economic_error": 20.18398268398268,
+          "reasoning_omission": 0
+        },
+        "detailed": {
+          "correctness": 76.2012987012987,
+          "economic_reasoning": 76.2012987012987,
+          "coverage": 100,
+          "original_score": 80.9090909090909,
+          "explicit_economic_error": 22.283549783549784,
+          "reasoning_omission": 1.515151515151515
+        }
+      }
+    },
+    "microeconomics": {
+      "gpt-4.1-nano": {
+        "none": {
+          "correctness": 31.96969696969697,
+          "economic_reasoning": 36.515151515151516,
+          "coverage": 100,
+          "original_score": 28.181818181818183,
+          "explicit_economic_error": 42.57575757575758,
+          "reasoning_omission": 19.848484848484848
+        },
+        "rough": {
+          "correctness": 26.21212121212121,
+          "economic_reasoning": 28.484848484848484,
+          "coverage": 98.18181818181819,
+          "original_score": 20.90909090909091,
+          "explicit_economic_error": 47.72727272727273,
+          "reasoning_omission": 21.21212121212121
+        },
+        "detailed": {
+          "correctness": 30.151515151515152,
+          "economic_reasoning": 32.42424242424242,
+          "coverage": 100,
+          "original_score": 27.272727272727273,
+          "explicit_economic_error": 38.93939393939394,
+          "reasoning_omission": 22.272727272727273
+        }
+      },
+      "gpt-4.1": {
+        "none": {
+          "correctness": 38.03030303030303,
+          "economic_reasoning": 39.84848484848485,
+          "coverage": 100,
+          "original_score": 43.63636363636363,
+          "explicit_economic_error": 47.42424242424242,
+          "reasoning_omission": 4.090909090909091
+        },
+        "rough": {
+          "correctness": 38.03030303030303,
+          "economic_reasoning": 38.03030303030303,
+          "coverage": 100,
+          "original_score": 43.63636363636363,
+          "explicit_economic_error": 49.24242424242424,
+          "reasoning_omission": 4.090909090909091
+        },
+        "detailed": {
+          "correctness": 42.57575757575758,
+          "economic_reasoning": 44.84848484848485,
+          "coverage": 100,
+          "original_score": 53.63636363636363,
+          "explicit_economic_error": 44.696969696969695,
+          "reasoning_omission": 4.090909090909091
+        }
+      },
+      "gpt-4o-mini": {
+        "none": {
+          "correctness": 28.181818181818183,
+          "economic_reasoning": 30.0,
+          "coverage": 100,
+          "original_score": 30.0,
+          "explicit_economic_error": 42.27272727272727,
+          "reasoning_omission": 19.545454545454543
+        },
+        "rough": {
+          "correctness": 28.93939393939394,
+          "economic_reasoning": 30.757575757575758,
+          "coverage": 100,
+          "original_score": 31.818181818181817,
+          "explicit_economic_error": 47.57575757575758,
+          "reasoning_omission": 15.757575757575758
+        },
+        "detailed": {
+          "correctness": 28.18181818181818,
+          "economic_reasoning": 30.0,
+          "coverage": 100,
+          "original_score": 25.454545454545453,
+          "explicit_economic_error": 50.15151515151515,
+          "reasoning_omission": 16.515151515151516
+        }
+      },
+      "gpt-4o": {
+        "none": {
+          "correctness": 47.87878787878788,
+          "economic_reasoning": 50.15151515151515,
+          "coverage": 100,
+          "original_score": 53.63636363636363,
+          "explicit_economic_error": 41.666666666666664,
+          "reasoning_omission": 8.484848484848484
+        },
+        "rough": {
+          "correctness": 41.81818181818182,
+          "economic_reasoning": 48.63636363636363,
+          "coverage": 100,
+          "original_score": 51.81818181818182,
+          "explicit_economic_error": 39.39393939393939,
+          "reasoning_omission": 11.515151515151516
+        },
+        "detailed": {
+          "correctness": 36.515151515151516,
+          "economic_reasoning": 43.333333333333336,
+          "coverage": 100,
+          "original_score": 53.63636363636363,
+          "explicit_economic_error": 46.96969696969697,
+          "reasoning_omission": 11.515151515151516
+        }
+      },
+      "gpt-5.4-nano": {
+        "none": {
+          "correctness": 41.06060606060606,
+          "economic_reasoning": 47.121212121212125,
+          "coverage": 100,
+          "original_score": 44.54545454545455,
+          "explicit_economic_error": 44.24242424242424,
+          "reasoning_omission": 8.93939393939394
+        },
+        "rough": {
+          "correctness": 38.78787878787879,
+          "economic_reasoning": 38.78787878787879,
+          "coverage": 100,
+          "original_score": 40.90909090909091,
+          "explicit_economic_error": 50.303030303030305,
+          "reasoning_omission": 11.212121212121211
+        },
+        "detailed": {
+          "correctness": 41.06060606060606,
+          "economic_reasoning": 42.87878787878788,
+          "coverage": 100,
+          "original_score": 41.81818181818182,
+          "explicit_economic_error": 52.57575757575758,
+          "reasoning_omission": 4.848484848484848
+        }
+      },
+      "gpt-5.4": {
+        "none": {
+          "correctness": 62.42424242424242,
+          "economic_reasoning": 58.333333333333336,
+          "coverage": 100,
+          "original_score": 65.45454545454545,
+          "explicit_economic_error": 39.39393939393939,
+          "reasoning_omission": 2.272727272727273
+        },
+        "rough": {
+          "correctness": 57.87878787878788,
+          "economic_reasoning": 53.78787878787879,
+          "coverage": 100,
+          "original_score": 60.0,
+          "explicit_economic_error": 42.12121212121212,
+          "reasoning_omission": 6.363636363636363
+        },
+        "detailed": {
+          "correctness": 68.18181818181819,
+          "economic_reasoning": 65.45454545454545,
+          "coverage": 100,
+          "original_score": 71.81818181818181,
+          "explicit_economic_error": 30.0,
+          "reasoning_omission": 2.272727272727273
+        }
+      },
+      "gpt-6-luna": {
+        "none": {
+          "correctness": 63.18181818181818,
+          "economic_reasoning": 62.72727272727273,
+          "coverage": 100,
+          "original_score": 67.27272727272727,
+          "explicit_economic_error": 37.27272727272727,
+          "reasoning_omission": 0
+        },
+        "rough": {
+          "correctness": 63.18181818181818,
+          "economic_reasoning": 65.45454545454545,
+          "coverage": 100,
+          "original_score": 66.36363636363636,
+          "explicit_economic_error": 27.87878787878788,
+          "reasoning_omission": 4.848484848484848
+        },
+        "detailed": {
+          "correctness": 51.515151515151516,
+          "economic_reasoning": 51.515151515151516,
+          "coverage": 100,
+          "original_score": 60.90909090909091,
+          "explicit_economic_error": 45.45454545454545,
+          "reasoning_omission": 3.03030303030303
+        }
+      }
+    }
+  },
+  "rubric_effects": {
+    "gpt-4.1-nano": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 1.1958874458874453,
+          "ci_low": -8.498344622136214,
+          "ci_high": 10.890119513911104,
+          "p": 0.8000284039613865,
+          "signflip_p": 0.8051097445127744,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 0.6385281385281406,
+          "ci_low": -10.81036063170894,
+          "ci_high": 12.087416908765222,
+          "p": 0.9087669249597708,
+          "signflip_p": 0.9061046947652618,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 2.8787878787878785,
+          "ci_low": -3.9213974133577554,
+          "ci_high": 9.678973170933512,
+          "p": 0.3886163795860406,
+          "signflip_p": 0.7557122143892805,
+          "degenerate_observed_variation": false
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 0.9090909090909091,
+          "ci_low": -8.260370814541396,
+          "ci_high": 10.078552632723213,
+          "p": 0.838636242427743,
+          "signflip_p": 0.9211039448027598,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 3.3333333333333344,
+          "ci_low": -6.52560409716123,
+          "ci_high": 13.192270763827898,
+          "p": 0.48970151124079536,
+          "signflip_p": 0.5474226288685565,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": -6.055194805194805,
+          "ci_low": -18.529170185241682,
+          "ci_high": 6.418780574852073,
+          "p": 0.3242263025164044,
+          "signflip_p": 0.33433328333583323,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 1.6233766233766231,
+          "ci_low": -5.170932023915517,
+          "ci_high": 8.417685270668763,
+          "p": 0.624431377287736,
+          "signflip_p": 0.6277686115694215,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 0.676406926406927,
+          "ci_low": -7.1801376410170255,
+          "ci_high": 8.532951493830879,
+          "p": 0.8596195222185256,
+          "signflip_p": 0.8617569121543923,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 3.7878787878787876,
+          "ci_low": -2.634735408679837,
+          "ci_high": 10.210492984437412,
+          "p": 0.2335862043248621,
+          "signflip_p": 0.5026748662566871,
+          "degenerate_observed_variation": false
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 1.8181818181818181,
+          "ci_low": -4.397564710403232,
+          "ci_high": 8.033928346766869,
+          "p": 0.549503837116982,
+          "signflip_p": 0.6600669966501674,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 1.8614718614718617,
+          "ci_low": -6.546906587605766,
+          "ci_high": 10.26985031054949,
+          "p": 0.6499672569747563,
+          "signflip_p": 0.664316784160792,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": -5.108225108225108,
+          "ci_low": -17.216711573477134,
+          "ci_high": 7.00026135702692,
+          "p": 0.39023434138530655,
+          "signflip_p": 0.392280385980701,
+          "degenerate_observed_variation": false
+        }
+      }
+    },
+    "gpt-4.1": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -0.5681818181818201,
+          "ci_low": -6.821205552542373,
+          "ci_high": 5.6848419161787325,
+          "p": 0.8519350604116552,
+          "signflip_p": 0.9210539473026349,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": -0.719696969696972,
+          "ci_low": -6.636087360330781,
+          "ci_high": 5.196693420936836,
+          "p": 0.802748343060634,
+          "signflip_p": 0.8554072296385181,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": -1.8181818181818181,
+          "ci_low": -7.228771387671633,
+          "ci_high": 3.592407751307996,
+          "p": 0.49232218063474187,
+          "signflip_p": 0.608319584020799,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 0.07034632034632017,
+          "ci_low": -6.014038632337708,
+          "ci_high": 6.154731273030348,
+          "p": 0.9810444930545151,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 0.903679653679653,
+          "ci_low": -7.502049463007607,
+          "ci_high": 9.309408770366913,
+          "p": 0.8252491961947467,
+          "signflip_p": 0.8339083045847707,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 0.3733766233766225,
+          "ci_low": -9.6861005780917,
+          "ci_high": 10.432853824844944,
+          "p": 0.9392040459199642,
+          "signflip_p": 0.9555022248887556,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 2.727272727272727,
+          "ci_low": -5.388611626961996,
+          "ci_high": 10.84315708150745,
+          "p": 0.4923221806347419,
+          "signflip_p": 0.5743212839358032,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": -0.14610389610389582,
+          "ci_low": -8.855950893738376,
+          "ci_high": 8.563743101530585,
+          "p": 0.9725012128663445,
+          "signflip_p": 0.9726513674316284,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 1.5584415584415583,
+          "ci_low": -0.7119422346457849,
+          "ci_high": 3.8288253515289012,
+          "p": 0.16814002359665461,
+          "signflip_p": 0.5102244887755613,
+          "degenerate_observed_variation": false
+        }
+      }
+    },
+    "gpt-4o-mini": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 0.5303030303030312,
+          "ci_low": -4.736491961642044,
+          "ci_high": 5.7970980222481066,
+          "p": 0.8361600810322031,
+          "signflip_p": 0.9028548572571371,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 1.8290043290043305,
+          "ci_low": -4.890438127359988,
+          "ci_high": 8.548446785368649,
+          "p": 0.5773510708268529,
+          "signflip_p": 0.6056197190140493,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 1.3636363636363635,
+          "ci_low": -3.0267169636337234,
+          "ci_high": 5.75398969090645,
+          "p": 0.5253243899540706,
+          "signflip_p": 0.6733663316834159,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": -0.8820346320346321,
+          "ci_low": -10.629277601205757,
+          "ci_high": 8.865208337136494,
+          "p": 0.8525377140374065,
+          "signflip_p": 0.8615569221538923,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": -3.3820346320346317,
+          "ci_low": -7.761493911409644,
+          "ci_high": 0.9974246473403809,
+          "p": 0.1232117035865808,
+          "signflip_p": 0.12769361531923404,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -3.2297397080004555e-16,
+          "ci_low": -5.924849813965257,
+          "ci_high": 5.924849813965257,
+          "p": 0.9999999999999999,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 1.6666666666666665,
+          "ci_low": -4.306264605538493,
+          "ci_high": 7.639597938871827,
+          "p": 0.5678952195464977,
+          "signflip_p": 0.6089695515224238,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": -1.3636363636363635,
+          "ci_low": -5.535326339490573,
+          "ci_high": 2.8080536122178463,
+          "p": 0.504068175428887,
+          "signflip_p": 0.6754162291885406,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 4.778138528138528,
+          "ci_low": -4.914257059681851,
+          "ci_high": 14.470534115958905,
+          "p": 0.3169321284760591,
+          "signflip_p": 0.3176341182940853,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": -4.66991341991342,
+          "ci_low": -12.254798913605367,
+          "ci_high": 2.914972073778527,
+          "p": 0.21437028710202471,
+          "signflip_p": 0.21328933553322335,
+          "degenerate_observed_variation": false
+        }
+      }
+    },
+    "gpt-4o": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 0.08116883116882918,
+          "ci_low": -5.687279173785373,
+          "ci_high": 5.8496168361230305,
+          "p": 0.9769314700575756,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 1.4448051948051932,
+          "ci_low": -6.300737113461141,
+          "ci_high": 9.190347503071527,
+          "p": 0.7019808128270422,
+          "signflip_p": 0.7143142842857857,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 2.272727272727273,
+          "ci_low": -3.188740569479003,
+          "ci_high": 7.734195114933549,
+          "p": 0.396594282046075,
+          "signflip_p": 0.5248737563121844,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": -1.7153679653679654,
+          "ci_low": -7.4140124084829875,
+          "ci_high": 3.983276477747056,
+          "p": 0.5380656098413205,
+          "signflip_p": 0.5563221838908055,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 0.8008658008658013,
+          "ci_low": -5.773848260875568,
+          "ci_high": 7.375579862607171,
+          "p": 0.8024861177485815,
+          "signflip_p": 0.807209639518024,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -1.5097402597402612,
+          "ci_low": -9.849342521309598,
+          "ci_high": 6.829862001829077,
+          "p": 0.7103385465811581,
+          "signflip_p": 0.7189140542972852,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 0.6114718614718604,
+          "ci_low": -7.363280642311837,
+          "ci_high": 8.586224365255559,
+          "p": 0.874832995481007,
+          "signflip_p": 0.888255587220639,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 2.272727272727273,
+          "ci_low": -4.279605638294301,
+          "ci_high": 8.825060183748846,
+          "p": 0.47866112855012977,
+          "signflip_p": 0.5728213589320534,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 1.011904761904762,
+          "ci_low": -4.943759898157983,
+          "ci_high": 6.967569421967506,
+          "p": 0.7273563493766916,
+          "signflip_p": 0.7371631418429079,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 0.04329004329004411,
+          "ci_low": -6.736005832433355,
+          "ci_high": 6.822585919013443,
+          "p": 0.9895300502567722,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false
+        }
+      }
+    },
+    "gpt-5.4-nano": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -0.6493506493506493,
+          "ci_low": -8.416588591088052,
+          "ci_high": 7.117887292386753,
+          "p": 0.8636418947207871,
+          "signflip_p": 0.920053997300135,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": -5.995670995670997,
+          "ci_low": -16.324953497846842,
+          "ci_high": 4.333611506504848,
+          "p": 0.24080753979565322,
+          "signflip_p": 0.2575371231438428,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": -7.618290988962006,
+          "ci_high": 7.618290988962006,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 3.8690476190476177,
+          "ci_low": -5.686065133008376,
+          "ci_high": 13.42416037110361,
+          "p": 0.40923369113109387,
+          "signflip_p": 0.4393780310984451,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 0.5681818181818182,
+          "ci_low": -2.123809369099311,
+          "ci_high": 3.260173005462948,
+          "p": 0.6651943582021577,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 1.7424242424242422,
+          "ci_low": -2.499178888794691,
+          "ci_high": 5.984027373643175,
+          "p": 0.40258368296519537,
+          "signflip_p": 0.4656767161641918,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": -4.209956709956711,
+          "ci_low": -13.018580228974358,
+          "ci_high": 4.598666809060936,
+          "p": 0.3315761722323685,
+          "signflip_p": 0.3622818859057047,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 0.45454545454545453,
+          "ci_low": -4.568622720367145,
+          "ci_high": 5.477713629458053,
+          "p": 0.8525391376832949,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 7.581168831168831,
+          "ci_low": -1.8482632414524405,
+          "ci_high": 17.010600903790102,
+          "p": 0.10936186863332364,
+          "signflip_p": 0.10669466526673667,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": -4.02056277056277,
+          "ci_low": -7.519042932301101,
+          "ci_high": -0.5220826088244386,
+          "p": 0.026304423190896785,
+          "signflip_p": 0.06254687265636719,
+          "degenerate_observed_variation": false
+        }
+      }
+    },
+    "gpt-5.4": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -3.1222943722943715,
+          "ci_low": -9.994792994408327,
+          "ci_high": 3.750204249819584,
+          "p": 0.35550340771821054,
+          "signflip_p": 0.36368181590920456,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": -3.3116883116883105,
+          "ci_low": -9.86282099517493,
+          "ci_high": 3.2394443717983097,
+          "p": 0.3050805533043727,
+          "signflip_p": 0.3238838058097095,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": -2.727272727272727,
+          "ci_low": -9.991028179234805,
+          "ci_high": 4.53648272468935,
+          "p": 0.4436227599577907,
+          "signflip_p": 0.5173241337933103,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 1.6450216450216453,
+          "ci_low": -5.49384126619187,
+          "ci_high": 8.783884556235162,
+          "p": 0.6367421726852851,
+          "signflip_p": 0.6426678666066696,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 2.0454545454545454,
+          "ci_low": -0.9097799992092135,
+          "ci_high": 5.000689090118304,
+          "p": 0.1647786580542745,
+          "signflip_p": 0.4983250837458127,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": 5.270562770562771,
+          "ci_low": -3.5858800284142482,
+          "ci_high": 14.12700556953979,
+          "p": 0.22952394704216336,
+          "signflip_p": 0.23648817559122043,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 5.762987012987012,
+          "ci_low": -1.5018231272019316,
+          "ci_high": 13.027797153175957,
+          "p": 0.11388262106542194,
+          "signflip_p": 0.1128443577821109,
+          "degenerate_observed_variation": false,
+          "holm_p": 1.0
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": 6.363636363636363,
+          "ci_low": -2.5612623072342195,
+          "ci_high": 15.288535034506946,
+          "p": 0.15297841381489785,
+          "signflip_p": 0.1896905154742263,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": -6.899350649350649,
+          "ci_low": -15.107034696282351,
+          "ci_high": 1.3083333975810545,
+          "p": 0.09505039205285627,
+          "signflip_p": 0.09459527023648817,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        }
+      }
+    },
+    "gpt-6-luna": {
+      "rough-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -0.11904761904761911,
+          "ci_low": -8.140091791141328,
+          "ci_high": 7.90199655304609,
+          "p": 0.9756683192883197,
+          "signflip_p": 0.9783010849457527,
+          "degenerate_observed_variation": false
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": 1.093073593073594,
+          "ci_low": -7.519888224223273,
+          "ci_high": 9.706035410370461,
+          "p": 0.7944108154763566,
+          "signflip_p": 0.808359582020899,
+          "degenerate_observed_variation": false
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": -1.3636363636363635,
+          "ci_low": -8.642021750766803,
+          "ci_high": 5.9147490234940765,
+          "p": 0.7007375639175216,
+          "signflip_p": 0.7964101794910254,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": -4.426406926406927,
+          "ci_low": -12.171920817295394,
+          "ci_high": 3.3191069644815387,
+          "p": 0.24791997929387963,
+          "signflip_p": 0.2553872306384681,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 2.424242424242424,
+          "ci_low": -1.1723163648301331,
+          "ci_high": 6.02080121331498,
+          "p": 0.17559679750304785,
+          "signflip_p": 0.4936253187340633,
+          "degenerate_observed_variation": false
+        }
+      },
+      "detailed-none": {
+        "correctness": {
+          "n": 22,
+          "difference_pp": -6.244588744588743,
+          "ci_low": -16.666053450658023,
+          "ci_high": 4.176875961480537,
+          "p": 0.2264453827587848,
+          "signflip_p": 0.2286385680715964,
+          "degenerate_observed_variation": false
+        },
+        "economic_reasoning": {
+          "n": 22,
+          "difference_pp": -7.683982683982682,
+          "ci_low": -18.569458376142713,
+          "ci_high": 3.201493008177348,
+          "p": 0.1569276876986165,
+          "signflip_p": 0.16264186790660468,
+          "degenerate_observed_variation": false
+        },
+        "coverage": {
+          "n": 22,
+          "difference_pp": 0.0,
+          "ci_low": null,
+          "ci_high": null,
+          "p": 1.0,
+          "signflip_p": 1.0,
+          "degenerate_observed_variation": true
+        },
+        "original_score": {
+          "n": 22,
+          "difference_pp": -4.090909090909091,
+          "ci_low": -11.7897603651625,
+          "ci_high": 3.607942183344319,
+          "p": 0.28164414529070575,
+          "signflip_p": 0.33693315334233287,
+          "degenerate_observed_variation": false
+        },
+        "explicit_economic_error": {
+          "n": 22,
+          "difference_pp": 5.411255411255411,
+          "ci_low": -5.635125853192349,
+          "ci_high": 16.45763667570317,
+          "p": 0.3199231549544568,
+          "signflip_p": 0.32173391330433476,
+          "degenerate_observed_variation": false
+        },
+        "reasoning_omission": {
+          "n": 22,
+          "difference_pp": 2.2727272727272725,
+          "ci_low": -1.1823662576192824,
+          "ci_high": 5.727820803073827,
+          "p": 0.18578877096691368,
+          "signflip_p": 0.5026748662566871,
+          "degenerate_observed_variation": false
+        }
+      }
+    }
+  },
+  "interactions": {
+    "correctness": [
+      {
+        "smaller": "gpt-4.1-nano",
+        "larger": "gpt-4.1",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": 1.7640692640692648,
+        "ci_low": -8.20186800232265,
+        "ci_high": 11.73000653046118,
+        "p": 0.7164740778035998,
+        "signflip_p": 0.7156642167891606,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 1.7559523809523832,
+          "ci_low": -5.086186839840542,
+          "ci_high": 8.598091601745308,
+          "p": 0.53861125063509,
+          "signflip_p": 0.5,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4.1-nano",
+        "larger": "gpt-4.1",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": 0.7196969696969707,
+        "ci_low": -10.291387412204706,
+        "ci_high": 11.730781351598647,
+        "p": 0.8931744132843131,
+        "signflip_p": 0.904454777261137,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 1.4930555555555565,
+          "ci_low": -8.246585506938086,
+          "ci_high": 11.2326966180492,
+          "p": 0.7097805351438561,
+          "signflip_p": 0.75,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4o-mini",
+        "larger": "gpt-4o",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": 0.44913419913420166,
+        "ci_low": -8.304925437290876,
+        "ci_high": 9.20319383555928,
+        "p": 0.9160426462757724,
+        "signflip_p": 0.9295535223238838,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 3.3283730158730194,
+          "ci_low": -14.471050353751298,
+          "ci_high": 21.127796385497337,
+          "p": 0.6510379628006494,
+          "signflip_p": 0.8125,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4o-mini",
+        "larger": "gpt-4o",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": 1.5097402597402607,
+        "ci_low": -8.720255400044575,
+        "ci_high": 11.739735919525096,
+        "p": 0.7619353064987731,
+        "signflip_p": 0.7670116494175291,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 1.9394841269841285,
+          "ci_low": -8.433935346217066,
+          "ci_high": 12.312903600185322,
+          "p": 0.6510832871231054,
+          "signflip_p": 0.65625,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-5.4-nano",
+        "larger": "gpt-5.4",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": 2.4729437229437226,
+        "ci_low": -6.3544317907293495,
+        "ci_high": 11.300319236616794,
+        "p": 0.5663708894587589,
+        "signflip_p": 0.5628718564071796,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 3.1001984126984126,
+          "ci_low": -6.552153521399918,
+          "ci_high": 12.752550346796744,
+          "p": 0.44660211040109526,
+          "signflip_p": 0.4375,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-5.4-nano",
+        "larger": "gpt-5.4",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": -3.5281385281385282,
+        "ci_low": -12.747697740620836,
+        "ci_high": 5.691420684343779,
+        "p": 0.43503732518103877,
+        "signflip_p": 0.45767711614419276,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": -3.234126984126984,
+          "ci_low": -9.120128955463565,
+          "ci_high": 2.651874987209597,
+          "p": 0.2169301900666917,
+          "signflip_p": 0.25,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      }
+    ],
+    "economic_reasoning": [
+      {
+        "smaller": "gpt-4.1-nano",
+        "larger": "gpt-4.1",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": 1.358225108225112,
+        "ci_low": -8.701415147501475,
+        "ci_high": 11.417865363951698,
+        "p": 0.7816239771509557,
+        "signflip_p": 0.7815609219539023,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 0.550595238095242,
+          "ci_low": -4.699770382809048,
+          "ci_high": 5.800960858999531,
+          "p": 0.7982610647031766,
+          "signflip_p": 0.75,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4.1-nano",
+        "larger": "gpt-4.1",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": 0.30303030303030454,
+        "ci_low": -12.087157930633618,
+        "ci_high": 12.693218536694227,
+        "p": 0.9599164135473656,
+        "signflip_p": 0.968451577421129,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 1.1111111111111132,
+          "ci_low": -8.887001130167128,
+          "ci_high": 11.109223352389353,
+          "p": 0.7865843896491987,
+          "signflip_p": 0.8125,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4o-mini",
+        "larger": "gpt-4o",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": 0.3841991341991376,
+        "ci_low": -11.115175197395729,
+        "ci_high": 11.883573465794004,
+        "p": 0.9452642863280605,
+        "signflip_p": 0.9473026348682566,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 3.2688492063492105,
+          "ci_low": -19.311633039850527,
+          "ci_high": 25.849331452548945,
+          "p": 0.7250479957392391,
+          "signflip_p": 0.65625,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-4o-mini",
+        "larger": "gpt-4o",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": 1.0551948051948061,
+        "ci_low": -8.92941063247056,
+        "ci_high": 11.03980024286017,
+        "p": 0.8281662856012754,
+        "signflip_p": 0.8363581820908954,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": 1.5228174603174625,
+          "ci_low": -11.095681536243836,
+          "ci_high": 14.14131645687876,
+          "p": 0.7689067354024256,
+          "signflip_p": 0.75,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-5.4-nano",
+        "larger": "gpt-5.4",
+        "rubric": "rough",
+        "n": 22,
+        "difference_pp": -2.6839826839826864,
+        "ci_low": -14.858704781164027,
+        "ci_high": 9.490739413198655,
+        "p": 0.6513297967861292,
+        "signflip_p": 0.6530673466326684,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": -1.626984126984129,
+          "ci_low": -7.624756856454462,
+          "ci_high": 4.370788602486203,
+          "p": 0.5166943929860867,
+          "signflip_p": 0.53125,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 1.0
+      },
+      {
+        "smaller": "gpt-5.4-nano",
+        "larger": "gpt-5.4",
+        "rubric": "detailed",
+        "n": 22,
+        "difference_pp": -9.972943722943727,
+        "ci_low": -22.48380859065681,
+        "ci_high": 2.5379211447693564,
+        "p": 0.11223274573069074,
+        "signflip_p": 0.10749462526873656,
+        "degenerate_observed_variation": false,
+        "equal_year_sensitivity": {
+          "n": 6,
+          "difference_pp": -9.14186507936508,
+          "ci_low": -18.911228055346065,
+          "ci_high": 0.627497896615905,
+          "p": 0.061205590417381175,
+          "signflip_p": 0.0625,
+          "degenerate_observed_variation": false
+        },
+        "holm_p": 0.6733964743841444
+      }
+    ]
+  }
+}

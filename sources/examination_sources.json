@@ -1,0 +1,1160 @@
+[
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-FINAL-CONSUMER",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-FINAL-PRODUCER",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-FINAL-SAVINGS",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-FINAL-SMOKING",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-FINAL-TRUEFALSE",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "933b7e3e623f2f7462e58d11554f6ad0247269072a60f65dbd16bd013fdded66",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-MIDTERM-CONSUMER",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/resources/exams/",
+        "sha256": "ecf354c07d761dfeeeed636ab0b45249279d28032853ba92a5e4adab93863f03",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-final-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "6c212c8066b32b1b51ea2d8795364b38b07e1e2dc27775bd06bbffd53327615b",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "e68df9d2801fc50a2b2af994dce2137f850637b364801ab6985b4b4fe0e7d770",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-final-Q2",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "6c212c8066b32b1b51ea2d8795364b38b07e1e2dc27775bd06bbffd53327615b",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "e68df9d2801fc50a2b2af994dce2137f850637b364801ab6985b4b4fe0e7d770",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-final-Q3",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "6c212c8066b32b1b51ea2d8795364b38b07e1e2dc27775bd06bbffd53327615b",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "e68df9d2801fc50a2b2af994dce2137f850637b364801ab6985b4b4fe0e7d770",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-final-Q4",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "6c212c8066b32b1b51ea2d8795364b38b07e1e2dc27775bd06bbffd53327615b",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "e68df9d2801fc50a2b2af994dce2137f850637b364801ab6985b4b4fe0e7d770",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-final-Q5",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/44154f5290ccede02ea16124f8905bea_MIT14_01SCF11_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "6c212c8066b32b1b51ea2d8795364b38b07e1e2dc27775bd06bbffd53327615b",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/6c60e9cb452492f849f1d95210e28bf3_MIT14_01SCF11_final_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "e68df9d2801fc50a2b2af994dce2137f850637b364801ab6985b4b4fe0e7d770",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "3ae400ae9176f5188174136485f534667419c880a5fc1ac260ab3870868a5575",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "44cee872514894f758ecca681a226a92fd1063c94f748d344a77f8ffebc22010",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm1-Q2",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "3ae400ae9176f5188174136485f534667419c880a5fc1ac260ab3870868a5575",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "44cee872514894f758ecca681a226a92fd1063c94f748d344a77f8ffebc22010",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm1-Q3",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "3ae400ae9176f5188174136485f534667419c880a5fc1ac260ab3870868a5575",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "44cee872514894f758ecca681a226a92fd1063c94f748d344a77f8ffebc22010",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm1-Q4",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "3ae400ae9176f5188174136485f534667419c880a5fc1ac260ab3870868a5575",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "44cee872514894f758ecca681a226a92fd1063c94f748d344a77f8ffebc22010",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm1-Q5",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/0454bc30df1666fe266f0a3353c0c633_MIT14_01SCF11_exam01.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "3ae400ae9176f5188174136485f534667419c880a5fc1ac260ab3870868a5575",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/4bae52b4c897ac7b853b856b9a8d2a45_MIT14_01SCF11_exam01_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "44cee872514894f758ecca681a226a92fd1063c94f748d344a77f8ffebc22010",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "7ce7c09edc434574f655150065c187c335c9eca9e77523b457809082ae161d16",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "af4d74a31e6cbe074913df19dd87b3b280c3c90b45d878e5b0c5c7d7004436be",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm2-Q2",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "7ce7c09edc434574f655150065c187c335c9eca9e77523b457809082ae161d16",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "af4d74a31e6cbe074913df19dd87b3b280c3c90b45d878e5b0c5c7d7004436be",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm2-Q3",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "7ce7c09edc434574f655150065c187c335c9eca9e77523b457809082ae161d16",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "af4d74a31e6cbe074913df19dd87b3b280c3c90b45d878e5b0c5c7d7004436be",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2010-midterm2-Q4",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/848c8e311d4ddfc10f10c7819965338e_MIT14_01SCF11_exam02.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "7ce7c09edc434574f655150065c187c335c9eca9e77523b457809082ae161d16",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "retrieval_url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/81a3f61fc64b47ebc0fbe50c0c0b5fcb_MIT14_01SCF11_exam02_soln.pdf",
+        "course_page": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/exams/",
+        "sha256": "af4d74a31e6cbe074913df19dd87b3b280c3c90b45d878e5b0c5c7d7004436be",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-final-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320230941id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "2b4606c5660c6103ca85b95a4e39f35948987b7231ca797f8f02db1e6cf2e0dd",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20240709043351id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "ae8c9332eff8b9d5e39b20f3fc48201fa9ad821af0b3b87f29148127332ca079",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-final-Q2",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320230941id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "2b4606c5660c6103ca85b95a4e39f35948987b7231ca797f8f02db1e6cf2e0dd",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20240709043351id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "ae8c9332eff8b9d5e39b20f3fc48201fa9ad821af0b3b87f29148127332ca079",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-final-Q3",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320230941id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "2b4606c5660c6103ca85b95a4e39f35948987b7231ca797f8f02db1e6cf2e0dd",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20240709043351id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "ae8c9332eff8b9d5e39b20f3fc48201fa9ad821af0b3b87f29148127332ca079",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-final-Q4",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320230941id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "2b4606c5660c6103ca85b95a4e39f35948987b7231ca797f8f02db1e6cf2e0dd",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20240709043351id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "ae8c9332eff8b9d5e39b20f3fc48201fa9ad821af0b3b87f29148127332ca079",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-final-Q5",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320230941id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_final.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "2b4606c5660c6103ca85b95a4e39f35948987b7231ca797f8f02db1e6cf2e0dd",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20240709043351id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/8896b6ee78d7f911390dc43ec4f6dcf6_MIT4_01F18_final_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "ae8c9332eff8b9d5e39b20f3fc48201fa9ad821af0b3b87f29148127332ca079",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-midterm1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "retrieval_url": "https://web.archive.org/web/20250108121108id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "5fe59da7c38b87a812b9c3a1dd618825a7c8323a25b36e923ba4efbb4f5f974c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320114746id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "0015f341bd691625a1dc2406dcd03d5a7c46c783157db66b9536cad42a05001c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-midterm1-Q2",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "retrieval_url": "https://web.archive.org/web/20250108121108id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "5fe59da7c38b87a812b9c3a1dd618825a7c8323a25b36e923ba4efbb4f5f974c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320114746id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "0015f341bd691625a1dc2406dcd03d5a7c46c783157db66b9536cad42a05001c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "MIT",
+    "question_id": "MIT-2018-midterm1-Q3",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "retrieval_url": "https://web.archive.org/web/20250108121108id_/https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2018/740071447970d4cea476c2e49d1bc393_MIT14_01F18_midterm.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "5fe59da7c38b87a812b9c3a1dd618825a7c8323a25b36e923ba4efbb4f5f974c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      },
+      {
+        "role": "solutions",
+        "original_url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "retrieval_url": "https://web.archive.org/web/20220320114746id_/https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/MIT14_01F18_midterm_sol.pdf",
+        "course_page": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/exams/",
+        "sha256": "0015f341bd691625a1dc2406dcd03d5a7c46c783157db66b9536cad42a05001c",
+        "attribution": "Massachusetts Institute of Technology, MIT OpenCourseWare, and the credited course contributors",
+        "license": "CC-BY-NC-SA-4.0",
+        "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2021-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2021/2021-set-1-question-paper-1214cde927ed.pdf",
+        "sha256": "1214cde927edb964f875c2d6e6da8896c55aab05fe5f2985ee02ce55ef772785"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2021/2021-set-1-scoring-guidelines-181e0dd088ec.pdf",
+        "sha256": "181e0dd088ec76dd2f273022b62f41aea7941888d3c984314f67236de63fa419"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2021-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2021/2021-set-2-question-paper-0d0a99682786.pdf",
+        "sha256": "0d0a996827865b4bee49c9905b97e3e0dc917b2a3f9e2e5d7232f1ae1b05ed68"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2021/2021-set-2-scoring-guidelines-a68a37a65320.pdf",
+        "sha256": "a68a37a653203032cb79a55ee45fe5fdaab1c2fc5467a2129ed293a3a20c610a"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2022-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2022/2022-set-1-question-paper-98590f634cb0.pdf",
+        "sha256": "98590f634cb05e065268bb21ed2241ac006566d86208ff0dd5b5d30332e8008a"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2022/2022-set-1-scoring-guidelines-1c2fbc2738d1.pdf",
+        "sha256": "1c2fbc2738d1ebde5a3eefe60cae79a0ee39989a708077f14caa83a44f33eaf9"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2022-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2022/2022-set-2-question-paper-e46b5ec5241b.pdf",
+        "sha256": "e46b5ec5241bf38a2957db5660dcdb8837d5121328b750037d413cdd7105d22d"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-macroeconomics/2022/2022-set-2-scoring-guidelines-f484dbe1292d.pdf",
+        "sha256": "f484dbe1292d1575c1833dafbf7daae9d910b4e402d7f5661ff61d9381f99475"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2023-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-macroeconomics-set-1.pdf",
+        "sha256": "eb1888b6e5de2d699ccce96038448fa5a644178936b487f28b0b04f80ca0274b"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-sg-macroeconomics-set-1.pdf",
+        "sha256": "26d54c99851cb668e3bf7e3da17152a2ceac467b717873686029c80155aff19e"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2023-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-macroeconomics-set-2.pdf",
+        "sha256": "27bbc04688f5002c6f681bb279b9af9f86c7dd37bf27daba96b7ea032d9b4868"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-sg-macroeconomics-set-2.pdf",
+        "sha256": "8359acaf613847bd9ff9041ac427c7b16b2474751341b8557a3ef0a3a4c92662"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2024-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-macroeconomics-set-1.pdf",
+        "sha256": "b63844f080e993a62c35b8efaef7679d5f18250403ae65f22fc1d1d367be2fa2"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-sg-macroeconomics-set-1.pdf",
+        "sha256": "49d2d87d51802f563f7cfc9d8ef449189702fa3410c3876c925756bfacc58e95"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2024-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-macroeconomics-set-2.pdf",
+        "sha256": "c39d5cf248fe7f006f340651d511ff0e762764aca4eca40f27ac731bf2abac87"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-sg-macroeconomics-set-2.pdf",
+        "sha256": "259b3baa1c7a844b47a0e3cc19fdbdd347b829735af12c8e7e2df37a0e0c4c39"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2025-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-macroeconomics-set-1.pdf",
+        "sha256": "5e8d7f9d93931126461ad6c2906d1556697d8be729eb7599df9c8892dc8276ac"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-macroeconomics-set-1.pdf",
+        "sha256": "0dc9bf45e128f050fa8011bdde5e196d9deb56cfb430a5fa6e4115cc39fd3255"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2025-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-macroeconomics-set-2.pdf",
+        "sha256": "c44ca37a3f4a50181ed56642006b42f3b5177f1978fecc7459422ebf7ec97c59"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-macroeconomics-set-2.pdf",
+        "sha256": "77a6f2d694165f58f63edbf23a045db97efa9cd49fe29451fb29a6960fc88b2f"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MACROECONOMICS-2026-Ssole_release-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-macroeconomics.pdf",
+        "sha256": "80024d5ffd1261fb5791f073ad13832fd408d329d783ea27116417fd820943da"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap26-sg-macroeconomics.pdf",
+        "sha256": "a4e643a9ef9707201e725a45d029438c9393947f0cf786dc5d44fc881090e01b"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2021-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2021/2021-set-1-question-paper-aca7e0a51506.pdf",
+        "sha256": "aca7e0a515063958b19c19127aed7ed9bbdf165c8f739079bdd1e4aaf8fc6662"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2021/2021-set-1-scoring-guidelines-b2192b628c98.pdf",
+        "sha256": "b2192b628c986cbd0f326c1b1777335001c6c08ac52e8519a4871885d5b52171"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2021-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2021/2021-set-2-question-paper-26161e615520.pdf",
+        "sha256": "26161e615520fd0e6a5bd10e044eb1a3b06375be8f15073352c589aeee5bad0d"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2021/2021-set-2-scoring-guidelines-a6793291d4af.pdf",
+        "sha256": "a6793291d4af27a542d6c13fc3edd76e24edcdb573fd8707ebf7bf9177d127a5"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2022-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2022/2022-set-1-question-paper-ec0161d9115b.pdf",
+        "sha256": "ec0161d9115b0e6b9df089616d7e8992d99bc92919d63b8f41c466fb1c993119"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2022/2022-set-1-scoring-guidelines-24385b2722e6.pdf",
+        "sha256": "24385b2722e66fc8fdca4d106952a644cb6f1c2d091a23363f723d2bc4788b21"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2022-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2022/2022-set-2-question-paper-dc8ad0f68375.pdf",
+        "sha256": "dc8ad0f68375e655b3087fad3220c6fcb1751d64861aa20ce1f39063ad480424"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://onlyprepy.org/papers/ap-microeconomics/2022/2022-set-2-scoring-guidelines-8841120adf23.pdf",
+        "sha256": "8841120adf231a00e11f15bea402d599caaab9203fb331ab5d4fbc6de2895d03"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2023-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-microeconomics-set-1.pdf",
+        "sha256": "e77fb123926e0ab01f7efe382d5d86495ed95dd8a816837f85333988a222baac"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-sg-microeconomics-set-1.pdf",
+        "sha256": "c8d701ddc4c4221aefb6326687956ea5b50e3056352b25484d59d3526187545d"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2023-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-microeconomics-set-2.pdf",
+        "sha256": "4d2e86c8ee755e0d073dd0b2ffa0aa6ed596f716442d6eb24aeceef64cf610f2"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap23-sg-microeconomics-set-2.pdf",
+        "sha256": "9bb7923307ab717d8f6b771ba40cd0d146231f35be91e88ad466ba329497e2d2"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2024-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-microeconomics-set-1.pdf",
+        "sha256": "62fe2f67191dcd7581ea7344e387435bc0abd9c9903ee45c7f16e08e534e90f3"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-sg-microeconomics-set-1.pdf",
+        "sha256": "ffa0d026268008126030b7ea07065e45b0a6447980f4333256e82027f261c7fa"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2024-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-microeconomics-set-2.pdf",
+        "sha256": "7a6110bbd7477085273a659cbd06099ab1048f536ae9dc0582a830d4ffccb838"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap24-sg-microeconomics-set-2.pdf",
+        "sha256": "a88c9c9ba151ad93a26e1ec2cfb3ee36537c52e4ea799385070f443c8bb03abb"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2025-S1-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-microeconomics-set-1.pdf",
+        "sha256": "0c5710ab7b9c1e8878db069e482c9224d8b9337b112d2a60f2d0e778cd33f1a4"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-microeconomics-set-1.pdf",
+        "sha256": "9bc61fbbe01ddfb7a3cff291e67a5a298e4f2f2e1bca9cc50aba5742b28c89dc"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2025-S2-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-microeconomics-set-2.pdf",
+        "sha256": "273b57bee51e62d046c09a10d813529389dd854a13559f7df9f24b002f491dbc"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-microeconomics-set-2.pdf",
+        "sha256": "28a8866f4462d4dfc249a8dd5117a62483e15dff2b04d13bb6eddb2e9b6f5616"
+      }
+    ]
+  },
+  {
+    "dataset": "AP",
+    "question_id": "AP-MICROECONOMICS-2026-Ssole_release-Q1",
+    "sources": [
+      {
+        "role": "questions",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-microeconomics.pdf",
+        "sha256": "33dcc9e7a5bcc51e4dea5533274fc13ee0254287515734b48db8e56f777204d6"
+      },
+      {
+        "role": "scoring_guidelines",
+        "original_url": "https://apcentral.collegeboard.org/media/pdf/ap26-sg-microeconomics.pdf",
+        "sha256": "906059bcb9dbcb8ae5b912fd1f099283e1536c936781bec9950902ed209f1fce"
+      }
+    ]
+  }
+]

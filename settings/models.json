@@ -1,0 +1,214 @@
+{
+  "gpt-5.4": [
+    {
+      "model_identifier": "gpt-5.4-2026-03-05",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-5.4-2026-03-05",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "gpt-4o": [
+    {
+      "model_identifier": "gpt-4o-2024-08-06",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4o-2024-08-06",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "gpt-4.1": [
+    {
+      "model_identifier": "gpt-4.1-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4.1-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "claude-haiku-4.5": [
+    {
+      "model_identifier": "claude-haiku-4-5-20251001",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": {
+        "type": "disabled"
+      },
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    }
+  ],
+  "claude-sonnet-4.6": [
+    {
+      "model_identifier": "claude-sonnet-4-6",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": {
+        "type": "disabled"
+      },
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    }
+  ],
+  "gpt-4.1-mini": [
+    {
+      "model_identifier": "gpt-4.1-mini-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    }
+  ],
+  "gpt-4.1-nano": [
+    {
+      "model_identifier": "gpt-4.1-nano-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4.1-nano-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 16384,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4.1-nano-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 32768,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4.1-nano-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    },
+    {
+      "model_identifier": "gpt-4.1-nano-2025-04-14",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 16384,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "gpt-4o-mini": [
+    {
+      "model_identifier": "gpt-4o-mini-2024-07-18",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4o-mini-2024-07-18",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 16384,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-4o-mini-2024-07-18",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    },
+    {
+      "model_identifier": "gpt-4o-mini-2024-07-18",
+      "requested_temperature": 0,
+      "reasoning": null,
+      "thinking": null,
+      "maximum_output_tokens": 16384,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "gpt-5.4-nano": [
+    {
+      "model_identifier": "gpt-5.4-nano-2026-03-17",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-5.4-nano-2026-03-17",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ],
+  "gpt-6-luna": [
+    {
+      "model_identifier": "gpt-6-luna",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "2ab3c8d349761a1a"
+    },
+    {
+      "model_identifier": "gpt-6-luna",
+      "requested_temperature": 0,
+      "reasoning": {
+        "effort": "none"
+      },
+      "thinking": null,
+      "maximum_output_tokens": 8192,
+      "instruction_template_id": "17c8bff0d4800e8c"
+    }
+  ]
+}

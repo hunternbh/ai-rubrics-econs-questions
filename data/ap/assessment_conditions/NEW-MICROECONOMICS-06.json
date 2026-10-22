@@ -1,0 +1,1126 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MICROECONOMICS-06",
+  "year": 2026,
+  "subject": "microeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Firm A sells its output in a perfectly competitive market for $4 per unit and hires workers in a perfectly competitive labor market for $12 per worker per day. Labor is its only variable input, and fixed cost is $20 per day. Workers must be hired in whole numbers. The production schedule is:\nWorkers L:         0   1   2   3   4   5   6\nOutput Q per day:  0  10  18  24  28  30  31\n(a) Calculate the marginal revenue product of the second worker. Show your work.\n(b) Determine the profit-maximizing number of workers and explain using marginal analysis.\n(c) Calculate daily economic profit at that employment level. Show your work.\n(d) The wage rises to $20 per worker, with the output price unchanged. Determine the new profit-maximizing number of workers and explain using marginal analysis.\n(e) Return to the original $12 wage. Instead, the output price rises to $5. Draw a correctly labeled labor-market diagram for this firm's labor demand and its perfectly elastic labor supply, showing the effect of the output-price increase. Explain whether the firm's optimal whole-number employment changes.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_df9e291a72493cf4ec51",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Marginal revenue product of the second worker\nThe second worker increases output from 10 to 18 units, so their marginal product is \\(18-10=8\\) units. Thus:\n\n\\[\nMRP_L = MP_L \\times P = 8 \\times \\$4 = \\boxed{\\$32\\text{ per day}}.\n\\]\n\n### (b) Profit-maximizing employment at a $12 wage\nMarginal products for workers 1 through 6 are 10, 8, 6, 4, 2, and 1. At $4 per unit, their MRP values are $40, $32, $24, $16, $8, and $4. Hire workers whose MRP is at least the $12 wage: the first four workers qualify, but the fifth does not. Therefore, the firm hires **4 workers**.\n\n### (c) Daily economic profit\nAt 4 workers, output is 28 units and total revenue is \\(28\\times\\$4=\\$112\\). Total cost is fixed cost plus labor cost: \\(\\$20+4\\times\\$12=\\$68\\). Therefore:\n\n\\[\n\\text{Economic profit}=\\$112-\\$68=\\boxed{\\$44\\text{ per day}}.\n\\]\n\n### (d) Wage rises to $20\nAt the unchanged $4 output price, the first two workers have MRP of $40 and $32, both above $20. The third worker's MRP is $24, also above $20; the fourth worker's MRP is $16, below $20. The firm therefore hires **3 workers**.\n\n### (e) Output price rises to $5\nThe firm's labor demand is its MRP curve. A higher output price raises MRP at every employment level, shifting labor demand right from \\(MRP_1\\) to \\(MRP_2\\). Labor supply to the firm is perfectly elastic at the $12 wage. With whole-number hiring, at $5 the fourth worker's MRP is \\(4\\times\\$5=\\$20\\), above the wage, while the fifth worker's MRP is \\(2\\times\\$5=\\$10\\), below it. The optimal employment **increases from 4 to 4 workers**—that is, it remains **4 workers** (the fourth worker was already hired at the original price).",
+        "diagrams": [
+          {
+            "title": "Firm labor market",
+            "x_label": "Labor (workers per day)",
+            "y_label": "Wage / MRP ($ per day)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "MRP₁ (P=$4)",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    30,
+                    70
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    60,
+                    40
+                  ],
+                  [
+                    75,
+                    25
+                  ],
+                  [
+                    90,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MRP₂ (P=$5)",
+                "points": [
+                  [
+                    15,
+                    95
+                  ],
+                  [
+                    30,
+                    84
+                  ],
+                  [
+                    45,
+                    73
+                  ],
+                  [
+                    60,
+                    62
+                  ],
+                  [
+                    75,
+                    51
+                  ],
+                  [
+                    90,
+                    40
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "W = $12",
+                "points": [
+                  [
+                    8,
+                    20
+                  ],
+                  [
+                    94,
+                    20
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MRP₁",
+                "points": [
+                  [
+                    78,
+                    22
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MRP₂",
+                "points": [
+                  [
+                    78,
+                    49
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Labor supply",
+                "points": [
+                  [
+                    10,
+                    23
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "$12",
+                "points": [
+                  [
+                    3,
+                    20
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 279,
+        "answer_words": 279,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_df9e291a72493cf4ec51",
+        "question_id": "NEW-MICROECONOMICS-06",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-06",
+        "grade_status": "complete",
+        "answer_words": "279.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_df9e291a72493cf4ec51",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "279",
+          "word_share": "0.13",
+          "evidence": "Calculates the second worker's output increase as 18−10=8 and MRP as 8×$4=$32 per day.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_df9e291a72493cf4ec51",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "279",
+          "word_share": "0.2",
+          "evidence": "Identifies marginal products and MRPs, then explains that the first four workers have MRP at least $12 while the fifth has MRP below $12; hires 4.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_df9e291a72493cf4ec51",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "279",
+          "word_share": "0.16",
+          "evidence": "Uses output 28, revenue $112, total cost $68 including fixed cost, and calculates profit of $44.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_df9e291a72493cf4ec51",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "279",
+          "word_share": "0.17",
+          "evidence": "Shows the third worker's MRP is $24 and the fourth's is $16 relative to the $20 wage; hires 3.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_df9e291a72493cf4ec51",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "279",
+          "word_share": "0.34",
+          "evidence": "Diagram labels wage and labor axes, horizontal labor supply at $12, and an upward/rightward shift from MRP₁ to MRP₂. Explains that at $5 the fourth worker's MRP is $20 and fifth's is $10, so whole-in数",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_053c3a541f1a34168402",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The second worker increases output from 10 to 18 units, so their marginal product is \\(18-10=8\\). Thus, \\(MRP_L=MP_L\\times P=8\\times\\$4=\\boxed{\\$32}\\) per day.\n\n**(b)** Hire workers while marginal revenue product is at least the wage of $12. The successive MRP values are $40, $32, $24, $16, $8, and $4. The fourth worker adds $16 in revenue, exceeding the $12 wage; the fifth adds only $8, less than the wage. Therefore, the firm hires **4 workers**.\n\n**(c)** At 4 workers, output is 28. Revenue is \\(28\\times\\$4=\\$112\\); labor cost is \\(4\\times\\$12=\\$48\\); fixed cost is $20. Economic profit is \\(112-48-20=\\boxed{\\$44\\text{ per day}}\\).\n\n**(d)** At a $20 wage, the first three workers have MRP of $40, $32, and $24, each exceeding the wage. The fourth worker's MRP is $16, below the wage. The firm therefore hires **3 workers**.\n\n**(e)** The firm's labor demand is its MRP curve. A higher output price raises MRP at each employment level, shifting labor demand right/up from \\(MRP_1\\) to \\(MRP_2\\). The perfectly elastic labor supply remains at the $12 wage. At $5 per unit, the MRP values are $50, $40, $30, $20, $10, and $5. The fourth worker's MRP ($20) exceeds the wage, but the fifth's ($10) does not. The optimal whole-number employment **does not change**: it remains 4 workers.",
+        "diagrams": [
+          {
+            "title": "Firm labor market",
+            "x_label": "Workers hired per day",
+            "y_label": "Wage / MRP ($ per day)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "MRP₁ (P=$4)",
+                "points": [
+                  [
+                    10,
+                    90
+                  ],
+                  [
+                    25,
+                    70
+                  ],
+                  [
+                    40,
+                    50
+                  ],
+                  [
+                    55,
+                    30
+                  ],
+                  [
+                    70,
+                    10
+                  ],
+                  [
+                    85,
+                    0
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MRP₂ (P=$5)",
+                "points": [
+                  [
+                    10,
+                    98
+                  ],
+                  [
+                    25,
+                    82
+                  ],
+                  [
+                    40,
+                    66
+                  ],
+                  [
+                    55,
+                    50
+                  ],
+                  [
+                    70,
+                    34
+                  ],
+                  [
+                    85,
+                    18
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Labor supply",
+                "points": [
+                  [
+                    5,
+                    40
+                  ],
+                  [
+                    95,
+                    40
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MRP₁",
+                "points": [
+                  [
+                    72,
+                    8
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MRP₂",
+                "points": [
+                  [
+                    72,
+                    32
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S_L",
+                "points": [
+                  [
+                    82,
+                    43
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "$12",
+                "points": [
+                  [
+                    2,
+                    40
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 210,
+        "answer_words": 210,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_053c3a541f1a34168402",
+        "question_id": "NEW-MICROECONOMICS-06",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-06",
+        "grade_status": "complete",
+        "answer_words": "210.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_053c3a541f1a34168402",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "210",
+          "word_share": "0.12",
+          "evidence": "Calculates the second worker's added output as 18−10=8 and MRP as 8×$4=$32 per day.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_053c3a541f1a34168402",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "210",
+          "word_share": "0.2",
+          "evidence": "Selects 4 workers and compares the fourth worker's $16 MRP with the $12 wage and the fifth worker's $8 MRP with the wage.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_053c3a541f1a34168402",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "210",
+          "word_share": "0.16",
+          "evidence": "Uses output 28, revenue $112, labor cost $48, and fixed cost $20 to calculate $44 profit.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_053c3a541f1a34168402",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "210",
+          "word_share": "0.17",
+          "evidence": "Selects 3 workers; the first three MRPs exceed $20 and the fourth worker's $16 MRP is below it.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_053c3a541f1a34168402",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "210",
+          "word_share": "0.35",
+          "evidence": "Diagram labels wage and labor axes, shows horizontal labor supply at $12 and an upward/right shift in labor demand. Explanation correctly finds fourth-worker MRP $20 and fifth-worker MRP $10, so whole",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_09066b88e6659b913466",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Marginal revenue product of the second worker\nThe second worker increases output from 10 to 18 units, so their marginal product is \\(18-10=8\\) units. In perfect competition, \\(MR=P=\\$4\\), hence:\n\\[\nMRP_2=MP_2\\times MR=8\\times\\$4=\\boxed{\\$32\\text{ per day}}.\n\\]\n\n### (b) Employment at the $12 wage\nHire workers while their MRP is at least the wage. The successive MRP values are \\(\\$40,\\$32,\\$24,\\$16,\\$8,\\$4\\). The fourth worker adds \\$16, exceeding the \\$12 wage; the fifth adds only \\$8, below the wage. Thus the firm hires **4 workers**.\n\n### (c) Daily economic profit\nAt 4 workers, output is 28 units and revenue is \\(28\\times\\$4=\\$112\\). Total cost is fixed cost plus labor cost: \\(\\$20+4(\\$12)=\\$68\\). Therefore:\n\\[\n\\pi=\\$112-\\$68=\\boxed{\\$44\\text{ per day}}.\n\\]\n\n### (d) Wage rises to $20\nAt the unchanged output price, the third worker's MRP is \\$24, while the fourth worker's is \\$16. Hire the third worker because \\(\\$24>\\$20\\), but not the fourth because \\(\\$16<\\$20\\). The new profit-maximizing employment is **3 workers**.\n\n### (e) Output price rises to $5\nThe higher output price raises each worker's MRP, shifting the firm's labor-demand curve (MRP) rightward. The perfectly elastic labor supply remains at the original wage of \\$12. At \\$5, the fourth worker's MRP is \\(4\\times\\$5=\\$20\\), above the wage, while the fifth worker's is \\(2\\times\\$5=\\$10\\), below it. The optimal whole-number employment therefore **increases from 4 to 4 workers?**\n\nCorrection: At the original price, the fourth worker's MRP is \\(4\\times\\$4=\\$16\\), so the firm hires four. At the higher price, the fifth worker's MRP is \\(2\\times\\$5=\\$10\\), still below \\$12; thus it continues to hire **4 workers**. The labor-demand curve shifts right, but the discrete employment choice does not change.",
+        "diagrams": [
+          {
+            "title": "Firm labor market",
+            "x_label": "Labor (workers)",
+            "y_label": "Wage / MRP ($ per day)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "MRP at $4",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    30,
+                    70
+                  ],
+                  [
+                    45,
+                    55
+                  ],
+                  [
+                    60,
+                    40
+                  ],
+                  [
+                    75,
+                    25
+                  ],
+                  [
+                    90,
+                    15
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MRP at $5",
+                "points": [
+                  [
+                    15,
+                    90
+                  ],
+                  [
+                    30,
+                    78
+                  ],
+                  [
+                    45,
+                    66
+                  ],
+                  [
+                    60,
+                    54
+                  ],
+                  [
+                    75,
+                    42
+                  ],
+                  [
+                    90,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Labor supply",
+                "points": [
+                  [
+                    10,
+                    35
+                  ],
+                  [
+                    90,
+                    35
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Dₗ ($4)",
+                "points": [
+                  [
+                    78,
+                    22
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Dₗ ($5)",
+                "points": [
+                  [
+                    78,
+                    43
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Sₗ",
+                "points": [
+                  [
+                    82,
+                    37
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "$12",
+                "points": [
+                  [
+                    4,
+                    32
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 269,
+        "answer_words": 269,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_09066b88e6659b913466",
+        "question_id": "NEW-MICROECONOMICS-06",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-06",
+        "grade_status": "complete",
+        "answer_words": "269.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_09066b88e6659b913466",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "269",
+          "word_share": "0.13",
+          "evidence": "Calculates the second worker's output increase as 18−10=8 and MRP as 8×$4=$32 per day.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_09066b88e6659b913466",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "269",
+          "word_share": "0.17",
+          "evidence": "Identifies the fourth worker's MRP as $16 and fifth worker's as $8, compares both with the $12 wage, and concludes 4 workers.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_09066b88e6659b913466",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "269",
+          "word_share": "0.17",
+          "evidence": "Uses output 28 and revenue $112, subtracts labor cost $48 and fixed cost $20, and obtains $44 profit.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_09066b88e6659b913466",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "269",
+          "word_share": "0.15",
+          "evidence": "Compares the third worker's $24 MRP and fourth worker's $16 MRP with the $20 wage, concluding 3 workers.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_09066b88e6659b913466",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "269",
+          "word_share": "0.38",
+          "evidence": "Diagram labels wage and labor axes, shows horizontal labor supply at $12 and an upward/rightward shift in labor demand. Explanation correctly notes fourth-worker MRP is $20 and fifth-worker MRP is $10",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_d0b92c0f4ac5f3fd8051",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The second worker increases output from 10 to 18 units, so their marginal product is \\(18-10=8\\). Thus, \\(MRP_L=MP_L\\times P=8\\times\\$4=\\boxed{\\$32\\text{ per day}}\\).\n\n**(b)** At the original wage, hire workers while their marginal revenue product is at least the wage. The successive workers’ MRP values are \\$40, \\$32, \\$24, \\$16, \\$8, and \\$4. The fourth worker adds \\$16 in revenue against a \\$12 wage; the fifth adds only \\$8. Therefore, the profit-maximizing employment is **4 workers**.\n\n**(c)** At 4 workers, revenue is \\(28\\times\\$4=\\$112\\). Total cost is wages plus fixed cost: \\(4\\times\\$12+\\$20=\\$68\\). Economic profit is \\(\\$112-\\$68=\\boxed{\\$44\\text{ per day}}\\).\n\n**(d)** With a \\$20 wage, the first three workers have MRP values of \\$40, \\$32, and \\$24, each at least the wage; the fourth worker’s MRP is only \\$16. The firm therefore hires **3 workers**.\n\n**(e)** Labor demand is the firm’s MRP curve. Raising output price from \\$4 to \\$5 raises each worker’s MRP, shifting labor demand right/up. Labor supply to the firm remains perfectly elastic at the \\$12 wage. At \\$5, the successive workers’ MRP values are \\$50, \\$40, \\$30, \\$20, \\$10, and \\$5. The firm hires **4 workers**: the fourth worker is worthwhile, but the fifth is not. This is unchanged from the original optimal whole-number employment, even though labor demand shifts right.",
+        "diagrams": [
+          {
+            "title": "Firm labor market",
+            "x_label": "Labor (workers)",
+            "y_label": "Wage / MRP ($ per day)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Labor demand, P=$4",
+                "points": [
+                  [
+                    10,
+                    85
+                  ],
+                  [
+                    25,
+                    70
+                  ],
+                  [
+                    40,
+                    55
+                  ],
+                  [
+                    55,
+                    40
+                  ],
+                  [
+                    70,
+                    25
+                  ],
+                  [
+                    85,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Labor demand, P=$5",
+                "points": [
+                  [
+                    10,
+                    95
+                  ],
+                  [
+                    25,
+                    82
+                  ],
+                  [
+                    40,
+                    69
+                  ],
+                  [
+                    55,
+                    56
+                  ],
+                  [
+                    70,
+                    43
+                  ],
+                  [
+                    85,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Labor supply",
+                "points": [
+                  [
+                    5,
+                    35
+                  ],
+                  [
+                    95,
+                    35
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₄",
+                "points": [
+                  [
+                    87,
+                    8
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₅",
+                "points": [
+                  [
+                    87,
+                    29
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S_L",
+                "points": [
+                  [
+                    91,
+                    37
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "$12",
+                "points": [
+                  [
+                    2,
+                    37
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P rises",
+                "points": [
+                  [
+                    72,
+                    91
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 211,
+        "answer_words": 211,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_d0b92c0f4ac5f3fd8051",
+        "question_id": "NEW-MICROECONOMICS-06",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "b",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"b\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-06",
+        "grade_status": "complete",
+        "answer_words": "211.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_d0b92c0f4ac5f3fd8051",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "211",
+          "word_share": "0.15",
+          "evidence": "Calculates the second worker's output increase as 18−10=8 and MRP as 8×$4=$32 per day.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_d0b92c0f4ac5f3fd8051",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "211",
+          "word_share": "0.2",
+          "evidence": "Chooses 4 workers and explains that the fourth worker's $16 MRP exceeds the $12 wage while the fifth worker's $8 MRP is below it.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_d0b92c0f4ac5f3fd8051",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "211",
+          "word_share": "0.15",
+          "evidence": "Uses output 28 to calculate revenue $112, total cost $68 including fixed cost, and profit $44.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_d0b92c0f4ac5f3fd8051",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "211",
+          "word_share": "0.2",
+          "evidence": "Chooses 3 workers; the third worker's MRP is $24 and the fourth's is $16 relative to the $20 wage.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_d0b92c0f4ac5f3fd8051",
+          "question_id": "NEW-MICROECONOMICS-06",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "211",
+          "word_share": "0.3",
+          "evidence": "Diagram labels labor and wage/MRP axes, shows horizontal labor supply at $12 and an upward/right shift in labor demand. It explains that at $5 the fourth worker's MRP is $20 and the fifth's is $10, so",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}

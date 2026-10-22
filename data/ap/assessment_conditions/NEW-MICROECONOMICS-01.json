@@ -1,0 +1,1761 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MICROECONOMICS-01",
+  "year": 2026,
+  "subject": "microeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Firm A is the only seller of a patented device. Its inverse market demand is P = 120 - 2Q, marginal revenue is MR = 120 - 4Q, and marginal cost is constant at $20. Its total cost is TC = 20Q + 400. Prices and costs are in dollars, and Q is devices per day. The firm maximizes economic profit.\n(a) Draw a correctly labeled graph showing demand, marginal revenue, marginal cost, average total cost, and the profit-maximizing price and quantity. Show average total cost at the chosen quantity consistently with the firm's economic profit.\n(b) Calculate the firm's daily economic profit. Show your work.\n(c) Regulators impose a price ceiling equal to marginal cost. Calculate the quantity demanded at that price and explain whether the firm can cover its total cost at that quantity without a subsidy.\n(d) Instead of the price ceiling, the government imposes a $100 daily lump-sum tax. Explain what happens to the profit-maximizing quantity and price, and calculate the new daily economic profit.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_fcd46531c9a2094467b7",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Monopoly outcome\nSet marginal revenue equal to marginal cost:\n\n\\[\n120-4Q=20 \\Rightarrow Q^*=25.\n\\]\n\nThe monopoly price is read from demand:\n\n\\[\nP^*=120-2(25)=\\$70.\n\\]\n\nAt this quantity, \\(TC=20(25)+400=\\$900\\), so \\(ATC=900/25=\\$36\\). The graph shows price above ATC, consistent with positive economic profit.\n\n### (b) Daily economic profit\n\n\\[\n\\pi=TR-TC=(70)(25)-[20(25)+400]\n=1750-900=\\boxed{\\$850\\text{ per day}}.\n\\]\n\n### (c) Price ceiling at marginal cost\nAt \\(P=MC=\\$20\\), quantity demanded is\n\n\\[\n20=120-2Q_d \\Rightarrow Q_d=\\boxed{50\\text{ devices per day}}.\n\\]\n\nAt 50 devices, revenue is \\$1,000, while total cost is \\(20(50)+400=\\$1,400\\). The firm therefore cannot cover total cost: it incurs a \\$400 daily loss without a subsidy. The price covers variable cost but not the fixed cost.\n\n### (d) $100 daily lump-sum tax\nA lump-sum tax raises fixed cost but does not change marginal cost or marginal revenue. Thus the profit-maximizing quantity and price remain \\(Q=25\\) and \\(P=\\$70\\). New profit is\n\n\\[\n\\$850-\\$100=\\boxed{\\$750\\text{ per day}}.\n\\]",
+        "diagrams": [
+          {
+            "title": "Monopoly profit-maximizing outcome",
+            "x_label": "Quantity (devices per day)",
+            "y_label": "Price, cost, revenue ($)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MC",
+                "points": [
+                  [
+                    0,
+                    10
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "ATC",
+                "points": [
+                  [
+                    10,
+                    50
+                  ],
+                  [
+                    25,
+                    40
+                  ],
+                  [
+                    50,
+                    30
+                  ],
+                  [
+                    100,
+                    22
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "P* guide",
+                "points": [
+                  [
+                    0,
+                    43.3
+                  ],
+                  [
+                    25,
+                    43.3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "Q* guide",
+                "points": [
+                  [
+                    25,
+                    0
+                  ],
+                  [
+                    25,
+                    43.3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "D",
+                "points": [
+                  [
+                    91,
+                    17
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MR",
+                "points": [
+                  [
+                    91,
+                    14
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MC",
+                "points": [
+                  [
+                    88,
+                    12
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC",
+                "points": [
+                  [
+                    52,
+                    30
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P* = $70",
+                "points": [
+                  [
+                    2,
+                    45
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 25",
+                "points": [
+                  [
+                    20,
+                    2
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC = $36",
+                "points": [
+                  [
+                    27,
+                    37
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 150,
+        "answer_words": 150,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_fcd46531c9a2094467b7",
+        "question_id": "NEW-MICROECONOMICS-01",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-01",
+        "grade_status": "complete",
+        "answer_words": "150.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "80.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_fcd46531c9a2094467b7",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "2",
+          "max_points": "4",
+          "kind": "graph",
+          "answer_words": "150",
+          "word_share": "0.25",
+          "evidence": "The written work correctly finds Q*=25, P*=$70, and ATC=$36, and states price exceeds ATC. The rendered graph has labeled axes and curves, but demand and MR are drawn as the same line rather than MR’s",
+          "error": "The graph does not show MR below demand; its demand and MR curves coincide. The graph also places the P* guide at a height inconsistent with the stated $70 and does not correctly locate the ATC point.",
+          "material_error": "True",
+          "grading_uncertainty": "The graph’s plotted coordinates and guides are inconsistent with the stated values: the demand and MR lines coincide, and the P* guide is not at the plotted demand price for Q=25. Awarded partial graph credit for labeled axes, MC, and the stated monopoly outcome/ATC relationship."
+        },
+        {
+          "response_id": "response_fcd46531c9a2094467b7",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "150",
+          "word_share": "0.25",
+          "evidence": "Shows TR=(70)(25)=$1,750 and TC=20(25)+400=$900, then calculates profit as $850 per day.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph’s plotted coordinates and guides are inconsistent with the stated values: the demand and MR lines coincide, and the P* guide is not at the plotted demand price for Q=25. Awarded partial graph credit for labeled axes, MC, and the stated monopoly outcome/ATC relationship."
+        },
+        {
+          "response_id": "response_fcd46531c9a2094467b7",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "150",
+          "word_share": "0.25",
+          "evidence": "Calculates Qd=50 at P=$20 and compares revenue of $1,000 with total cost of $1,400, identifying the $400 loss and uncovered fixed cost.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph’s plotted coordinates and guides are inconsistent with the stated values: the demand and MR lines coincide, and the P* guide is not at the plotted demand price for Q=25. Awarded partial graph credit for labeled axes, MC, and the stated monopoly outcome/ATC relationship."
+        },
+        {
+          "response_id": "response_fcd46531c9a2094467b7",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "150",
+          "word_share": "0.25",
+          "evidence": "Explains the lump-sum tax changes fixed cost but not marginal cost or marginal revenue, so Q=25 and P=$70 remain unchanged; calculates new profit of $750.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph’s plotted coordinates and guides are inconsistent with the stated values: the demand and MR lines coincide, and the P* guide is not at the plotted demand price for Q=25. Awarded partial graph credit for labeled axes, MC, and the stated monopoly outcome/ATC relationship."
+        }
+      ]
+    },
+    {
+      "response_id": "response_7700ac3126e7525a0be0",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a)–(b) Profit-maximizing outcome\nThe monopolist chooses output where **MR = MC**:\n\n\\[\n120-4Q=20 \\Rightarrow Q^*=25.\n\\]\nThe price is read from demand:\n\n\\[\nP^*=120-2(25)=\\$70.\n\\]\nAt this output, \\(ATC=TC/Q=(20Q+400)/Q=20+400/Q\\), so \\(ATC(25)=\\$36\\). The firm earns positive economic profit, shown by the gap between price and ATC at \\(Q^*\\).\n\n\\[\n\\pi=TR-TC=(70)(25)-[20(25)+400]=1750-900=\\boxed{\\$850\\text{ per day}}.\n\\]\n\n### (c) Price ceiling at marginal cost\nAt \\(P=MC=\\$20\\), quantity demanded is\n\n\\[\n20=120-2Q_d \\Rightarrow Q_d=\\boxed{50\\text{ devices per day}}.\n\\]\nAt 50 devices, total cost is \\(20(50)+400=\\$1{,}400\\), while revenue is \\(20(50)=\\$1{,}000\\). The firm cannot cover total cost: it incurs a \\$400 daily loss, so it would need a subsidy of \\$400 per day to cover total cost at that output.\n\n### (d) $100 daily lump-sum tax\nA lump-sum tax does not change marginal cost or marginal revenue, so the profit-maximizing quantity and price remain **25 devices per day and $70**. The tax reduces profit dollar-for-dollar:\n\n\\[\n\\pi_{tax}=850-100=\\boxed{\\$750\\text{ per day}}.\n\\]",
+        "diagrams": [
+          {
+            "title": "Monopoly profit-maximizing outcome",
+            "x_label": "Quantity (devices per day)",
+            "y_label": "Price, cost, revenue ($)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MC",
+                "points": [
+                  [
+                    0,
+                    20
+                  ],
+                  [
+                    100,
+                    20
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "ATC",
+                "points": [
+                  [
+                    10,
+                    80
+                  ],
+                  [
+                    25,
+                    62
+                  ],
+                  [
+                    50,
+                    44
+                  ],
+                  [
+                    100,
+                    35
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Q* guide",
+                "points": [
+                  [
+                    25,
+                    0
+                  ],
+                  [
+                    25,
+                    43.3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "P* guide",
+                "points": [
+                  [
+                    0,
+                    43.3
+                  ],
+                  [
+                    25,
+                    43.3
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "D",
+                "points": [
+                  [
+                    88,
+                    18
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MR",
+                "points": [
+                  [
+                    88,
+                    18
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MC = $20",
+                "points": [
+                  [
+                    72,
+                    23
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC",
+                "points": [
+                  [
+                    48,
+                    45
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P* = $70",
+                "points": [
+                  [
+                    2,
+                    45
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 25",
+                "points": [
+                  [
+                    21,
+                    3
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC = $36",
+                "points": [
+                  [
+                    27,
+                    34
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polygon",
+                "label": "Economic profit",
+                "points": [
+                  [
+                    0,
+                    43.3
+                  ],
+                  [
+                    25,
+                    43.3
+                  ],
+                  [
+                    25,
+                    62
+                  ],
+                  [
+                    0,
+                    62
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 153,
+        "answer_words": 153,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_7700ac3126e7525a0be0",
+        "question_id": "NEW-MICROECONOMICS-01",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-01",
+        "grade_status": "complete",
+        "answer_words": "153.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "80.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_7700ac3126e7525a0be0",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "2",
+          "max_points": "4",
+          "kind": "graph",
+          "answer_words": "153",
+          "word_share": "0.25",
+          "evidence": "The written work correctly derives Q*=25, P*=$70, and ATC(25)=$36. The graph has labeled axes, MC, ATC, and guides, but its demand and MR curves are identical rather than MR lying below demand; the P*",
+          "error": "The graph does not correctly distinguish demand from MR, and the plotted P* guide is not at the demand price of $70.",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's plotted demand and MR are the same line, and its P* guide is visibly far below the correct demand price at Q=25. Written calculations are correct, but graph credit is limited."
+        },
+        {
+          "response_id": "response_7700ac3126e7525a0be0",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "153",
+          "word_share": "0.25",
+          "evidence": "Shows TR=70×25=$1,750 and TC=20×25+400=$900, yielding daily economic profit of $850.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's plotted demand and MR are the same line, and its P* guide is visibly far below the correct demand price at Q=25. Written calculations are correct, but graph credit is limited."
+        },
+        {
+          "response_id": "response_7700ac3126e7525a0be0",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "153",
+          "word_share": "0.25",
+          "evidence": "Calculates Qd=50 at P=$20 and compares revenue of $1,000 with total cost of $1,400, correctly identifying a $400 loss and required subsidy.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's plotted demand and MR are the same line, and its P* guide is visibly far below the correct demand price at Q=25. Written calculations are correct, but graph credit is limited."
+        },
+        {
+          "response_id": "response_7700ac3126e7525a0be0",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "153",
+          "word_share": "0.25",
+          "evidence": "Explains the lump-sum tax leaves MR, MC, quantity, and price unchanged, and calculates new profit as $850−$100=$750.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's plotted demand and MR are the same line, and its P* guide is visibly far below the correct demand price at Q=25. Written calculations are correct, but graph credit is limited."
+        }
+      ]
+    },
+    {
+      "response_id": "response_29d7a3f65334c2470fd8",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Monopoly outcome\nThe firm chooses output where **MR = MC**:\n\n\\[\n120-4Q=20 \\Rightarrow Q^*=25.\n\\]\nThe demand curve gives the price: \\(P^*=120-2(25)=\\$70\\). At this output, \\(ATC=TC/Q=(20Q+400)/Q=20+400/25=\\$36\\). Thus the graph shows positive economic profit: the price is above ATC at \\(Q^*\\).\n\n### (b) Daily economic profit\n\\[\n\\pi=TR-TC=(70)(25)-[20(25)+400]\n=1750-900=\\boxed{\\$850\\text{ per day}}.\n\\]\n\n### (c) Price ceiling at marginal cost\nAt \\(P=MC=\\$20\\), quantity demanded is\n\\[\n20=120-2Q_d \\Rightarrow Q_d=\\boxed{50\\text{ devices per day}}.\n\\]\nAt that quantity, revenue is \\$1,000, while total cost is \\(20(50)+400=\\$1,400\\). The firm cannot cover total cost; it has a \\$400 daily loss without a subsidy. The price covers variable cost but not the fixed cost.\n\n### (d) $100 daily lump-sum tax\nA lump-sum tax does not change marginal cost or marginal revenue, so the firm still produces \\(Q=25\\) and charges \\(P=\\$70\\). Profit falls by the tax:\n\\[\n\\pi_{new}=850-100=\\boxed{\\$750\\text{ per day}}.\n\\]",
+        "diagrams": [
+          {
+            "title": "Monopoly profit-maximizing outcome",
+            "x_label": "Quantity (devices per day)",
+            "y_label": "Price, cost ($)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MC",
+                "points": [
+                  [
+                    0,
+                    20
+                  ],
+                  [
+                    100,
+                    20
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "ATC",
+                "points": [
+                  [
+                    0,
+                    55
+                  ],
+                  [
+                    25,
+                    38
+                  ],
+                  [
+                    50,
+                    30
+                  ],
+                  [
+                    100,
+                    25
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Q*",
+                "points": [
+                  [
+                    25,
+                    0
+                  ],
+                  [
+                    25,
+                    70
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "P*",
+                "points": [
+                  [
+                    0,
+                    70
+                  ],
+                  [
+                    25,
+                    70
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "D",
+                "points": [
+                  [
+                    78,
+                    27
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MR",
+                "points": [
+                  [
+                    78,
+                    12
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "MC",
+                "points": [
+                  [
+                    82,
+                    22
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC",
+                "points": [
+                  [
+                    52,
+                    31
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P* = $70",
+                "points": [
+                  [
+                    3,
+                    73
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Q* = 25",
+                "points": [
+                  [
+                    20,
+                    4
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "ATC = $36",
+                "points": [
+                  [
+                    28,
+                    39
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 145,
+        "answer_words": 145,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_29d7a3f65334c2470fd8",
+        "question_id": "NEW-MICROECONOMICS-01",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-01",
+        "grade_status": "complete",
+        "answer_words": "145.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "90.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_29d7a3f65334c2470fd8",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "3",
+          "max_points": "4",
+          "kind": "graph",
+          "answer_words": "145",
+          "word_share": "0.25",
+          "evidence": "The written answer correctly derives Q*=25, P*=$70, and ATC=$36, and the graph has labeled axes, MC, ATC, and the monopoly outcome. The graph incorrectly draws demand and MR as the same line rather as",
+          "error": "Demand and MR are not correctly distinguished: MR should be steeper and lie below demand, and the plotted demand/MR lines do not match the stated curves.",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's demand and MR curves are materially incorrect: they overlap and are not the specified curves, despite the correct written calculations."
+        },
+        {
+          "response_id": "response_29d7a3f65334c2470fd8",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "145",
+          "word_share": "0.25",
+          "evidence": "Shows TR=$70×25=$1,750, TC=$20×25+$400=$900, and profit=$850 per day.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's demand and MR curves are materially incorrect: they overlap and are not the specified curves, despite the correct written calculations."
+        },
+        {
+          "response_id": "response_29d7a3f65334c2470fd8",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "145",
+          "word_share": "0.25",
+          "evidence": "Calculates Qd=50 at P=$20 and compares revenue of $1,000 with total cost of $1,400, identifying the $400 loss and uncovered fixed cost.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's demand and MR curves are materially incorrect: they overlap and are not the specified curves, despite the correct written calculations."
+        },
+        {
+          "response_id": "response_29d7a3f65334c2470fd8",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "145",
+          "word_share": "0.25",
+          "evidence": "Explains the lump-sum tax leaves marginal cost and marginal revenue unchanged, so Q=25 and P=$70 remain unchanged; calculates new profit of $750.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The graph's demand and MR curves are materially incorrect: they overlap and are not the specified curves, despite the correct written calculations."
+        }
+      ]
+    },
+    {
+      "response_id": "response_88b8d8f4bd27e8f8ebae",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a)–(b) Monopoly outcome and economic profit\nSet marginal revenue equal to marginal cost:\n\n\\[\n120-4Q=20 \\Rightarrow Q^*=25.\n\\]\n\nThe firm charges the price on the demand curve:\n\n\\[\nP^*=120-2(25)=\\$70.\n\\]\n\nAt this quantity, \\(ATC=TC/Q=(20Q+400)/Q=20+400/Q\\), so \\(ATC(25)=\\$36\\). Economic profit is the rectangle between price and ATC, multiplied by quantity:\n\n\\[\n\\pi=(P-ATC)Q=(70-36)(25)=\\boxed{\\$850\\text{ per day}}.\n\\]\n\n### (c) Price ceiling at marginal cost\nAt \\(P=MC=\\$20\\), quantity demanded is\n\n\\[\n20=120-2Q_d \\Rightarrow Q_d=50.\n\\]\n\nAt 50 devices, total cost is \\(TC=20(50)+400=\\$1{,}400\\), while revenue is \\(20(50)=\\$1{,}000\\). The firm cannot cover total cost: it incurs a \\(\\$400\\) loss without a subsidy. The ceiling covers variable cost but not the fixed cost.\n\n### (d) $100 daily lump-sum tax\nA lump-sum tax raises fixed cost but does not change marginal cost or marginal revenue. Thus the profit-maximizing quantity remains \\(25\\), and the price remains \\$70. New economic profit is\n\n\\[\n\\$850-\\$100=\\boxed{\\$750\\text{ per day}}.\n\\]",
+        "diagrams": [
+          {
+            "title": "Monopoly profit-maximizing outcome",
+            "x_label": "Quantity (devices per day)",
+            "y_label": "Price, cost, revenue ($)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Demand",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D",
+                "points": [
+                  [
+                    94,
+                    15
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "MR",
+                "points": [
+                  [
+                    0,
+                    90
+                  ],
+                  [
+                    100,
+                    10
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 147,
+        "answer_words": 147,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_88b8d8f4bd27e8f8ebae",
+        "question_id": "NEW-MICROECONOMICS-01",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "False",
+        "subject": "micro",
+        "year": "2026",
+        "source_set": "assistant_authored_unpublished",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MICROECONOMICS-01",
+        "grade_status": "complete",
+        "answer_words": "147.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "60.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_88b8d8f4bd27e8f8ebae",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "0",
+          "max_points": "4",
+          "kind": "graph",
+          "answer_words": "147",
+          "word_share": "0.2",
+          "evidence": "The written response correctly gives Q*=25, P*=$70, and ATC(25)=$36, below price. The rendered graph has labeled axes and a demand line, but no distinct correctly positioned MR, MC, ATC, or marked P/Q",
+          "error": "The required graph is materially incomplete: MR is drawn coincident with demand rather than below it, and MC, ATC, and the profit-maximizing price and quantity are not shown.",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_88b8d8f4bd27e8f8ebae",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "147",
+          "word_share": "0.2",
+          "evidence": "Calculates profit as (70−36)×25=$850 per day, with the relevant price, ATC, and quantity shown.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_88b8d8f4bd27e8f8ebae",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "147",
+          "word_share": "0.3",
+          "evidence": "Finds Qd=50 at P=$20 and calculates revenue $1,000 versus total cost $1,400, explaining the $400 loss and uncovered fixed cost.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_88b8d8f4bd27e8f8ebae",
+          "question_id": "NEW-MICROECONOMICS-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "147",
+          "word_share": "0.3",
+          "evidence": "Explains the lump-sum tax changes fixed cost but not MC or MR, so Q=25 and P=$70 remain unchanged; new profit is $750.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}

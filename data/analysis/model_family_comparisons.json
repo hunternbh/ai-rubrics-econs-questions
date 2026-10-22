@@ -1,0 +1,386 @@
+[
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": 6.566137566137568,
+    "standard_error": 5.54277589383213,
+    "ci95": [
+      -4.7701119916264965,
+      17.902387123901633
+    ],
+    "p_value": 0.2457819393405942,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": 3.974987974987974,
+    "standard_error": 5.915425877700688,
+    "ci95": [
+      -8.123416375924341,
+      16.07339232590029
+    ],
+    "p_value": 0.5069214378039204,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": -4.43013468013468,
+    "standard_error": 4.703422688923249,
+    "ci95": [
+      -14.049714183000017,
+      5.189444822730657
+    ],
+    "p_value": 0.35402665119805266,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": -1.1563251563251573,
+    "standard_error": 3.1901330174844387,
+    "ci95": [
+      -7.6808797660305785,
+      5.368229453380264
+    ],
+    "p_value": 0.7196297014486561,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": -11.217291967291967,
+    "standard_error": 7.800407246427532,
+    "ci95": [
+      -27.170916088392296,
+      4.736332153808364
+    ],
+    "p_value": 0.16112756938866835,
+    "holm_p_value": 0.9667654163320101
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": -6.85990860990861,
+    "standard_error": 7.473931618736345,
+    "ci95": [
+      -22.145815099821043,
+      8.425997880003825
+    ],
+    "p_value": 0.3662711150235963,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": 14.256493506493506,
+    "standard_error": 6.37399898992234,
+    "ci95": [
+      1.2202018333804219,
+      27.29278517960659
+    ],
+    "p_value": 0.03316328806525049,
+    "holm_p_value": 0.19897972839150296
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": 7.932659932659932,
+    "standard_error": 6.3566755007001845,
+    "ci95": [
+      -5.0682012267908325,
+      20.933521092110695
+    ],
+    "p_value": 0.22204080424369838,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": -2.9843674843674837,
+    "standard_error": 4.426454788735251,
+    "ci95": [
+      -12.037484027849075,
+      6.068749059114108
+    ],
+    "p_value": 0.5055160080941934,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": -1.7858345358345367,
+    "standard_error": 3.681647155303734,
+    "ci95": [
+      -9.31564842973528,
+      5.743979358066207
+    ],
+    "p_value": 0.6312751176349913,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "rough",
+    "questions": 30,
+    "difference_in_gains_pp": -1.849687349687348,
+    "standard_error": 7.201716985143328,
+    "ci95": [
+      -16.57885240195305,
+      12.879477702578354
+    ],
+    "p_value": 0.7991159613265753,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "MIT",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "detailed",
+    "questions": 30,
+    "difference_in_gains_pp": -3.996272246272245,
+    "standard_error": 7.849955000071602,
+    "ci95": [
+      -20.051232901826516,
+      12.058688409282027
+    ],
+    "p_value": 0.6145464647994103,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": 1.7640692640692648,
+    "standard_error": 4.7922056739802725,
+    "ci95": [
+      -8.20186800232265,
+      11.73000653046118
+    ],
+    "p_value": 0.7164740778035998,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": 0.7196969696969707,
+    "standard_error": 5.294773551261653,
+    "ci95": [
+      -10.291387412204706,
+      11.730781351598647
+    ],
+    "p_value": 0.8931744132843131,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": 0.44913419913420166,
+    "standard_error": 4.209464011128182,
+    "ci95": [
+      -8.304925437290876,
+      9.20319383555928
+    ],
+    "p_value": 0.9160426462757724,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": 1.5097402597402607,
+    "standard_error": 4.919180397707166,
+    "ci95": [
+      -8.720255400044575,
+      11.739735919525096
+    ],
+    "p_value": 0.7619353064987731,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": 2.4729437229437226,
+    "standard_error": 4.2447185741009505,
+    "ci95": [
+      -6.3544317907293495,
+      11.300319236616794
+    ],
+    "p_value": 0.5663708894587589,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "correctness",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": -3.5281385281385282,
+    "standard_error": 4.43330344037481,
+    "ci95": [
+      -12.747697740620836,
+      5.691420684343779
+    ],
+    "p_value": 0.43503732518103877,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": 1.358225108225112,
+    "standard_error": 4.837263553149634,
+    "ci95": [
+      -8.701415147501475,
+      11.417865363951698
+    ],
+    "p_value": 0.7816239771509557,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4.1-nano",
+    "higher_price_model": "gpt-4.1",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": 0.30303030303030454,
+    "standard_error": 5.957927364773044,
+    "ci95": [
+      -12.087157930633618,
+      12.693218536694227
+    ],
+    "p_value": 0.9599164135473656,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": 0.3841991341991376,
+    "standard_error": 5.529571925455556,
+    "ci95": [
+      -11.115175197395729,
+      11.883573465794004
+    ],
+    "p_value": 0.9452642863280605,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-4o-mini",
+    "higher_price_model": "gpt-4o",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": 1.0551948051948061,
+    "standard_error": 4.8011824228708315,
+    "ci95": [
+      -8.92941063247056,
+      11.03980024286017
+    ],
+    "p_value": 0.8281662856012754,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "rough",
+    "questions": 22,
+    "difference_in_gains_pp": -2.6839826839826864,
+    "standard_error": 5.854318640956919,
+    "ci95": [
+      -14.858704781164027,
+      9.490739413198655
+    ],
+    "p_value": 0.6513297967861292,
+    "holm_p_value": 1.0
+  },
+  {
+    "dataset": "AP",
+    "outcome": "reasoning",
+    "lower_price_model": "gpt-5.4-nano",
+    "higher_price_model": "gpt-5.4",
+    "condition": "detailed",
+    "questions": 22,
+    "difference_in_gains_pp": -9.972943722943727,
+    "standard_error": 6.015955750357755,
+    "ci95": [
+      -22.48380859065681,
+      2.5379211447693564
+    ],
+    "p_value": 0.11223274573069074,
+    "holm_p_value": 0.6733964743841444
+  }
+]

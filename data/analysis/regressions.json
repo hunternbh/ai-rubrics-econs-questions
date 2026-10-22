@@ -1,0 +1,447 @@
+{
+  "design": "Balanced producer-question-condition scores; model-by-question fixed effects; rough/detailed indicators and their Luna interactions. Six OpenAI family models form the reference group; Luna is a separate benchmark.",
+  "weights": "Equal criteria within each original question, equal question blocks, and equal weight to the six reference-group producers. No sample selection based on results.",
+  "inference": "CR1 covariance clustered on question, using G-1 Student-t degrees of freedom. Fixed effects nested in question clusters are not counted in the slope small-sample correction. Regression tests are supplementary, unadjusted, and do not replace primary multiplicity-adjusted comparisons.",
+  "results": [
+    {
+      "setting": "MIT",
+      "outcome": "correctness",
+      "n": 630,
+      "questions": 30,
+      "models": [
+        "gpt-4.1-nano",
+        "gpt-4.1",
+        "gpt-4o-mini",
+        "gpt-4o",
+        "gpt-5.4-nano",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "parameters_slopes": 4,
+      "fixed_effect_groups": 210,
+      "cluster_df": 29,
+      "cluster_correction": 1.0394403437259008,
+      "terms": [
+        {
+          "term": "rough",
+          "coefficient": 0.6871893538560224,
+          "standard_error": 1.759197080628666,
+          "p_value": 0.6989280701698853,
+          "ci95": [
+            -2.910772661799042,
+            4.2851513695110865
+          ]
+        },
+        {
+          "term": "detailed",
+          "coefficient": 1.4309163059163093,
+          "standard_error": 1.7826801353030692,
+          "p_value": 0.42869102697346534,
+          "ci95": [
+            -2.2150739492466673,
+            5.076906561079285
+          ]
+        },
+        {
+          "term": "rough_x_luna",
+          "coefficient": -0.8284832451499149,
+          "standard_error": 3.271199769716329,
+          "p_value": 0.8018496127120645,
+          "ci95": [
+            -7.518837979511426,
+            5.861871489211596
+          ]
+        },
+        {
+          "term": "detailed_x_luna",
+          "coefficient": -3.7203583453583535,
+          "standard_error": 5.105529276644072,
+          "p_value": 0.47203411009834984,
+          "ci95": [
+            -14.162338160727153,
+            6.721621470010445
+          ]
+        },
+        {
+          "term": "mean_base",
+          "coefficient": 1.059052829886166,
+          "standard_error": 1.552802445245288,
+          "p_value": 0.5006334943109365,
+          "ci95": [
+            -2.116784759505642,
+            4.234890419277974
+          ]
+        },
+        {
+          "term": "mean_luna",
+          "coefficient": -1.2153679653679683,
+          "standard_error": 3.567871655613842,
+          "p_value": 0.7358283477287291,
+          "ci95": [
+            -8.512484834754485,
+            6.081748904018547
+          ]
+        }
+      ],
+      "covariance": [
+        [
+          3.094774368492421,
+          1.6860294512711966,
+          -1.954585887152934,
+          -0.15396344613845786
+        ],
+        [
+          1.686029451271196,
+          3.177948464804169,
+          -1.6766625157707566,
+          -3.50068323629024
+        ],
+        [
+          -1.9545858871529318,
+          -1.676662515770756,
+          10.700747933392163,
+          9.539331955267262
+        ],
+        [
+          -0.1539634461384566,
+          -3.5006832362902394,
+          9.539331955267262,
+          26.066429194669738
+        ]
+      ],
+      "r_squared": 0.85421191965354,
+      "within_r_squared": 0.002819467642306006,
+      "adjusted_r_squared": 0.7795656188992227
+    },
+    {
+      "setting": "MIT",
+      "outcome": "reasoning",
+      "n": 630,
+      "questions": 30,
+      "models": [
+        "gpt-4.1-nano",
+        "gpt-4.1",
+        "gpt-4o-mini",
+        "gpt-4o",
+        "gpt-5.4-nano",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "parameters_slopes": 4,
+      "fixed_effect_groups": 210,
+      "cluster_df": 29,
+      "cluster_correction": 1.0394403437259008,
+      "terms": [
+        {
+          "term": "rough",
+          "coefficient": 2.8469817219817273,
+          "standard_error": 1.8779313853484747,
+          "p_value": 0.14033987409950294,
+          "ci95": [
+            -0.9938192132243064,
+            6.6877826571877605
+          ]
+        },
+        {
+          "term": "detailed",
+          "coefficient": 0.10926727593394392,
+          "standard_error": 1.9649903065711873,
+          "p_value": 0.9560362114387149,
+          "ci95": [
+            -3.9095891455688774,
+            4.128123697436766
+          ]
+        },
+        {
+          "term": "rough_x_luna",
+          "coefficient": -2.1801948051948092,
+          "standard_error": 3.637827845721106,
+          "p_value": 0.553618378596545,
+          "ci95": [
+            -9.620388148239373,
+            5.259998537849754
+          ]
+        },
+        {
+          "term": "detailed_x_luna",
+          "coefficient": 0.021805355138687352,
+          "standard_error": 5.120189955156059,
+          "p_value": 0.9966312202529791,
+          "ci95": [
+            -10.450158914496605,
+            10.493769624773979
+          ]
+        },
+        {
+          "term": "mean_base",
+          "coefficient": 1.4781244989578357,
+          "standard_error": 1.5885468158381881,
+          "p_value": 0.3597998881099153,
+          "ci95": [
+            -1.7708185367099478,
+            4.727067534625619
+          ]
+        },
+        {
+          "term": "mean_luna",
+          "coefficient": 0.39892977392977474,
+          "standard_error": 3.8944818826583116,
+          "p_value": 0.9191167462803771,
+          "ci95": [
+            -7.566180013231783,
+            8.364039561091332
+          ]
+        }
+      ],
+      "covariance": [
+        [
+          3.5266262880768413,
+          1.3530553757215087,
+          -2.096247153274076,
+          -0.21037581978561343
+        ],
+        [
+          1.3530553757215076,
+          3.8611869049187284,
+          -1.756958078832583,
+          -3.8125577647924187
+        ],
+        [
+          -2.096247153274074,
+          -1.7569580788325836,
+          13.233791435103866,
+          13.438086807180616
+        ],
+        [
+          -0.21037581978561173,
+          -3.8125577647924174,
+          13.438086807180614,
+          26.216345176881006
+        ]
+      ],
+      "r_squared": 0.8270981308137988,
+      "within_r_squared": 0.00835823432110916,
+      "adjusted_r_squared": 0.738569048754518
+    },
+    {
+      "setting": "AP",
+      "outcome": "correctness",
+      "n": 462,
+      "questions": 22,
+      "models": [
+        "gpt-4.1-nano",
+        "gpt-4.1",
+        "gpt-4o-mini",
+        "gpt-4o",
+        "gpt-5.4-nano",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "parameters_slopes": 4,
+      "fixed_effect_groups": 154,
+      "cluster_df": 21,
+      "cluster_correction": 1.0544811811187358,
+      "terms": [
+        {
+          "term": "rough",
+          "coefficient": -0.422077922077923,
+          "standard_error": 1.2054155586498954,
+          "p_value": 0.729712664392636,
+          "ci95": [
+            -2.9288768064963957,
+            2.0847209623405494
+          ]
+        },
+        {
+          "term": "detailed",
+          "coefficient": 1.338383838383841,
+          "standard_error": 1.330114472408935,
+          "p_value": 0.32576536918910165,
+          "ci95": [
+            -1.4277406335104335,
+            4.104508310278115
+          ]
+        },
+        {
+          "term": "rough_x_luna",
+          "coefficient": 0.30303030303029777,
+          "standard_error": 4.300701327479845,
+          "p_value": 0.9444936969588846,
+          "ci95": [
+            -8.640767719635498,
+            9.246828325696093
+          ]
+        },
+        {
+          "term": "detailed_x_luna",
+          "coefficient": -7.582972582972591,
+          "standard_error": 4.505557270850107,
+          "p_value": 0.10717958291793529,
+          "ci95": [
+            -16.952791861645935,
+            1.786846695700751
+          ]
+        },
+        {
+          "term": "mean_base",
+          "coefficient": 0.458152958152959,
+          "standard_error": 1.105667373008973,
+          "p_value": 0.6828067873671407,
+          "ci95": [
+            -1.841208218420185,
+            2.7575141347261027
+          ]
+        },
+        {
+          "term": "mean_luna",
+          "coefficient": -3.181818181818188,
+          "standard_error": 3.664142770726866,
+          "p_value": 0.3950096565222896,
+          "ci95": [
+            -10.801820216880618,
+            4.438183853244242
+          ]
+        }
+      ],
+      "covariance": [
+        [
+          1.4530266690352394,
+          0.8338850900996571,
+          -2.487632128472862,
+          1.2601060134730546
+        ],
+        [
+          0.8338850900996579,
+          1.7692045097116997,
+          -1.4076412424027325,
+          1.6039340390934966
+        ],
+        [
+          -2.4876321284728635,
+          -1.4076412424027325,
+          18.4960319081869,
+          6.040078012827236
+        ],
+        [
+          1.2601060134730537,
+          1.6039340390934946,
+          6.040078012827241,
+          20.30004632091027
+        ]
+      ],
+      "r_squared": 0.8659508796619971,
+      "within_r_squared": 0.01716894799262303,
+      "adjusted_r_squared": 0.7967215642242785
+    },
+    {
+      "setting": "AP",
+      "outcome": "reasoning",
+      "n": 462,
+      "questions": 22,
+      "models": [
+        "gpt-4.1-nano",
+        "gpt-4.1",
+        "gpt-4o-mini",
+        "gpt-4o",
+        "gpt-5.4-nano",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "parameters_slopes": 4,
+      "fixed_effect_groups": 154,
+      "cluster_df": 21,
+      "cluster_correction": 1.0544811811187358,
+      "terms": [
+        {
+          "term": "rough",
+          "coefficient": -1.0191197691197715,
+          "standard_error": 1.162296235423375,
+          "p_value": 0.3905071105851942,
+          "ci95": [
+            -3.4362471119810847,
+            1.3980075737415414
+          ]
+        },
+        {
+          "term": "detailed",
+          "coefficient": 0.8134920634920642,
+          "standard_error": 1.5120816978167517,
+          "p_value": 0.5962370739816507,
+          "ci95": [
+            -2.3310539696469883,
+            3.9580380966311166
+          ]
+        },
+        {
+          "term": "rough_x_luna",
+          "coefficient": 2.1121933621933584,
+          "standard_error": 4.216639098464707,
+          "p_value": 0.6216382988284651,
+          "ci95": [
+            -6.656787685193888,
+            10.881174409580606
+          ]
+        },
+        {
+          "term": "detailed_x_luna",
+          "coefficient": -8.497474747474755,
+          "standard_error": 4.787789199373743,
+          "p_value": 0.09042571363328267,
+          "ci95": [
+            -18.45422745213004,
+            1.459277957180534
+          ]
+        },
+        {
+          "term": "mean_base",
+          "coefficient": -0.10281385281385369,
+          "standard_error": 1.1988912479968084,
+          "p_value": 0.9324716165718376,
+          "ci95": [
+            -2.5960446904708623,
+            2.390416984843155
+          ]
+        },
+        {
+          "term": "mean_luna",
+          "coefficient": -3.2954545454545516,
+          "standard_error": 4.047818509047107,
+          "p_value": 0.42470598548084876,
+          "ci95": [
+            -11.71335395781387,
+            5.122444866904766
+          ]
+        }
+      ],
+      "covariance": [
+        [
+          1.3509325388793496,
+          1.0560186491708188,
+          -0.9328197872521546,
+          1.3892309175221118
+        ],
+        [
+          1.0560186491708188,
+          2.2863910608723903,
+          0.21723503441654374,
+          1.184408587388426
+        ],
+        [
+          -0.9328197872521564,
+          0.21723503441654216,
+          17.78004528670126,
+          7.685448811076511
+        ],
+        [
+          1.3892309175221114,
+          1.1844085873884245,
+          7.685448811076513,
+          22.92292541763987
+        ]
+      ],
+      "r_squared": 0.8524111382224366,
+      "within_r_squared": 0.022700435130705965,
+      "adjusted_r_squared": 0.7761892589491556
+    }
+  ]
+}

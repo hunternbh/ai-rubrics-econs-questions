@@ -1,0 +1,1017 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MACRO-03",
+  "year": 2026,
+  "subject": "macroeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Tavora and Belora are trading partners with flexible exchange rates. Tavora uses the crown and Belora uses the peso. Initially Tavora has a zero current-account balance and a zero capital-and-financial-account balance. Assume no change in net investment income, transfers, official reserve transactions, or statistical discrepancies. Real income in Tavora now increases; hold other determinants of trade constant. Assume that exchange-rate feedback does not fully offset the initial effect of the income change on trade flows.\n\n(a) What happens to Tavora’s net exports? Explain.\n\n(b) Draw a correctly labeled foreign-exchange graph for the peso, with crowns per peso on the vertical axis. Show the effect of the change in part (a) on the demand for pesos and on the peso’s international value.\n\n(c) What happens to Tavora’s capital-and-financial-account balance? Explain using the balance-of-payments identity.\n\n(d) Based solely on the increase in Belora’s exports, what happens to cyclical unemployment in Belora in the short run? Explain, assuming it initially has a recessionary gap.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_7647b07541c220529892",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** Tavora’s net exports decrease. Higher real income raises Tavora’s demand for imports, including goods from Belora. With other trade determinants held constant, imports rise while exports are initially unchanged, so net exports (exports minus imports) fall. The stated exchange-rate assumption means this effect is not fully offset.\n\n**(b)** Tavora’s increased imports from Belora increase Tavora’s demand for pesos: Tavora’s residents need pesos to buy Beloran goods. The peso demand curve shifts right, raising its value in crowns per peso (the peso appreciates).\n\n**(c)** Tavora’s capital-and-financial-account balance increases (moves toward surplus). With the current account lower and the initial balance-of-payments accounts at zero, the balance-of-payments identity requires an offsetting increase in the capital-and-financial-account balance. Given the assumptions, the decrease in the current-account balance is matched by an increase in the capital-and-financial-account balance.\n\n**(d)** Belora’s cyclical unemployment decreases in the short run. Higher exports increase aggregate demand and output; with Belora initially in a recessionary gap, the rise in production increases demand for labor and reduces cyclical unemployment.",
+        "diagrams": [
+          {
+            "title": "Peso foreign-exchange market",
+            "x_label": "Quantity of pesos",
+            "y_label": "Crowns per peso",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply of pesos",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D1",
+                "points": [
+                  [
+                    20,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D2",
+                "points": [
+                  [
+                    30,
+                    80
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D1",
+                "points": [
+                  [
+                    76,
+                    24
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D2",
+                "points": [
+                  [
+                    86,
+                    24
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    77,
+                    77
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P1",
+                "points": [
+                  [
+                    49,
+                    49
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "P2",
+                "points": [
+                  [
+                    55,
+                    55
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 167,
+        "answer_words": 167,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_7647b07541c220529892",
+        "question_id": "NEW-MACRO-03",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "a",
+        "up_ids": "[\"b\"]",
+        "down_ids": "[\"a\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-03",
+        "grade_status": "complete",
+        "answer_words": "167.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "75.0",
+        "original_score_pct": "80.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_7647b07541c220529892",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "167",
+          "word_share": "0.2",
+          "evidence": "States net exports decrease because higher income raises imports while exports are initially unchanged.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7647b07541c220529892",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "167",
+          "word_share": "0.2",
+          "evidence": "The graph labels the peso market, crowns per peso, quantity of pesos, and shows an initial supply-demand equilibrium. The prose and graph indicate a rightward demand shift and higher peso value.",
+          "error": "The drawn demand curves slope downward, contrary to the standard foreign-exchange market demand curve for pesos, which slopes downward only if the vertical axis is crowns per peso? Actually with price",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7647b07541c220529892",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "167",
+          "word_share": "0.3",
+          "evidence": "Explains that the current-account balance falls and the capital-and-financial-account balance rises to offset it under the balance-of-payments identity.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7647b07541c220529892",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "167",
+          "word_share": "0.3",
+          "evidence": "Says increased exports raise aggregate demand and output, reducing cyclical unemployment in a recessionary gap.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_2f212517fd27740841cb",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** Tavora’s net exports decrease. Higher real income raises Tavora’s demand for imports, including goods from Belora. With other trade determinants held constant, imports rise and net exports (exports minus imports) fall. The stated assumption means exchange-rate feedback does not erase this initial effect.\n\n**(b)** Tavora’s increased imports from Belora increase Tavora’s demand for pesos to pay Beloran exporters. The peso demand curve shifts right, raising its value: more crowns are exchanged for each peso.\n\n**(c)** Tavora’s capital-and-financial-account balance moves into surplus (increases). With the current account now in deficit and no changes in the other specified accounts, the balance-of-payments identity requires an offsetting capital-and-financial-account surplus.\n\n**(d)** Belora’s cyclical unemployment decreases in the short run. Higher exports increase aggregate demand and output, helping close Belora’s recessionary gap and raising employment.",
+        "diagrams": [
+          {
+            "title": "Foreign-exchange market for pesos",
+            "x_label": "Quantity of pesos",
+            "y_label": "Crowns per peso",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply of pesos",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₁",
+                "points": [
+                  [
+                    20,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₂",
+                "points": [
+                  [
+                    30,
+                    80
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₁",
+                "points": [
+                  [
+                    76,
+                    24
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₂",
+                "points": [
+                  [
+                    86,
+                    24
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    77,
+                    77
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₁",
+                "points": [
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₂",
+                "points": [
+                  [
+                    55,
+                    55
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Higher peso value",
+                "points": [
+                  [
+                    50,
+                    50
+                  ],
+                  [
+                    55,
+                    55
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 130,
+        "answer_words": 130,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_2f212517fd27740841cb",
+        "question_id": "NEW-MACRO-03",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "a",
+        "up_ids": "[\"b\"]",
+        "down_ids": "[\"a\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-03",
+        "grade_status": "complete",
+        "answer_words": "130.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_2f212517fd27740841cb",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "130",
+          "word_share": "0.22",
+          "evidence": "States that Tavora’s net exports decrease because higher income raises imports from Belora, with other trade determinants held constant.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2f212517fd27740841cb",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "130",
+          "word_share": "0.28",
+          "evidence": "The graph labels crowns per peso vertically and quantity of pesos horizontally, shows an initial supply-demand equilibrium, and shifts peso demand right. The new equilibrium has a higher crowns-per-p次",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2f212517fd27740841cb",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "130",
+          "word_share": "0.25",
+          "evidence": "Explains that the current-account deficit requires an offsetting capital-and-financial-account surplus under the stated balance-of-payments identity.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_2f212517fd27740841cb",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "130",
+          "word_share": "0.25",
+          "evidence": "States that Belora’s cyclical unemployment decreases as higher exports raise aggregate demand and output, closing the recessionary gap and increasing employment.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_00ad5cda4cb6b8815a5e",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** Tavora’s net exports decrease. Higher real income raises Tavora’s demand for imports, including goods from Belora, while other determinants of trade are held constant.\n\n**(b)** Tavora’s increased imports from Belora increase Tavora’s demand for pesos: Tavora’s residents need pesos to buy Beloran goods. The peso demand curve shifts right from **D₁** to **D₂**. With a flexible exchange rate, the peso appreciates: its value rises from **E₁** to **E₂** crowns per peso.\n\n**(c)** Tavora’s capital-and-financial-account balance moves into surplus (increases). The balance-of-payments identity requires the current account and capital-and-financial account to sum to zero under the stated assumptions. Since Tavora’s current account falls into deficit, its capital-and-financial account must be in surplus by an equal amount.\n\n**(d)** Belora’s cyclical unemployment decreases in the short run. Higher exports raise aggregate demand in Belora; with a recessionary gap, increased output moves the economy toward potential output and increases employment.",
+        "diagrams": [
+          {
+            "title": "Foreign exchange market for the peso",
+            "x_label": "Quantity of pesos",
+            "y_label": "Crowns per peso",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "S",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₁",
+                "points": [
+                  [
+                    20,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₂",
+                "points": [
+                  [
+                    30,
+                    80
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₁",
+                "points": [
+                  [
+                    76,
+                    25
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₂",
+                "points": [
+                  [
+                    86,
+                    25
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    76,
+                    75
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₂",
+                "points": [
+                  [
+                    49,
+                    55
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₁",
+                "points": [
+                  [
+                    51,
+                    45
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Appreciation",
+                "points": [
+                  [
+                    50,
+                    45
+                  ],
+                  [
+                    50,
+                    55
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 147,
+        "answer_words": 147,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_00ad5cda4cb6b8815a5e",
+        "question_id": "NEW-MACRO-03",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "a",
+        "up_ids": "[\"b\"]",
+        "down_ids": "[\"a\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-03",
+        "grade_status": "complete",
+        "answer_words": "147.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_00ad5cda4cb6b8815a5e",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "147",
+          "word_share": "0.16",
+          "evidence": "States net exports decrease because higher real income raises demand for imports, with other trade determinants held constant.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_00ad5cda4cb6b8815a5e",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "147",
+          "word_share": "0.28",
+          "evidence": "The graph labels quantity of pesos and crowns per peso, shows an initial supply-demand equilibrium and a rightward demand shift. The new equilibrium has a higher crowns-per-peso value; the prose also,",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_00ad5cda4cb6b8815a5e",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "147",
+          "word_share": "0.28",
+          "evidence": "Explains that the current account moves into deficit and, by the balance-of-payments identity, the capital-and-financial account moves into surplus.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_00ad5cda4cb6b8815a5e",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "147",
+          "word_share": "0.28",
+          "evidence": "States cyclical unemployment decreases as higher exports raise aggregate demand, output, and employment in an economy with a recessionary gap.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_7382aa27d3b6e1a855a9",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** Tavora’s net exports decrease. Higher real income raises Tavora’s demand for imports, including goods from Belora. With other trade determinants held constant, imports rise and net exports (exports minus imports) fall. The stated exchange-rate assumption means this initial effect is not fully offset.\n\n**(b)** Tavora’s residents demand pesos to pay for the increased imports from Belora. The demand for pesos shifts right, raising the peso’s value in crowns (appreciation).\n\n**(c)** Tavora’s capital-and-financial-account balance increases (moves into surplus). The balance-of-payments identity requires the current account and capital-and-financial account to sum to zero under the assumptions given. Since Tavora’s current account falls below zero, its capital-and-financial account must rise above zero by an equal amount.\n\n**(d)** Belora’s cyclical unemployment decreases in the short run. Higher exports increase aggregate demand and output; with Belora initially in a recessionary gap, firms hire more workers as production expands.",
+        "diagrams": [
+          {
+            "title": "Peso foreign-exchange market",
+            "x_label": "Quantity of pesos",
+            "y_label": "Crowns per peso",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply of pesos",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₁",
+                "points": [
+                  [
+                    20,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₂",
+                "points": [
+                  [
+                    30,
+                    80
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    78,
+                    76
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₁",
+                "points": [
+                  [
+                    77,
+                    24
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₂",
+                "points": [
+                  [
+                    87,
+                    24
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₁",
+                "points": [
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₂",
+                "points": [
+                  [
+                    55,
+                    55
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Appreciation",
+                "points": [
+                  [
+                    50,
+                    50
+                  ],
+                  [
+                    55,
+                    55
+                  ]
+                ],
+                "color": "black",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 144,
+        "answer_words": 144,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 1,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_7382aa27d3b6e1a855a9",
+        "question_id": "NEW-MACRO-03",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "a",
+        "up_ids": "[\"b\"]",
+        "down_ids": "[\"a\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "3",
+        "question_type": "short",
+        "form_id": "NEW-MACRO-03",
+        "grade_status": "complete",
+        "answer_words": "144.0",
+        "expected_criteria": "4",
+        "observed_criteria": "4",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_7382aa27d3b6e1a855a9",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "144",
+          "word_share": "0.24",
+          "evidence": "States that Tavora’s net exports decrease because higher income raises imports from Belora, with other trade determinants held constant.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7382aa27d3b6e1a855a9",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "144",
+          "word_share": "0.2",
+          "evidence": "The graph labels quantity of pesos and crowns per peso, shows an initial supply-demand equilibrium, and shifts peso demand right. The new equilibrium has a higher crowns-per-peso value, indicating an.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7382aa27d3b6e1a855a9",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "144",
+          "word_share": "0.3",
+          "evidence": "Explains that the current account moves into deficit and, by the balance-of-payments identity, the capital-and-financial account moves into surplus.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_7382aa27d3b6e1a855a9",
+          "question_id": "NEW-MACRO-03",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "explanation",
+          "answer_words": "144",
+          "word_share": "0.26",
+          "evidence": "Says Belora’s cyclical unemployment decreases as higher exports raise aggregate demand and output, prompting firms to hire more workers in a recessionary gap.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "schema_version": "1.0",
+  "rubric_detail_questions": [
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-FINAL-CONSUMER",
+      "year": 2023,
+      "exam": "final",
+      "file": "data/mit/questions/2023/final/MIT-1401-2023-FINAL-CONSUMER.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 17,
+      "eligible_criterion_groups": 9
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-FINAL-PRODUCER",
+      "year": 2023,
+      "exam": "final",
+      "file": "data/mit/questions/2023/final/MIT-1401-2023-FINAL-PRODUCER.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 10,
+      "eligible_criterion_groups": 10
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-FINAL-SAVINGS",
+      "year": 2023,
+      "exam": "final",
+      "file": "data/mit/questions/2023/final/MIT-1401-2023-FINAL-SAVINGS.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-FINAL-SMOKING",
+      "year": 2023,
+      "exam": "final",
+      "file": "data/mit/questions/2023/final/MIT-1401-2023-FINAL-SMOKING.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-FINAL-TRUEFALSE",
+      "year": 2023,
+      "exam": "final",
+      "file": "data/mit/questions/2023/final/MIT-1401-2023-FINAL-TRUEFALSE.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-MIDTERM-CONSUMER",
+      "year": 2023,
+      "exam": "midterm",
+      "file": "data/mit/questions/2023/midterm/MIT-1401-2023-MIDTERM-CONSUMER.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-MIDTERM-LONGPRODUCER",
+      "year": 2023,
+      "exam": "midterm",
+      "file": "data/mit/questions/2023/midterm/MIT-1401-2023-MIDTERM-LONGPRODUCER.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-MIDTERM-SHORTPRODUCER",
+      "year": 2023,
+      "exam": "midterm",
+      "file": "data/mit/questions/2023/midterm/MIT-1401-2023-MIDTERM-SHORTPRODUCER.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-1401-2023-MIDTERM-TRUEFALSE",
+      "year": 2023,
+      "exam": "midterm",
+      "file": "data/mit/questions/2023/midterm/MIT-1401-2023-MIDTERM-TRUEFALSE.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 2,
+      "eligible_criterion_groups": 1
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-final-Q1",
+      "year": 2010,
+      "exam": "MIT-2010-final",
+      "file": "data/mit/questions/2010/MIT-2010-final/MIT-2010-final-Q1.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 11,
+      "eligible_criterion_groups": 11
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-final-Q2",
+      "year": 2010,
+      "exam": "MIT-2010-final",
+      "file": "data/mit/questions/2010/MIT-2010-final/MIT-2010-final-Q2.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 2
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-final-Q3",
+      "year": 2010,
+      "exam": "MIT-2010-final",
+      "file": "data/mit/questions/2010/MIT-2010-final/MIT-2010-final-Q3.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-final-Q4",
+      "year": 2010,
+      "exam": "MIT-2010-final",
+      "file": "data/mit/questions/2010/MIT-2010-final/MIT-2010-final-Q4.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-final-Q5",
+      "year": 2010,
+      "exam": "MIT-2010-final",
+      "file": "data/mit/questions/2010/MIT-2010-final/MIT-2010-final-Q5.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm1-Q1",
+      "year": 2010,
+      "exam": "MIT-2010-midterm1",
+      "file": "data/mit/questions/2010/MIT-2010-midterm1/MIT-2010-midterm1-Q1.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm1-Q2",
+      "year": 2010,
+      "exam": "MIT-2010-midterm1",
+      "file": "data/mit/questions/2010/MIT-2010-midterm1/MIT-2010-midterm1-Q2.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 2,
+      "eligible_criterion_groups": 2
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm1-Q3",
+      "year": 2010,
+      "exam": "MIT-2010-midterm1",
+      "file": "data/mit/questions/2010/MIT-2010-midterm1/MIT-2010-midterm1-Q3.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm1-Q4",
+      "year": 2010,
+      "exam": "MIT-2010-midterm1",
+      "file": "data/mit/questions/2010/MIT-2010-midterm1/MIT-2010-midterm1-Q4.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm1-Q5",
+      "year": 2010,
+      "exam": "MIT-2010-midterm1",
+      "file": "data/mit/questions/2010/MIT-2010-midterm1/MIT-2010-midterm1-Q5.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm2-Q1",
+      "year": 2010,
+      "exam": "MIT-2010-midterm2",
+      "file": "data/mit/questions/2010/MIT-2010-midterm2/MIT-2010-midterm2-Q1.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm2-Q2",
+      "year": 2010,
+      "exam": "MIT-2010-midterm2",
+      "file": "data/mit/questions/2010/MIT-2010-midterm2/MIT-2010-midterm2-Q2.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": false,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 0
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm2-Q3",
+      "year": 2010,
+      "exam": "MIT-2010-midterm2",
+      "file": "data/mit/questions/2010/MIT-2010-midterm2/MIT-2010-midterm2-Q3.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2010-midterm2-Q4",
+      "year": 2010,
+      "exam": "MIT-2010-midterm2",
+      "file": "data/mit/questions/2010/MIT-2010-midterm2/MIT-2010-midterm2-Q4.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-final-Q1",
+      "year": 2018,
+      "exam": "MIT-2018-final",
+      "file": "data/mit/questions/2018/MIT-2018-final/MIT-2018-final-Q1.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 9,
+      "eligible_criterion_groups": 9
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-final-Q2",
+      "year": 2018,
+      "exam": "MIT-2018-final",
+      "file": "data/mit/questions/2018/MIT-2018-final/MIT-2018-final-Q2.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 8,
+      "eligible_criterion_groups": 8
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-final-Q3",
+      "year": 2018,
+      "exam": "MIT-2018-final",
+      "file": "data/mit/questions/2018/MIT-2018-final/MIT-2018-final-Q3.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-final-Q4",
+      "year": 2018,
+      "exam": "MIT-2018-final",
+      "file": "data/mit/questions/2018/MIT-2018-final/MIT-2018-final-Q4.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 8,
+      "eligible_criterion_groups": 8
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-final-Q5",
+      "year": 2018,
+      "exam": "MIT-2018-final",
+      "file": "data/mit/questions/2018/MIT-2018-final/MIT-2018-final-Q5.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-midterm1-Q1",
+      "year": 2018,
+      "exam": "MIT-2018-midterm1",
+      "file": "data/mit/questions/2018/MIT-2018-midterm1/MIT-2018-midterm1-Q1.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-midterm1-Q2",
+      "year": 2018,
+      "exam": "MIT-2018-midterm1",
+      "file": "data/mit/questions/2018/MIT-2018-midterm1/MIT-2018-midterm1-Q2.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 15,
+      "eligible_criterion_groups": 14
+    },
+    {
+      "dataset": "MIT",
+      "question_id": "MIT-2018-midterm1-Q3",
+      "year": 2018,
+      "exam": "MIT-2018-midterm1",
+      "file": "data/mit/questions/2018/MIT-2018-midterm1/MIT-2018-midterm1-Q3.json",
+      "models": 10,
+      "responses": 30,
+      "primary_eligible": true,
+      "criterion_groups": 9,
+      "eligible_criterion_groups": 9
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2021-S1-Q1",
+      "year": 2021,
+      "exam": "macroeconomics-2021-S1",
+      "file": "data/ap/questions/2021/macroeconomics-2021-S1/AP-MACROECONOMICS-2021-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 8,
+      "eligible_criterion_groups": 8
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2021-S2-Q1",
+      "year": 2021,
+      "exam": "macroeconomics-2021-S2",
+      "file": "data/ap/questions/2021/macroeconomics-2021-S2/AP-MACROECONOMICS-2021-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2022-S1-Q1",
+      "year": 2022,
+      "exam": "macroeconomics-2022-S1",
+      "file": "data/ap/questions/2022/macroeconomics-2022-S1/AP-MACROECONOMICS-2022-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2022-S2-Q1",
+      "year": 2022,
+      "exam": "macroeconomics-2022-S2",
+      "file": "data/ap/questions/2022/macroeconomics-2022-S2/AP-MACROECONOMICS-2022-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 7,
+      "eligible_criterion_groups": 7
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2023-S1-Q1",
+      "year": 2023,
+      "exam": "macroeconomics-2023-S1",
+      "file": "data/ap/questions/2023/macroeconomics-2023-S1/AP-MACROECONOMICS-2023-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2023-S2-Q1",
+      "year": 2023,
+      "exam": "macroeconomics-2023-S2",
+      "file": "data/ap/questions/2023/macroeconomics-2023-S2/AP-MACROECONOMICS-2023-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2024-S1-Q1",
+      "year": 2024,
+      "exam": "macroeconomics-2024-S1",
+      "file": "data/ap/questions/2024/macroeconomics-2024-S1/AP-MACROECONOMICS-2024-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2024-S2-Q1",
+      "year": 2024,
+      "exam": "macroeconomics-2024-S2",
+      "file": "data/ap/questions/2024/macroeconomics-2024-S2/AP-MACROECONOMICS-2024-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2025-S1-Q1",
+      "year": 2025,
+      "exam": "macroeconomics-2025-S1",
+      "file": "data/ap/questions/2025/macroeconomics-2025-S1/AP-MACROECONOMICS-2025-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2025-S2-Q1",
+      "year": 2025,
+      "exam": "macroeconomics-2025-S2",
+      "file": "data/ap/questions/2025/macroeconomics-2025-S2/AP-MACROECONOMICS-2025-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MACROECONOMICS-2026-Ssole_release-Q1",
+      "year": 2026,
+      "exam": "macroeconomics-2026-Ssole_release",
+      "file": "data/ap/questions/2026/macroeconomics-2026-Ssole_release/AP-MACROECONOMICS-2026-Ssole_release-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2021-S1-Q1",
+      "year": 2021,
+      "exam": "microeconomics-2021-S1",
+      "file": "data/ap/questions/2021/microeconomics-2021-S1/AP-MICROECONOMICS-2021-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2021-S2-Q1",
+      "year": 2021,
+      "exam": "microeconomics-2021-S2",
+      "file": "data/ap/questions/2021/microeconomics-2021-S2/AP-MICROECONOMICS-2021-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2022-S1-Q1",
+      "year": 2022,
+      "exam": "microeconomics-2022-S1",
+      "file": "data/ap/questions/2022/microeconomics-2022-S1/AP-MICROECONOMICS-2022-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 3,
+      "eligible_criterion_groups": 3
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2022-S2-Q1",
+      "year": 2022,
+      "exam": "microeconomics-2022-S2",
+      "file": "data/ap/questions/2022/microeconomics-2022-S2/AP-MICROECONOMICS-2022-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2023-S1-Q1",
+      "year": 2023,
+      "exam": "microeconomics-2023-S1",
+      "file": "data/ap/questions/2023/microeconomics-2023-S1/AP-MICROECONOMICS-2023-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2023-S2-Q1",
+      "year": 2023,
+      "exam": "microeconomics-2023-S2",
+      "file": "data/ap/questions/2023/microeconomics-2023-S2/AP-MICROECONOMICS-2023-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2024-S1-Q1",
+      "year": 2024,
+      "exam": "microeconomics-2024-S1",
+      "file": "data/ap/questions/2024/microeconomics-2024-S1/AP-MICROECONOMICS-2024-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2024-S2-Q1",
+      "year": 2024,
+      "exam": "microeconomics-2024-S2",
+      "file": "data/ap/questions/2024/microeconomics-2024-S2/AP-MICROECONOMICS-2024-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 4,
+      "eligible_criterion_groups": 4
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2025-S1-Q1",
+      "year": 2025,
+      "exam": "microeconomics-2025-S1",
+      "file": "data/ap/questions/2025/microeconomics-2025-S1/AP-MICROECONOMICS-2025-S1-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2025-S2-Q1",
+      "year": 2025,
+      "exam": "microeconomics-2025-S2",
+      "file": "data/ap/questions/2025/microeconomics-2025-S2/AP-MICROECONOMICS-2025-S2-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 5,
+      "eligible_criterion_groups": 5
+    },
+    {
+      "dataset": "AP",
+      "question_id": "AP-MICROECONOMICS-2026-Ssole_release-Q1",
+      "year": 2026,
+      "exam": "microeconomics-2026-Ssole_release",
+      "file": "data/ap/questions/2026/microeconomics-2026-Ssole_release/AP-MICROECONOMICS-2026-Ssole_release-Q1.json",
+      "models": 7,
+      "responses": 21,
+      "primary_eligible": true,
+      "criterion_groups": 6,
+      "eligible_criterion_groups": 6
+    }
+  ],
+  "ap_assessment_conditions": [
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2021-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2021-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2022-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2022-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2023-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2023-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2024-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2024-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2025-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2025-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2026-Ssole_release-Q1",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2026-Ssole_release-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2026-Ssole_release-Q2",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2026-Ssole_release-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MACROECONOMICS-2026-Ssole_release-Q3",
+      "file": "data/ap/assessment_conditions/AP-MACROECONOMICS-2026-Ssole_release-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2021-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2021-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2022-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2022-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2023-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2023-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2024-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2024-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S1-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S1-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S1-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S1-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S1-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S1-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S2-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S2-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S2-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S2-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2025-S2-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2025-S2-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2026-Ssole_release-Q1",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2026-Ssole_release-Q1.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2026-Ssole_release-Q2",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2026-Ssole_release-Q2.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "AP-MICROECONOMICS-2026-Ssole_release-Q3",
+      "file": "data/ap/assessment_conditions/AP-MICROECONOMICS-2026-Ssole_release-Q3.json",
+      "origin": "released_examination",
+      "configurations": 47
+    },
+    {
+      "question_id": "NEW-MACRO-01",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-01.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MACRO-02",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-02.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MACRO-03",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-03.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MACRO-04",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-04.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MACRO-05",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-05.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MACRO-06",
+      "file": "data/ap/assessment_conditions/NEW-MACRO-06.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-01",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-01.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-02",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-02.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-03",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-03.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-04",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-04.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-05",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-05.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    },
+    {
+      "question_id": "NEW-MICROECONOMICS-06",
+      "file": "data/ap/assessment_conditions/NEW-MICROECONOMICS-06.json",
+      "origin": "researcher_constructed",
+      "configurations": 4
+    }
+  ]
+}

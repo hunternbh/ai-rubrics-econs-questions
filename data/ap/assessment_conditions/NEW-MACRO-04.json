@@ -1,0 +1,1647 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MACRO-04",
+  "year": 2026,
+  "subject": "macroeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "Orvessa is in short-run macroeconomic equilibrium with actual unemployment of 3%, a natural unemployment rate of 5%, actual inflation of 4%, and expected inflation of 2%. Its banking system has ample reserves.\n\n(a) Draw a correctly labeled short-run and long-run Phillips-curve graph. Use the stated numbers to label the current point X, the natural unemployment rate, and the point on the short-run curve at the natural unemployment rate.\n\n(b) Identify one specific administered-interest-rate policy action the central bank could take to reduce the inflationary gap.\n\n(c) Draw a correctly labeled reserve-market graph showing the initial ample-reserves equilibrium and the effect of the policy in part (b) on the policy interest rate.\n\n(d) Based solely on the policy interest-rate change in part (c), identify the direction of change in the price of previously issued fixed-coupon bonds.\n\n(e) Explain the effects of the higher interest rate on private investment and on inflation in the short run.\n\n(f) In a separate counterfactual, no policy is taken from the initial inflationary equilibrium. Explain the long-run adjustment of short-run aggregate supply and the changes in real output and the price level.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_35866d545aa4cbe56d74",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The current point is **X = (3% unemployment, 4% inflation)**. The long-run Phillips curve (LRPC) is vertical at the natural unemployment rate of **5%**. At 5% unemployment, the short-run Phillips curve (SRPC) implies inflation of **2%**, the expected inflation rate; label this point **Y = (5%, 2%)**.\n\n**(b)** The central bank could **raise the interest rate it pays on reserve balances**. With ample reserves, this administered rate helps set the policy rate and raising it tightens monetary conditions.\n\n**(c)** The reserve-market graph shows the initial equilibrium on the flat portion of reserve demand at the initial administered rate. Raising the administered rate shifts that flat portion—and the equilibrium policy rate—upward.\n\n**(d)** The price of previously issued fixed-coupon bonds **falls**: their fixed payments are less attractive relative to the higher interest rates available on new bonds.\n\n**(e)** Higher interest rates reduce private investment because borrowing costs and the opportunity cost of investing rise. Lower investment reduces aggregate demand, easing inflationary pressure in the short run.\n\n**(f)** With no policy, the initial inflationary gap puts output above potential. Over time, nominal wages and other input costs rise as expectations adjust, shifting **SRAS left**. Real output falls back to potential, while the price level rises.**",
+        "diagrams": [
+          {
+            "title": "Phillips curves",
+            "x_label": "Unemployment rate (%)",
+            "y_label": "Inflation rate (%)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "SRPC",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    85,
+                    15
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRPC",
+                "points": [
+                  [
+                    43,
+                    10
+                  ],
+                  [
+                    43,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRPC",
+                "points": [
+                  [
+                    76,
+                    25
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRPC",
+                "points": [
+                  [
+                    45,
+                    82
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "X (3%, 4%)",
+                "points": [
+                  [
+                    25,
+                    65
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y (5%, 2%)",
+                "points": [
+                  [
+                    43,
+                    35
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Natural rate: 5%",
+                "points": [
+                  [
+                    43,
+                    5
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          },
+          {
+            "title": "Reserve market",
+            "x_label": "Quantity of reserves",
+            "y_label": "Interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Reserve supply",
+                "points": [
+                  [
+                    55,
+                    10
+                  ],
+                  [
+                    55,
+                    80
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Reserve demand",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    55,
+                    20
+                  ],
+                  [
+                    85,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Higher administered rate",
+                "points": [
+                  [
+                    15,
+                    55
+                  ],
+                  [
+                    55,
+                    55
+                  ],
+                  [
+                    85,
+                    55
+                  ]
+                ],
+                "color": "green",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "Initial policy rate",
+                "points": [
+                  [
+                    58,
+                    18
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Higher policy rate",
+                "points": [
+                  [
+                    58,
+                    53
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Ample-reserves equilibrium",
+                "points": [
+                  [
+                    57,
+                    25
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 203,
+        "answer_words": 203,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_35866d545aa4cbe56d74",
+        "question_id": "NEW-MACRO-04",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "e",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"e\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "4",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-04",
+        "grade_status": "complete",
+        "answer_words": "203.0",
+        "expected_criteria": "6",
+        "observed_criteria": "6",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "203",
+          "word_share": "0.2",
+          "evidence": "The graph has inflation and unemployment axes, a downward SRPC, vertical LRPC at 5%, X labeled (3%, 4%) left of the LRPC, and Y labeled (5%, 2%) on the SRPC.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "203",
+          "word_share": "0.12",
+          "evidence": "Specifically proposes raising interest paid on reserve balances in an ample-reserves system.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "203",
+          "word_share": "0.12",
+          "evidence": "The graph labels reserve quantity and interest rate, shows vertical reserve supply intersecting horizontal reserve demand at the initial rate, and depicts a higher administered-rate segment and higher",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "203",
+          "word_share": "0.1",
+          "evidence": "States that previously issued fixed-coupon bond prices fall as market interest rates rise.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "203",
+          "word_share": "0.2",
+          "evidence": "Explains that higher rates reduce investment through higher borrowing costs and that lower investment reduces aggregate demand and short-run inflationary pressure.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_35866d545aa4cbe56d74",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "f",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "203",
+          "word_share": "0.26",
+          "evidence": "Explains rising wages/input costs and expectations shift SRAS left, with output returning to potential and the price level rising.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_3ce02922f34546f7fd25",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The current point is **X = (3% unemployment, 4% inflation)**. The long-run Phillips curve (LRPC) is vertical at the natural unemployment rate of **5%**. At 5% unemployment, the short-run Phillips curve (SRPC) implies expected inflation of **2%**, so label that point **(5%, 2%)**.\n\n**(b)** Raise the interest rate paid on reserve balances (an administered interest rate). With ample reserves, this raises the policy rate.\n\n**(c)** The higher administered rate raises the reserve-market equilibrium interest rate. The graph shows the initial equilibrium at the lower rate and the new equilibrium at the higher rate, with reserve quantity remaining in the ample-reserves region.\n\n**(d)** The price of previously issued fixed-coupon bonds **falls**: their fixed payments are less attractive relative to the higher market interest rate.\n\n**(e)** Higher interest rates increase the cost of borrowing, so **private investment falls**. Lower investment reduces aggregate demand and, in the short run, puts **downward pressure on inflation**.\n\n**(f)** With no policy, expected inflation adjusts upward over time. The SRAS curve shifts **left/upward** as wages and other input costs rise. Real output falls from above potential back to potential (the natural level); the price level rises further.",
+        "diagrams": [
+          {
+            "title": "Short-run and long-run Phillips curves",
+            "x_label": "Unemployment rate (%)",
+            "y_label": "Inflation rate (%)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "SRPC",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    85,
+                    25
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRPC",
+                "points": [
+                  [
+                    50,
+                    10
+                  ],
+                  [
+                    50,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRPC",
+                "points": [
+                  [
+                    78,
+                    31
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRPC",
+                "points": [
+                  [
+                    52,
+                    84
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "X (3%, 4%)",
+                "points": [
+                  [
+                    30,
+                    73
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "(5%, 2%)",
+                "points": [
+                  [
+                    50,
+                    55
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "5% natural rate",
+                "points": [
+                  [
+                    43,
+                    5
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "",
+                "points": [
+                  [
+                    30,
+                    73
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "",
+                "points": [
+                  [
+                    50,
+                    55
+                  ],
+                  [
+                    50,
+                    10
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          },
+          {
+            "title": "Reserve market: ample reserves",
+            "x_label": "Quantity of reserves",
+            "y_label": "Policy interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Reserve demand",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    45,
+                    80
+                  ],
+                  [
+                    65,
+                    75
+                  ],
+                  [
+                    85,
+                    35
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Reserve supply",
+                "points": [
+                  [
+                    15,
+                    25
+                  ],
+                  [
+                    85,
+                    25
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Higher administered rate",
+                "points": [
+                  [
+                    15,
+                    55
+                  ],
+                  [
+                    85,
+                    55
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Initial equilibrium",
+                "points": [
+                  [
+                    20,
+                    78
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "New policy rate",
+                "points": [
+                  [
+                    68,
+                    58
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Ample-reserves region",
+                "points": [
+                  [
+                    58,
+                    12
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "",
+                "points": [
+                  [
+                    25,
+                    80
+                  ],
+                  [
+                    25,
+                    25
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "",
+                "points": [
+                  [
+                    25,
+                    55
+                  ],
+                  [
+                    25,
+                    25
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 191,
+        "answer_words": 191,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_3ce02922f34546f7fd25",
+        "question_id": "NEW-MACRO-04",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "e",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"e\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "4",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-04",
+        "grade_status": "complete",
+        "answer_words": "191.0",
+        "expected_criteria": "6",
+        "observed_criteria": "6",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "83.33333333333334",
+        "original_score_pct": "90.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "191",
+          "word_share": "0.2",
+          "evidence": "The graph has inflation and unemployment axes, a downward SRPC, a vertical LRPC at 5%, X labeled (3%, 4%), and the SRPC point at (5%, 2%).",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "191",
+          "word_share": "0.1",
+          "evidence": "Specifically proposes raising the interest rate paid on reserve balances.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "191",
+          "word_share": "0.15",
+          "evidence": "The graph labels reserve quantity and policy interest rate, shows a horizontal ample-reserves portion of reserve demand, and depicts a higher administered-rate line.",
+          "error": "Reserve supply is drawn horizontal rather than vertical, and the higher-rate line is not shown as the horizontal reserve-demand floor; the graph does not correctly show the initial ample-reserves-equ ",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "191",
+          "word_share": "0.1",
+          "evidence": "States that previously issued fixed-coupon bond prices fall when market interest rates rise.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "191",
+          "word_share": "0.2",
+          "evidence": "Explains that higher borrowing costs reduce private investment and lower aggregate demand, putting downward pressure on short-run inflation.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_3ce02922f34546f7fd25",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "f",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "191",
+          "word_share": "0.25",
+          "evidence": "Explains that expected inflation and input costs rise, shifting SRAS left/upward, with output returning to potential and the price level rising.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_2913b6fae7eaeed00609",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The current point is **X = (3% unemployment, 4% inflation)**. The long-run Phillips curve (LRPC) is vertical at the natural unemployment rate, **5%**. At 5% unemployment, the short-run Phillips curve (SRPC) implies inflation of **2%**, equal to expected inflation; label this point **Y = (5%, 2%)**.\n\n**(b)** Raise the interest rate paid on reserve balances (the administered rate), tightening monetary policy and raising the policy interest rate.\n\n**(c)** With ample reserves, the initial equilibrium lies on the flat portion of reserve demand. Raising the administered rate shifts that flat portion—and the equilibrium policy rate—upward.\n\n**(d)** The price of previously issued fixed-coupon bonds **falls**: their fixed payments are less attractive relative to the higher market interest rate.\n\n**(e)** Higher interest rates reduce private investment spending. Weaker aggregate demand reduces inflationary pressure, so short-run inflation falls.\n\n**(f)** With no policy, expected inflation and nominal wages adjust upward over time. SRAS shifts left/up until output returns to potential. Real output falls from above potential to potential, while the price level rises further.**",
+        "diagrams": [
+          {
+            "title": "Short-run and long-run Phillips curves",
+            "x_label": "Unemployment rate (%)",
+            "y_label": "Inflation rate (%)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "SRPC",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    85,
+                    15
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRPC",
+                "points": [
+                  [
+                    50,
+                    10
+                  ],
+                  [
+                    50,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRPC",
+                "points": [
+                  [
+                    78,
+                    25
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRPC",
+                "points": [
+                  [
+                    52,
+                    84
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "X (3%, 4%)",
+                "points": [
+                  [
+                    30,
+                    65
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y (5%, 2%)",
+                "points": [
+                  [
+                    50,
+                    35
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Natural rate: 5%",
+                "points": [
+                  [
+                    50,
+                    5
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "2% expected inflation",
+                "points": [
+                  [
+                    4,
+                    35
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              }
+            ]
+          },
+          {
+            "title": "Reserve market: higher administered rate",
+            "x_label": "Reserve balances",
+            "y_label": "Interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Reserve supply",
+                "points": [
+                  [
+                    65,
+                    10
+                  ],
+                  [
+                    65,
+                    75
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Initial reserve demand",
+                "points": [
+                  [
+                    15,
+                    75
+                  ],
+                  [
+                    45,
+                    75
+                  ],
+                  [
+                    65,
+                    75
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Higher-rate reserve demand",
+                "points": [
+                  [
+                    15,
+                    90
+                  ],
+                  [
+                    45,
+                    90
+                  ],
+                  [
+                    65,
+                    90
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D0",
+                "points": [
+                  [
+                    20,
+                    77
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D1",
+                "points": [
+                  [
+                    20,
+                    92
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    67,
+                    70
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Initial policy rate",
+                "points": [
+                  [
+                    68,
+                    75
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Higher policy rate",
+                "points": [
+                  [
+                    68,
+                    90
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Initial equilibrium",
+                "points": [
+                  [
+                    60,
+                    75
+                  ],
+                  [
+                    65,
+                    75
+                  ]
+                ],
+                "color": "blue",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "New equilibrium",
+                "points": [
+                  [
+                    60,
+                    90
+                  ],
+                  [
+                    65,
+                    90
+                  ]
+                ],
+                "color": "green",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 170,
+        "answer_words": 170,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_2913b6fae7eaeed00609",
+        "question_id": "NEW-MACRO-04",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "e",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"e\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "4",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-04",
+        "grade_status": "complete",
+        "answer_words": "170.0",
+        "expected_criteria": "6",
+        "observed_criteria": "6",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "83.33333333333334",
+        "original_score_pct": "90.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "170",
+          "word_share": "0.2",
+          "evidence": "The graph has labeled unemployment and inflation axes, a downward SRPC, a vertical LRPC at 5%, X=(3%,4%) left of the LRPC, and Y=(5%,2%) on the SRPC.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        },
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "170",
+          "word_share": "0.1",
+          "evidence": "Specifically proposes raising the interest rate paid on reserve balances.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        },
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "170",
+          "word_share": "0.15",
+          "evidence": "The graph labels reserve balances and interest rate, shows vertical reserve supply intersecting horizontal reserve-demand segments, and depicts a higher administered rate with supply unchanged.",
+          "error": "The initial and higher-rate demand segments are drawn at the top of the graph, with no downward-sloping portion of reserve demand shown; thus the graph does not clearly establish the required ample/ab",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        },
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "170",
+          "word_share": "0.1",
+          "evidence": "States that previously issued fixed-coupon bond prices fall as market interest rates rise.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        },
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "170",
+          "word_share": "0.2",
+          "evidence": "Explains that higher rates reduce private investment and weaker aggregate demand reduces short-run inflationary pressure.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        },
+        {
+          "response_id": "response_2913b6fae7eaeed00609",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "f",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "170",
+          "word_share": "0.25",
+          "evidence": "Explains that expected inflation and nominal wages rise, shifting SRAS left/up, with output returning to potential and the price level rising.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": "Part (c) earns the point for the higher administered floor and unchanged reserve supply. The graph omits the downward-sloping portion of reserve demand, so the initial ample-reserves equilibrium is not fully demonstrated."
+        }
+      ]
+    },
+    {
+      "response_id": "response_218123228ea4cdb7a2a7",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "**(a)** The current point is **X = (3% unemployment, 4% inflation)**. The natural rate is **5%**. At that unemployment rate, the short-run Phillips curve has inflation of **2%**, so label that point **Y = (5%, 2%)**. The long-run Phillips curve is vertical at 5% unemployment.\n\n**(b)** Raise the interest rate paid on reserve balances (an administered rate). With ample reserves, this raises the policy rate and tightens monetary conditions, helping reduce the inflationary gap.\n\n**(d)** The price of previously issued fixed-coupon bonds **falls**: their fixed payments are less attractive when market interest rates rise.\n\n**(e)** The higher interest rate raises the cost of borrowing, so private investment decreases. Lower investment reduces aggregate demand and, in the short run, reduces inflationary pressure (and output).\n\n**(f)** In the separate no-policy counterfactual, the initial inflationary gap puts upward pressure on wages and other input costs. Short-run aggregate supply shifts left/up until output returns to potential. Real output falls from above potential back to potential, while the price level rises. ",
+        "diagrams": [
+          {
+            "title": "Phillips curves",
+            "x_label": "Unemployment rate (%)",
+            "y_label": "Inflation rate (%)",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "SRPC",
+                "points": [
+                  [
+                    20,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRPC",
+                "points": [
+                  [
+                    50,
+                    10
+                  ],
+                  [
+                    50,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRPC",
+                "points": [
+                  [
+                    72,
+                    30
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRPC: 5%",
+                "points": [
+                  [
+                    52,
+                    85
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "X (3%, 4%)",
+                "points": [
+                  [
+                    30,
+                    60
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y (5%, 2%)",
+                "points": [
+                  [
+                    50,
+                    40
+                  ]
+                ],
+                "color": "green",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "3%",
+                "points": [
+                  [
+                    28,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "5% natural",
+                "points": [
+                  [
+                    48,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "4%",
+                "points": [
+                  [
+                    5,
+                    60
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "2%",
+                "points": [
+                  [
+                    5,
+                    40
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          },
+          {
+            "title": "Ample-reserves market",
+            "x_label": "Reserve balances",
+            "y_label": "Interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Reserve demand",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    35,
+                    65
+                  ],
+                  [
+                    55,
+                    50
+                  ],
+                  [
+                    75,
+                    45
+                  ],
+                  [
+                    90,
+                    45
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Reserve supply, initial",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    45
+                  ],
+                  [
+                    65,
+                    85
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Reserve supply, after rate increase",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    65
+                  ],
+                  [
+                    65,
+                    85
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D reserves",
+                "points": [
+                  [
+                    75,
+                    52
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S0",
+                "points": [
+                  [
+                    67,
+                    35
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S1",
+                "points": [
+                  [
+                    67,
+                    70
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Initial policy rate",
+                "points": [
+                  [
+                    8,
+                    45
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Higher policy rate",
+                "points": [
+                  [
+                    8,
+                    65
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Ample-reserves floor",
+                "points": [
+                  [
+                    70,
+                    40
+                  ]
+                ],
+                "color": "gray",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 166,
+        "answer_words": 166,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_218123228ea4cdb7a2a7",
+        "question_id": "NEW-MACRO-04",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "e",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"e\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "4",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-04",
+        "grade_status": "complete",
+        "answer_words": "166.0",
+        "expected_criteria": "6",
+        "observed_criteria": "6",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "83.33333333333334",
+        "original_score_pct": "90.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "166",
+          "word_share": "0.2",
+          "evidence": "The graph has inflation and unemployment axes, a downward SRPC, vertical LRPC at 5%, X=(3%,4%), and Y=(5%,2%) on the SRPC.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        },
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "166",
+          "word_share": "0.1",
+          "evidence": "Specifically proposes raising interest paid on reserve balances to tighten monetary conditions.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        },
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "166",
+          "word_share": "0.1",
+          "evidence": "The graph labels reserve balances and interest rate, and shows an initial ample-reserves equilibrium where vertical reserve supply meets the horizontal demand segment.",
+          "error": "It depicts the policy change as an upward shift in reserve supply (S0 to S1), rather than an unchanged reserve supply and a higher administered floor/horizontal reserve-demand segment.",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        },
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "1",
+          "max_points": "1",
+          "kind": "identification",
+          "answer_words": "166",
+          "word_share": "0.1",
+          "evidence": "States that previously issued fixed-coupon bond prices fall when market interest rates rise.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        },
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "166",
+          "word_share": "0.2",
+          "evidence": "Explains that higher borrowing costs reduce private investment and that lower investment reduces aggregate demand and short-run inflationary pressure.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        },
+        {
+          "response_id": "response_218123228ea4cdb7a2a7",
+          "question_id": "NEW-MACRO-04",
+          "criterion_id": "f",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "166",
+          "word_share": "0.3",
+          "evidence": "Explains that wage and input-cost pressure shifts SRAS left/up, returning output to potential while the price level rises.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "Part (c) earns the initial-equilibrium point, but the post-policy graph uses a reserve-supply shift instead of the administered-rate/floor change appropriate to ample reserves."
+        }
+      ]
+    }
+  ]
+}

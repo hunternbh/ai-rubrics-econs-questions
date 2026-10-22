@@ -1,0 +1,1762 @@
+{
+  "dataset": "AP",
+  "question_id": "NEW-MACRO-01",
+  "year": 2026,
+  "subject": "macroeconomics",
+  "question_origin": "researcher_constructed",
+  "question_text": "The closed economy of Tavora is in short-run equilibrium with real GDP of 600 billion currency units and full-employment real GDP of 660 billion. The marginal propensity to consume is 0.75. For part (b) only, assume a constant price level, no crowding out, and no induced change in imports.\n\n(a) Draw a correctly labeled aggregate demand, short-run aggregate supply, and long-run aggregate supply graph. Show the initial price level PL1, initial real output Y1, and full-employment output YF.\n\n(b) Calculate, showing work, (i) the minimum increase in government spending and (ii) the minimum decrease in lump-sum taxes that would close the 60 billion output gap under the assumptions stated above. Treat these as alternative policies.\n\n(c) Now relax the no-crowding-out assumption and assume the government finances only the spending increase from part (b)(i) by borrowing. Draw a correctly labeled loanable-funds graph showing the effect on the real interest rate, and explain the shift.\n\n(d) Based solely on the interest-rate change in part (c), explain the short-run effect on private investment and the effect on the growth of the physical capital stock.\n\n(e) Consider a separate counterfactual in which the government and central bank take no policy action from the initial recessionary equilibrium. Explain the long-run adjustment and identify the direction of the price-level change.",
+  "sources": [],
+  "criterion_ids": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "configurations": [
+    {
+      "response_id": "response_764ec9db170a1eb1eb6c",
+      "condition": "C",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Initial equilibrium\nThe initial equilibrium is at **AD₁ ∩ SRAS₁**, with real output **Y₁ = 600 billion** and price level **PL₁**. Since full-employment output is **YF = 660 billion**, Y₁ lies to the left of the LRAS curve, indicating a recessionary gap.\n\n### (b) Alternative fiscal policies\nThe output gap is **660 − 600 = 60 billion**. The spending multiplier is:\n\n\\[\n\\frac{1}{1-MPC}=\\frac{1}{1-0.75}=4\n\\]\n\n(i) Minimum increase in government spending:\n\n\\[\n\\Delta G=\\frac{60}{4}=\\boxed{15\\text{ billion}}\n\\]\n\nThe lump-sum tax multiplier is:\n\n\\[\n-\\frac{MPC}{1-MPC}=-\\frac{0.75}{0.25}=-3\n\\]\n\n(ii) Minimum decrease in lump-sum taxes:\n\n\\[\n60=3\\times |\\Delta T|\\quad\\Rightarrow\\quad \\boxed{|\\Delta T|=20\\text{ billion}}\n\\]\n\nThese are alternative policies, not amounts to combine.\n\n### (c) Loanable funds\nBorrowing to finance the **15 billion** spending increase raises the government’s demand for loanable funds. The demand curve shifts right, increasing the equilibrium real interest rate from r₁ to r₂.\n\n### (d) Private investment and capital\nThe higher real interest rate makes borrowing more costly, so **private investment decreases in the short run**. With less investment adding to the capital stock, **the growth of the physical capital stock slows**.\n\n### (e) No-policy long-run adjustment\nWith no policy action, the recessionary gap puts downward pressure on wages and other input costs. **SRAS shifts right** until output returns to full-employment output, YF. The long-run adjustment lowers the price level.",
+        "diagrams": [
+          {
+            "title": "Initial AD-AS equilibrium",
+            "x_label": "Real output",
+            "y_label": "Price level",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "AD₁",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    85,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "SRAS₁",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    85,
+                    85
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRAS",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Y₁",
+                "points": [
+                  [
+                    40,
+                    15
+                  ],
+                  [
+                    40,
+                    20
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "YF",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    20
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "PL₁",
+                "points": [
+                  [
+                    8,
+                    52
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y₁ = 600",
+                "points": [
+                  [
+                    34,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "YF = 660",
+                "points": [
+                  [
+                    59,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E₁",
+                "points": [
+                  [
+                    40,
+                    45
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          },
+          {
+            "title": "Loanable funds market",
+            "x_label": "Quantity of loanable funds",
+            "y_label": "Real interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    85,
+                    85
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Demand₁",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    85,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Demand₂",
+                "points": [
+                  [
+                    25,
+                    85
+                  ],
+                  [
+                    95,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "r₁",
+                "points": [
+                  [
+                    50,
+                    15
+                  ],
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "r₂",
+                "points": [
+                  [
+                    60,
+                    15
+                  ],
+                  [
+                    60,
+                    60
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "D₁",
+                "points": [
+                  [
+                    78,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₂",
+                "points": [
+                  [
+                    88,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    78,
+                    78
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r₁",
+                "points": [
+                  [
+                    43,
+                    48
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r₂",
+                "points": [
+                  [
+                    63,
+                    58
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 218,
+        "answer_words": 218,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_764ec9db170a1eb1eb6c",
+        "question_id": "NEW-MACRO-01",
+        "arm": "C",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-01",
+        "grade_status": "complete",
+        "answer_words": "218.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_764ec9db170a1eb1eb6c",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "218",
+          "word_share": "0.12",
+          "evidence": "The rendered AD-AS graph labels price level and real output, shows AD and upward-sloping SRAS intersecting at E₁ with PL₁ and Y₁, and places vertical LRAS at YF to the right of Y₁.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_764ec9db170a1eb1eb6c",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "218",
+          "word_share": "0.3",
+          "evidence": "Calculates the spending multiplier as 4 and ΔG = 60/4 = 15 billion; calculates the tax multiplier as −3 and the required tax decrease as 20 billion, identifying the policies as alternatives.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_764ec9db170a1eb1eb6c",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "218",
+          "word_share": "0.2",
+          "evidence": "The loanable-funds graph has labeled axes, upward-sloping supply and downward-sloping demand, with demand shifting right and the real interest rate rising. The explanation attributes the shift to the ",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_764ec9db170a1eb1eb6c",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "218",
+          "word_share": "0.2",
+          "evidence": "Explains that the higher real interest rate raises borrowing costs, reducing private investment, and that slower investment slows physical-capital-stock growth.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_764ec9db170a1eb1eb6c",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "218",
+          "word_share": "0.18",
+          "evidence": "Explains that recessionary pressure lowers wages and input costs, shifting SRAS right until output returns to YF, with the price level falling.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_21ddad9c01a99005fa0d",
+      "condition": "D",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Initial equilibrium\nThe graph shows AD and SRAS intersecting at **Y₁ = 600** and **PL₁**. The vertical LRAS curve marks full-employment output, **YF = 660**.\n\n### (b) Closing the $60 billion output gap\nThe spending multiplier is:\n\n\\[\nk_G=\\frac{1}{1-MPC}=\\frac{1}{1-0.75}=4\n\\]\n\n(i) Required increase in government spending:\n\n\\[\n\\Delta G=\\frac{60}{4}=\\boxed{15\\text{ billion}}\n\\]\n\nThe lump-sum tax multiplier is:\n\n\\[\nk_T=\\frac{-MPC}{1-MPC}=\\frac{-0.75}{0.25}=-3\n\\]\n\n(ii) Required tax decrease:\n\n\\[\n\\Delta T=\\frac{60}{3}=\\boxed{20\\text{ billion decrease}}\n\\]\n\nThese are alternative policies, not amounts to be combined.\n\n### (c) Loanable funds\nBorrowing to finance the $15 billion spending increase raises the government’s demand for loanable funds. Demand shifts right from D₁ to D₂; with supply unchanged, the equilibrium real interest rate rises from r₁ to r₂.\n\n### (d) Private investment and capital\nThe higher real interest rate reduces private investment in the short run. With less investment adding to the capital stock, the growth of the physical capital stock slows.\n\n### (e) No-policy long-run adjustment\nWith no policy action, the recessionary gap puts downward pressure on wages and other input prices. SRAS shifts right over time until output returns to full-employment GDP (660 billion). The price level falls from its initial level.",
+        "diagrams": [
+          {
+            "title": "(a) Aggregate demand and supply",
+            "x_label": "Real GDP",
+            "y_label": "Price level",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "AD",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "SRAS",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    80,
+                    85
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRAS",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    90
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y₁ = 600",
+                "points": [
+                  [
+                    43,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "YF = 660",
+                "points": [
+                  [
+                    65,
+                    8
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PL₁",
+                "points": [
+                  [
+                    8,
+                    52
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "AD",
+                "points": [
+                  [
+                    76,
+                    25
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRAS",
+                "points": [
+                  [
+                    76,
+                    77
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRAS",
+                "points": [
+                  [
+                    67,
+                    87
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PL₁",
+                "points": [
+                  [
+                    43,
+                    52
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Initial equilibrium",
+                "points": [
+                  [
+                    43,
+                    52
+                  ],
+                  [
+                    43,
+                    8
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          },
+          {
+            "title": "(c) Loanable funds market",
+            "x_label": "Quantity of loanable funds",
+            "y_label": "Real interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    80,
+                    85
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₁",
+                "points": [
+                  [
+                    15,
+                    85
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D₂",
+                "points": [
+                  [
+                    25,
+                    85
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    77,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₁",
+                "points": [
+                  [
+                    77,
+                    24
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D₂",
+                "points": [
+                  [
+                    87,
+                    24
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r₁",
+                "points": [
+                  [
+                    47,
+                    43
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r₂",
+                "points": [
+                  [
+                    53,
+                    53
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Rate increase",
+                "points": [
+                  [
+                    47,
+                    43
+                  ],
+                  [
+                    53,
+                    53
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 195,
+        "answer_words": 195,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_21ddad9c01a99005fa0d",
+        "question_id": "NEW-MACRO-01",
+        "arm": "D",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-01",
+        "grade_status": "complete",
+        "answer_words": "195.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_21ddad9c01a99005fa0d",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "195",
+          "word_share": "0.12",
+          "evidence": "The rendered graph labels price level and real GDP axes, AD and upward-sloping SRAS intersect at the initial PL₁/Y₁, and vertical LRAS is to the right at YF.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_21ddad9c01a99005fa0d",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "195",
+          "word_share": "0.3",
+          "evidence": "Shows the spending multiplier 4 and ΔG = 60/4 = $15 billion; shows the tax multiplier −3 and a $20 billion tax decrease, identifying the policies as alternatives.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_21ddad9c01a99005fa0d",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "195",
+          "word_share": "0.22",
+          "evidence": "The loanable-funds graph has labeled axes, upward supply and downward demand, with demand shifting right; the explanation attributes this to government borrowing and states the real interest rate goes",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_21ddad9c01a99005fa0d",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "195",
+          "word_share": "0.16",
+          "evidence": "Explains that the higher real interest rate reduces private investment and that less investment slows growth of the physical capital stock.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_21ddad9c01a99005fa0d",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "195",
+          "word_share": "0.2",
+          "evidence": "Explains that lower wages and input prices shift SRAS right, returning output to full employment while the price level falls.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    },
+    {
+      "response_id": "response_39461284d91e6c98ddf5",
+      "condition": "E",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Initial AD–AS equilibrium\nThe initial equilibrium is at **Y₁ = 600 billion**, below full-employment output **YF = 660 billion**. The price level at the initial equilibrium is **PL₁**.\n\n### (b) Closing the output gap\nThe recessionary gap is:\n\n\\[\u001b[0m660-600=60\\text{ billion}\n\\]\n\nThe spending multiplier is:\n\n\\[\u001b[0m\\frac{1}{1-MPC}=\\frac{1}{1-0.75}=4\n\\]\n\n(i) Minimum increase in government spending:\n\n\\[\u001b[0m\\Delta G=\\frac{60}{4}=\\boxed{15\\text{ billion}}\n\\]\n\nThe lump-sum tax multiplier is:\n\n\\[\u001b[0m-\\frac{MPC}{1-MPC}=-\\frac{0.75}{0.25}=-3\n\\]\n\n(ii) Minimum tax decrease:\n\n\\[\u001b[0m\\Delta T=\\frac{60}{3}=\\boxed{20\\text{ billion decrease}}\n\\]\n\nThese are alternative policies, not amounts to combine.\n\n### (c) Loanable funds\nBorrowing to finance the $15 billion spending increase raises the government’s demand for loanable funds. Demand shifts right, increasing the equilibrium real interest rate from **r₁ to r₂**.\n\n### (d) Private investment and capital\nThe higher real interest rate makes borrowing more costly, so private investment decreases in the short run. With less investment adding to the capital stock, the growth of the physical capital stock slows.\n\n### (e) Long-run adjustment without policy\nWith no policy action, the recessionary gap puts downward pressure on nominal wages and other input prices. Short-run aggregate supply shifts right as production costs fall. Output rises toward full-employment GDP, while the price level falls from its initial level.",
+        "diagrams": [
+          {
+            "title": "(a) Initial AD–AS equilibrium",
+            "x_label": "Real GDP",
+            "y_label": "Price level",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "AD",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "SRAS",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRAS",
+                "points": [
+                  [
+                    60,
+                    15
+                  ],
+                  [
+                    60,
+                    85
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "AD",
+                "points": [
+                  [
+                    78,
+                    77
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRAS",
+                "points": [
+                  [
+                    18,
+                    76
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRAS",
+                "points": [
+                  [
+                    61,
+                    84
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "PL1",
+                "points": [
+                  [
+                    38,
+                    51
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Y1 = 600",
+                "points": [
+                  [
+                    38,
+                    12
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "YF = 660",
+                "points": [
+                  [
+                    61,
+                    12
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Initial equilibrium",
+                "points": [
+                  [
+                    38,
+                    51
+                  ],
+                  [
+                    38,
+                    12
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              }
+            ]
+          },
+          {
+            "title": "(c) Loanable funds market",
+            "x_label": "Quantity of loanable funds",
+            "y_label": "Real interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    80,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D1",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    80,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "D2",
+                "points": [
+                  [
+                    25,
+                    80
+                  ],
+                  [
+                    90,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    78,
+                    78
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D1",
+                "points": [
+                  [
+                    18,
+                    76
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D2",
+                "points": [
+                  [
+                    28,
+                    76
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r1",
+                "points": [
+                  [
+                    43,
+                    43
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r2",
+                "points": [
+                  [
+                    53,
+                    53
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Rate increase",
+                "points": [
+                  [
+                    43,
+                    43
+                  ],
+                  [
+                    53,
+                    53
+                  ]
+                ],
+                "color": "black",
+                "dashed": true
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 200,
+        "answer_words": 200,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_39461284d91e6c98ddf5",
+        "question_id": "NEW-MACRO-01",
+        "arm": "E",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-01",
+        "grade_status": "complete",
+        "answer_words": "200.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "60.0",
+        "original_score_pct": "80.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_39461284d91e6c98ddf5",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "200",
+          "word_share": "0.12",
+          "evidence": "The graph labels the price-level and real-GDP axes, AD and SRAS, and marks PL1 and Y1. LRAS is vertical, but it is drawn to the left of the AD–SRAS intersection rather than at full-employment output Y",
+          "error": "The graph places YF/LRAS left of Y1, contradicting the stated recessionary gap and the requirement that YF be to the right of Y1.",
+          "material_error": "True",
+          "grading_uncertainty": "The AD–AS graph’s LRAS is clearly on the wrong side of the initial equilibrium. The loanable-funds graph shows a rightward demand shift, but its equilibrium-rate annotations are ambiguous and do not reliably demonstrate the rise."
+        },
+        {
+          "response_id": "response_39461284d91e6c98ddf5",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "200",
+          "word_share": "0.31",
+          "evidence": "Calculates the spending multiplier as 4 and ΔG = 60/4 = 15 billion; calculates the tax multiplier as −3 and gives a 20 billion tax decrease. It correctly says these are alternatives.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The AD–AS graph’s LRAS is clearly on the wrong side of the initial equilibrium. The loanable-funds graph shows a rightward demand shift, but its equilibrium-rate annotations are ambiguous and do not reliably demonstrate the rise."
+        },
+        {
+          "response_id": "response_39461284d91e6c98ddf5",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "0",
+          "points_awarded": "1",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "200",
+          "word_share": "0.2",
+          "evidence": "The loanable-funds graph has labeled axes, upward-sloping supply, downward-sloping demand, and a rightward demand shift; the text correctly attributes it to government borrowing and says the real rate",
+          "error": "The graph’s r1/r2 labels and indicated rate movement do not clearly show the equilibrium real interest rate rising after the demand shift; the marked rate increase is not anchored to the two equilibr",
+          "material_error": "True",
+          "grading_uncertainty": "The AD–AS graph’s LRAS is clearly on the wrong side of the initial equilibrium. The loanable-funds graph shows a rightward demand shift, but its equilibrium-rate annotations are ambiguous and do not reliably demonstrate the rise."
+        },
+        {
+          "response_id": "response_39461284d91e6c98ddf5",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "200",
+          "word_share": "0.17",
+          "evidence": "Explains that the higher real interest rate raises borrowing costs, reducing private investment, and that less investment slows physical-capital-stock growth.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The AD–AS graph’s LRAS is clearly on the wrong side of the initial equilibrium. The loanable-funds graph shows a rightward demand shift, but its equilibrium-rate annotations are ambiguous and do not reliably demonstrate the rise."
+        },
+        {
+          "response_id": "response_39461284d91e6c98ddf5",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "200",
+          "word_share": "0.2",
+          "evidence": "Explains that lower nominal wages and input prices shift SRAS right, output rises toward full employment, and the price level falls.",
+          "error": "",
+          "material_error": "True",
+          "grading_uncertainty": "The AD–AS graph’s LRAS is clearly on the wrong side of the initial equilibrium. The loanable-funds graph shows a rightward demand shift, but its equilibrium-rate annotations are ambiguous and do not reliably demonstrate the rise."
+        }
+      ]
+    },
+    {
+      "response_id": "response_43318f6a7a93ee688111",
+      "condition": "F",
+      "specification": "main",
+      "model": "gpt-6-luna",
+      "word_limit": "600",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 8192
+      },
+      "answer": {
+        "answer_markdown": "### (a) Initial equilibrium\nThe graph shows short-run equilibrium at **Y₁ = 600 billion**, below full-employment output **YF = 660 billion**. The initial price level is **PL₁**.\n\n### (b) Closing the output gap\nThe recessionary gap is:\n\n\\[\n660-600=60\\text{ billion}\n\\]\n\nThe spending multiplier is:\n\n\\[\nk_G=\\frac{1}{1-MPC}=\\frac{1}{1-0.75}=4\n\\]\n\n(i) Minimum increase in government spending:\n\n\\[\n\\Delta G=\\frac{60}{4}=\\boxed{15\\text{ billion}}\n\\]\n\nThe lump-sum tax multiplier is:\n\n\\[\nk_T=\\frac{-MPC}{1-MPC}=\\frac{-0.75}{0.25}=-3\n\\]\n\n(ii) Minimum decrease in lump-sum taxes:\n\n\\[\n\\Delta T=\\frac{60}{3}=\\boxed{20\\text{ billion decrease}}\n\\]\n\nThese are alternative policies, not amounts to be combined.\n\n### (c) Loanable funds and borrowing\nGovernment borrowing to finance the spending increase raises the demand for loanable funds. With supply unchanged, the real interest rate rises, from \\(r_1\\) to \\(r_2\\).\n\n### (d) Investment and capital stock\nThe higher real interest rate makes borrowing more costly, so **private investment decreases in the short run**. With less investment adding to the capital stock, **the growth of the physical capital stock slows**.\n\n### (e) Long-run adjustment without policy\nWith no policy action, the recessionary gap puts downward pressure on wages and other input prices. Short-run aggregate supply shifts right as production costs fall, restoring output to full-employment GDP. The price level **falls** during this adjustment.",
+        "diagrams": [
+          {
+            "title": "Initial AD–AS equilibrium",
+            "x_label": "Real GDP",
+            "y_label": "Price level",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "AD",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    85,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "SRAS",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    85,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "LRAS",
+                "points": [
+                  [
+                    65,
+                    15
+                  ],
+                  [
+                    65,
+                    85
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "AD",
+                "points": [
+                  [
+                    78,
+                    72
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "SRAS",
+                "points": [
+                  [
+                    20,
+                    72
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "LRAS",
+                "points": [
+                  [
+                    66,
+                    82
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "PL1",
+                "points": [
+                  [
+                    0,
+                    50
+                  ],
+                  [
+                    43,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "PL1",
+                "points": [
+                  [
+                    2,
+                    52
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Y1",
+                "points": [
+                  [
+                    43,
+                    0
+                  ],
+                  [
+                    43,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "YF",
+                "points": [
+                  [
+                    65,
+                    0
+                  ],
+                  [
+                    65,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "Y1 = 600",
+                "points": [
+                  [
+                    36,
+                    3
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "YF = 660",
+                "points": [
+                  [
+                    59,
+                    3
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "E1",
+                "points": [
+                  [
+                    42,
+                    49
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          },
+          {
+            "title": "Loanable funds market",
+            "x_label": "Quantity of loanable funds",
+            "y_label": "Real interest rate",
+            "elements": [
+              {
+                "kind": "polyline",
+                "label": "Supply",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    85,
+                    80
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Demand 1",
+                "points": [
+                  [
+                    15,
+                    80
+                  ],
+                  [
+                    85,
+                    20
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "Demand 2",
+                "points": [
+                  [
+                    25,
+                    90
+                  ],
+                  [
+                    95,
+                    30
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "S",
+                "points": [
+                  [
+                    82,
+                    76
+                  ]
+                ],
+                "color": "blue",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D1",
+                "points": [
+                  [
+                    20,
+                    75
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "D2",
+                "points": [
+                  [
+                    30,
+                    85
+                  ]
+                ],
+                "color": "red",
+                "dashed": false
+              },
+              {
+                "kind": "polyline",
+                "label": "r1",
+                "points": [
+                  [
+                    0,
+                    50
+                  ],
+                  [
+                    50,
+                    50
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "polyline",
+                "label": "r2",
+                "points": [
+                  [
+                    0,
+                    60
+                  ],
+                  [
+                    44,
+                    60
+                  ]
+                ],
+                "color": "gray",
+                "dashed": true
+              },
+              {
+                "kind": "text",
+                "label": "r1",
+                "points": [
+                  [
+                    2,
+                    52
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "r2",
+                "points": [
+                  [
+                    2,
+                    62
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              },
+              {
+                "kind": "text",
+                "label": "Borrowing shifts demand right",
+                "points": [
+                  [
+                    48,
+                    92
+                  ]
+                ],
+                "color": "black",
+                "dashed": false
+              }
+            ]
+          }
+        ]
+      },
+      "processing": {
+        "raw_words": 201,
+        "answer_words": 201,
+        "prose_truncated": false,
+        "label_violations": 0,
+        "diagram_count": 2,
+        "diagram_render_failure": null
+      },
+      "scores": {
+        "response_id": "response_43318f6a7a93ee688111",
+        "question_id": "NEW-MACRO-01",
+        "arm": "F",
+        "variant": "main",
+        "model": "gpt-6-luna",
+        "kind": "answer",
+        "word_limit": "600",
+        "target_id": "c",
+        "up_ids": "[\"a\"]",
+        "down_ids": "[\"c\"]",
+        "new_question": "True",
+        "names_eligible": "True",
+        "subject": "macro",
+        "year": "2026",
+        "source_set": "assistant_authored_exploratory",
+        "question_number": "1",
+        "question_type": "long",
+        "form_id": "NEW-MACRO-01",
+        "grade_status": "complete",
+        "answer_words": "201.0",
+        "expected_criteria": "5",
+        "observed_criteria": "5",
+        "missing_criterion_ids": "[]",
+        "attention_valid": "True",
+        "coverage_pct": "100",
+        "correctness_pct": "100",
+        "original_score_pct": "100.0"
+      },
+      "criterion_grades": [
+        {
+          "response_id": "response_43318f6a7a93ee688111",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "a",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "201",
+          "word_share": "0.04",
+          "evidence": "The graph labels price level and real GDP, shows downward AD and upward SRAS intersecting at PL1/Y1, and places vertical LRAS at YF to the right of Y1.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_43318f6a7a93ee688111",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "b",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "calculation",
+          "answer_words": "201",
+          "word_share": "0.39",
+          "evidence": "Shows the 60-billion gap, spending multiplier 4 and ΔG = 15 billion, and tax multiplier −3 with a 20-billion tax decrease; identifies them as alternatives.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_43318f6a7a93ee688111",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "c",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "graph",
+          "answer_words": "201",
+          "word_share": "0.2",
+          "evidence": "The loanable-funds graph has labeled axes, upward supply and downward demand, with demand shifting right and the real interest rate rising; the text attributes the shift to government borrowing.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_43318f6a7a93ee688111",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "d",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "201",
+          "word_share": "0.17",
+          "evidence": "Explains that the higher real interest rate raises borrowing costs, reducing private investment and slowing physical-capital-stock growth.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        },
+        {
+          "response_id": "response_43318f6a7a93ee688111",
+          "question_id": "NEW-MACRO-01",
+          "criterion_id": "e",
+          "covered": "1",
+          "correct": "1",
+          "points_awarded": "2",
+          "max_points": "2",
+          "kind": "explanation",
+          "answer_words": "201",
+          "word_share": "0.2",
+          "evidence": "Explains that lower wages and input prices shift SRAS right, restoring output to full employment while the price level falls.",
+          "error": "",
+          "material_error": "False",
+          "grading_uncertainty": ""
+        }
+      ]
+    }
+  ]
+}
